@@ -1,0 +1,138 @@
+@import url(font-awesome.min.css);
+
+#wrapper {
+	
+}
+#main {
+	margin-right: 485px;
+
+}
+
+/*HEADER RIGHT*/
+h3{
+	font-family: 'Arial Bold';
+	font-size: 40px;
+}
+#header{
+	background: url(../images/bgmenu.png) repeat;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 485px;
+	right: 0;
+}
+#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+	color: #ffffff;
+}
+
+#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
+	color: #ffffff;
+}
+#header header p {
+	color: #ffffff;
+	line-height: 1.2;
+}
+
+#header a {
+	color: #ffffff;
+}
+#header a:hover {
+	color: #ffffff !important;
+}
+
+#header > header {
+	padding-top:70px;
+}
+.image {
+	border-radius: 5px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+.image.avatar{
+	border-radius: 100%;
+	overflow: hidden;
+}
+.image.avatar img {
+	border-radius: 100%;
+	display: block;
+	width: 100%;
+}
+#header > header .avatar {
+	display: block;
+	width: 204px;
+	margin: 0 auto 44px auto;
+
+}
+#header > header h1 {
+	font-size: 1.75em;
+	margin: 0;
+}
+#header > header p {
+	color: #ffffff;
+	font-family: 'Arial Regular';
+	font-size: 26px;
+	margin: 34px 0 0 0;
+}
+#header > nav ul {
+	list-style: none;
+	margin: 60px 0;
+	padding: 0;
+}
+#header > nav ul li {
+	display: block;
+	padding: 0;
+}
+
+#header > nav ul li a {
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+	font-family: 'Arial Regular';
+	font-size: 24px;
+	color: #ffffff !important;
+	display: block;
+	padding: 13px 0;
+	text-decoration: none;
+}
+
+#header > nav ul li a.active {
+	background: #fff;
+	color: #4acaa8 !important;
+}
+
+#header > nav ul li:first-child {
+}
+/*END HEADER RIGHT*/
+
+#one{
+	
+	
+}
+.logo{
+	margin-top: 50px;
+	text-align: center;
+}
+.top_h1{
+	font-family: 'Arial Regular';
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+
+}
+.bg{
+	background: url('../images/header_bg.jpg')no-repeat center;
+}
+#one p{
+	font-family: 'Arial Regular';
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+}
+.container{
+	padding-left: 285px;
+	padding-right: 100px;
+}

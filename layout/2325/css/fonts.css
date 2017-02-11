@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'PFDinDisplayPro-Light';
+  src: url('../fonts/PFDinDisplayPro-Light.ttf')  format('truetype'), url('../fonts/PFDinDisplayPro-Light.ttf#PFDinDisplayPro-Light') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Regular';
+  src: url('../fonts/PFDinTextPro-Regular.ttf')  format('truetype'), url('../fonts/PFDinTextPro-Regular.ttf#PFDinTextPro-Regular') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Medium';
+  src: url('../fonts/PFDinTextPro-Medium.ttf')  format('truetype'), url('../fonts/PFDinTextPro-Medium.ttf#PFDinTextPro-Medium') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Bold';
+  src:  url('../fonts/PFDinTextPro-Bold.ttf')  format('truetype'), url('../fonts/PFDinTextPro-Bold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-BoldItal';
+  src:  url('../fonts/PFDinTextPro-BoldItal.ttf')  format('truetype'), url('../fonts/PFDinTextPro-BoldItal.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Italic';
+  src:  url('../fonts/PFDinTextPro-Italic.ttf')  format('truetype'), url('../fonts/PFDinTextPro-Italic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-Thin';
+  src:  url('../fonts/PFDinTextPro-Thin.ttf')  format('truetype'), url('../fonts/PFDinTextPro-Thin.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-ThinItalic';
+  src:  url('../fonts/PFDinTextPro-ThinItalic.ttf')  format('truetype'), url('../fonts/PFDinTextPro-ThinItalic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-XBlack';
+  src:  url('../fonts/PFDinTextPro-XBlack.ttf')  format('truetype'), url('../fonts/PFDinTextPro-XBlack.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-XBlackItalic';
+  src:  url('../fonts/PFDinTextPro-XBlackItalic.ttf')  format('truetype'), url('../fonts/PFDinTextPro-XBlackItalic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-XThin';
+  src:  url('../fonts/PFDinTextPro-XThin.ttf')  format('truetype'), url('../fonts/PFDinTextPro-XThin.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextPro-XThinItalic';
+  src:  url('../fonts/PFDinTextPro-XThinItalic.ttf')  format('truetype'), url('../fonts/PFDinTextPro-XThinItalic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PalatinoLinotype-Bold';
+  src: url('../fonts/PalatinoLinotype-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/PalatinoLinotype-Bold.woff') format('woff'), url('../fonts/PalatinoLinotype-Bold.ttf')  format('truetype'), url('../fonts/PalatinoLinotype-Bold.svg#PalatinoLinotype-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+    
+}@font-face {
+  font-family: 'PalatinoLinotype-BoldItalic';
+  src: url('../fonts/PalatinoLinotype-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/PalatinoLinotype-BoldItalic.woff') format('woff'), url('../fonts/PalatinoLinotype-BoldItalic.ttf')  format('truetype'), url('../fonts/PalatinoLinotype-BoldItalic.svg#PalatinoLinotype-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PalatinoLinotype-Italic';
+  src: url('../fonts/PalatinoLinotype-Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts/PalatinoLinotype-Italic.woff') format('woff'), url('../fonts/PalatinoLinotype-Italic.ttf')  format('truetype'), url('../fonts/PalatinoLinotype-Italic.svg#PalatinoLinotype-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PalatinoLinotype-Roman';
+  src: url('../fonts/PalatinoLinotype-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/PalatinoLinotype-Roman.woff') format('woff'), url('../fonts/PalatinoLinotype-Roman.ttf')  format('truetype'), url('../fonts/PalatinoLinotype-Roman.svg#PalatinoLinotype-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'NeoSansPro-Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/NeoSansPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NeoSansPro-Medium';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/NeoSansPro-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Tahoma Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Tahoma.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Tahoma Bold';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Tahoma Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

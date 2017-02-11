@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'PT Sans Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/PTS55F.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PT Sans Bold';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/PTS75F.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,31 @@
+.bx_auth{
+	margin-top:2px;
+}
+a.bx_login_top_inline_link{
+	color:#282828;
+	vertical-align: bottom;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 13px;
+	font-family: OpenSans,Arial,sans-serif;
+	text-decoration:underline;
+	margin-left: 6px;
+}
+a.login{
+	color:#ab0b45;	
+}
+a.bx_login_top_inline_link:hover{
+	
+}
+a.login:hover{
+	
+}
+.bx_login_top_inline_icon{
+	display: inline-block;
+	margin-left: 0px;
+	width: 14px;
+	height: 16px;
+	background: url('images/gui.png') no-repeat bottom center;
+	vertical-align: middle;
+	line-height: 13px;
+}

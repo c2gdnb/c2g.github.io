@@ -1,0 +1,500 @@
+ @media screen and (max-width: 959px) {
+ 	.bx_video_wrap .bx-wrapper .bx-next {
+ 		display: none;
+ 	}
+ 	.bx_video_wrap .bx-wrapper .bx-prev {
+ 		display: none;
+ 	}
+ 	.dnp {
+ 		display: none;
+ 	}
+ 	.main_container {
+ 		padding: 0 10px;
+ 	}
+ 	.left_form .title {
+ 		font-size: 24px;
+ 	}
+ 	.left_form {
+ 		width: 44%;
+ 		height: auto;
+ 	}
+ 	.left_form .title {
+ 		line-height: 28px;
+ 	}
+ 	.left_form .list1 li {
+ 		margin-bottom: 12px;
+ 	}
+ 	.logo {
+ 		width: 425px;
+ 	}
+ 	.reasons_text {
+ 		width: 85%;
+ 	}
+ 	.ask {
+ 		text-align: center;
+ 		float: none;
+ 		margin-right: 0;
+ 		line-height: 80px;
+ 	}
+ 	.call_bl {
+ 		float: none;
+ 		margin-top: 0;
+ 		text-align: center;
+ 	}
+ 	.call_now_bg {
+ 		padding-bottom: 20px;
+ 	}
+ 	.price_block {
+ 		width: 30%;
+ 	}
+ 	.price_top {
+ 		width: 100%;
+ 	}
+ 	.price_block ul li {
+ 		line-height: 18px;
+ 	}
+ 	.bottom_price span {
+ 		font-size: 15px;
+ 	}
+ 	.price_top p {
+ 		font-size: 25px;
+ 	}
+ 	.bottom_price a {
+ 		width: 93%;
+ 	}
+ 	.input_q {
+ 		margin-right: 5px;
+ 		margin-bottom: 10px;
+ 	}
+ 	.submit_q {
+ 		margin: 0 auto;
+ 		display: block;
+ 	}
+ 	.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1), .korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2), .korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3), .korpus > input:nth-of-type(4):checked ~ div:nth-of-type(4) {
+ 		width: 100%;
+ 		padding: 15px 0 0 0;
+ 	}
+ 	.korpus label {
+ 		width: 136px;
+ 	}
+ 	.t_place1 {
+ 		margin-left: 40px;
+ 	}
+ 	.t_place3 {
+ 		margin-left: 40px;
+ 	}
+ 	.tabs_wrap hr {
+ 		margin: 15px 0;
+ 	}
+ 	.bx-wrapper {
+ 		padding-left: 11%;
+ 	}
+ 	.bx-wrapper .bx-prev {
+ 		left: 110px;
+ 		top: 0;
+ 	}
+ 	.bx-wrapper .bx-next {
+ 		right: 90px;
+ 		top: 0;
+ 	}
+ 	.bx-wrapper .bx-controls-direction a {
+ 		top: 50%;
+ 	}
+ 	.bxslider_v iframe {
+ 		width: 347px;
+ 		height: 210px;
+ 		margin: 0;
+ 	}
+ 	.bx_video_wrap .bx-wrapper {
+ 		padding: 0;	
+ 	}
+ 	.r_img a {
+ 		float: none;
+ 	}
+ 	.r_block  {
+ 		float: none;
+ 		width: 88%;
+ 		height: 118px;
+ 		padding: 35px 20px 0 20px;
+ 	}
+ 	.r_img {
+ 		width: 48%;
+ 	}
+ 	.r_img img {
+ 		width: 100%;
+ 		height: 210px;
+ 	}
+ 	.bx_video_wrap hr {
+ 		margin: 20px 0 30px 0 ;	
+ 	}
+ 	.about_us_text {
+ 		width: 53%;
+ 	}
+ 	.about_us_wrap img {
+ 		margin-right: 35px;
+ 	}
+ 	.steps_wrap img {
+ 		width: 13%;
+ 		height: auto;
+ 		margin: 0 15px 0 0;
+ 		float: left;
+ 	}
+ 	.steps_block {
+ 		width: 80%;
+ 		float: left;
+ 		text-align: left;
+ 	}
+ 	.steps_wrap .steps_img {
+ 		display: none;
+ 	}
+ 	.steps_title {
+ 		margin-bottom: 10px;
+ 		float: left;
+ 	}
+ 	.steps_block p {
+ 		margin-bottom: 7px;
+ 		float: left;
+ 	}
+ 	.copyright {
+ 		width: 370px;
+ 	}
+ 	nav li {
+ 		margin-right: 33px;
+ 	}
+ 	.slogan_title {
+ 		font-size: 35px;
+ 	}
+ 	.steps_wrap .steps_img_tablet {
+ 		display: block;
+ 		float: left;
+ 		    position: relative;
+    top: -22px;
+ 	}
+ 	.steps_t {
+ 		float: left;
+ 		width: 80%;
+ 	}
+ 	.hide_text {
+ 		width: 85%;
+ 	}
+ 	.hide_block {
+ 		height: auto;
+ 	}
+ 	.end_action {
+ 		float: none;
+ 		text-align: center;
+ 	}
+ 	.left_form .flip-clock-wrapper {
+    margin: 0;
+    float: left;
+    width: 100%;
+    top: 0px;
+    left: 15px;
+	}
+	#background_cycler {
+		height: 715px;
+	}
+	.ml1 {
+		margin-left: 4%!important;
+	}
+ }
+ @media screen and (max-width: 765px) {
+ 	.dnm {
+ 		display: none;
+ 	}
+ 	.hide_wrap {
+ 		margin-top: 35px;
+ 	}
+ 	.logo img {
+ 		width: 13%;
+ 		height: auto;
+ 	}
+ 	.left_form {
+ 		width: 95%;
+ 		height: auto;
+ 		padding: 15px 0 15px 15px;
+ 		float: none;
+ 	}
+ 	.slogan_title {
+ 		font-size: 24px;
+ 		line-height: 30px;
+ 	}
+ 	.slogan {
+ 		margin-bottom: 20px;
+ 	}
+ 	.left_form .title {
+ 		font-size: 22px;
+ 	}
+ 	.right_form {
+ 		width: 87%;
+ 		float: none;
+ 		margin-top: 20px;
+ 	}
+ 	#background_cycler {
+ 		height: 1200px;
+ 	}
+ 	.submit1 {
+ 		width: 100%;
+ 	}
+ 	.h1 {
+ 		font-size: 30px;
+ 		margin-top: 20px;
+ 	}
+ 	.h2 {
+ 		font-size: 16px;
+ 	}
+ 	.reasons_text span {
+ 		font-size: 24px;
+ 	}
+ 	.reasons_text p {
+ 		font-size: 14px;
+ 	}
+ 	.reasons_text {
+ 		width: 60%;
+ 	}
+ 	.reasons_block {
+ 		height: auto;
+ 	}
+ 	.reasons_wrap {
+ 		padding-bottom: 20px;
+ 		z-index: 9;
+    position: relative;
+    background: #fff;
+ 	}
+ 	.acordeon_wrap {
+ 		padding-bottom: 35px;
+ 	}
+ 	.ask {
+ 		font-size: 24px;
+ 		line-height: 28px;
+ 		margin-top: 20px;
+ 	}
+ 	.price_block {
+ 		width: 100%;
+ 		margin-right: 0;
+ 		margin-bottom: 20px;
+ 		height: 650px;
+ 	}
+ 	.h1_q {
+ 		font-size: 24px;
+ 	}
+ 	.input_q {
+ 		width: 95%;
+ 		margin-right: 0;
+ 	}
+ 	.price_wrap {
+ 		margin-bottom: 20px;
+ 	}
+ 	.dnd {
+ 		display: block;
+ 	}
+ 	.korpus label {
+ 		width: 56px;
+ 		height: 50px;
+ 	}
+ 	.t_place2 {
+ 		margin-left: 40px;
+ 		margin-bottom: 10px;
+ 	}
+ 	.t_place1 {
+ 		margin-bottom: 10px;
+ 	}
+ 	.bx-wrapper {
+ 		padding: 0;
+ 		width: 275px;
+ 	}
+ 	.slider_img_wrap {
+ 		width: 275px;
+ 		height: 275px;
+ 		display: block;
+ 		float: none;
+ 		margin: 0 auto;
+ 	}
+ 	.tabs_wrap .dnm{
+ 		display: none;
+ 	}
+ 	.korpus > input:nth-of-type(1):checked ~ div:nth-of-type(1), .korpus > input:nth-of-type(2):checked ~ div:nth-of-type(2), .korpus > input:nth-of-type(3):checked ~ div:nth-of-type(3), .korpus > input:nth-of-type(4):checked ~ div:nth-of-type(4) {
+ 		height: auto;
+ 		padding-bottom: 20px;
+ 	}
+ 	.bx-wrapper .bx-prev {
+ 		left: 10px;
+ 	}
+ 	.bx-wrapper .bx-next {
+ 		right: 10px;
+ 	}
+ 	.bxslider .dnm {
+ 		display: none;
+ 	}
+ 	.r_img {
+ 		width: 100%;
+ 	}
+ 	.bx_video_wrap hr {
+    margin: 10px 0 10px 0;
+	}
+	.about_us_wrap img {
+		display: block;
+		float: none;
+		margin: 0 auto 10px auto;
+	}
+	.about_us_text {
+		width: 100%;
+	}
+	.about_us_wrap {
+		margin-top: 20px;
+	}
+	.about_us_subtitle {
+		margin-bottom: 15px;
+	}
+	.steps_wrap img {
+		width: 25%;
+	}
+	.steps_block {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.steps_t {
+		width: 70%;
+	}
+	.steps_main_wrapper {
+		padding-top: 0;
+	}
+	.big_form_title {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	.ask_us {
+		font-size: 29px;
+	}
+	.submit_q {
+		margin-top: 8px;
+	}
+	.man_text {
+		width: 54%;
+	}
+	.menedzher {
+		width: 100%;
+	}
+	.or {
+		margin: 5px 0;
+	}
+	.big_form_bg {
+		height: 618px;
+		min-height: auto;
+	}
+	.form_bottom {
+		margin-bottom: 25px;
+	}
+	.copyright {
+		width: 100%;
+		text-align: center;
+	}
+	.copyright p {
+		font-size: 13px;
+	}
+	.logo {
+		width: 100%;
+	}
+	.logo_title {
+		font-size: 24px;
+	}
+	.toggle_menu {
+    display: block;
+  }
+  #menu {
+    
+
+  }
+  #menu ul {
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .main-menu {
+    /* пункты меню скрыты */
+    display: none;
+    padding: 0;
+    margin: 0;
+    float: none;
+    position: absolute;
+    top: 107px;
+    left: 0;
+    bottom: 0;
+  }
+   #menu li a {
+    color: white;
+	font-family: "Gotham Pro";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 40px;
+  }
+  #wrapper {-webkit-transition: -webkit-transform 0.5s;-moz-transition: -moz-transform 0.5s;transition: transform 0.5s;}
+  .move #menu{left:0;}
+  .move #wrapper {-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);}
+  .experience {
+  	display: block;
+  	margin-top: 5px;
+  	margin-bottom: 10px;
+  }
+  .to_top .call_top {
+  	display: block;
+  	margin-top: 15px;
+  }
+  .nonebox {
+  	width: 306px;
+  }
+  .hide_text {
+  	width: 70%;
+  }
+  .price_wrap .price_block:last-child .price_top p {
+  	line-height: 70px;
+  }
+  .logo_text {
+  	clear: both;
+  	display: block;
+  	margin-top: 10px;
+  }
+  .call_top .dist {
+  	display: block;
+  	border-bottom: 1px dashed #2cace2;
+  }
+  .acordeon_wrap .h1 {
+  	display: inline;
+  	position: relative;
+  	top: 20px;
+  }
+  .acordeon_wrap a {
+  	margin-top: 40px;
+  }
+  .end_action {
+  	display: block;
+  	float: none;
+  	text-align: center;
+  	margin-bottom: 20px;
+  }
+  .your-clock {
+  	display: block;
+  	float: none;
+  }
+  .left_form .flip-clock-wrapper {
+  	float: none;
+  	left: 0;
+  	    width: 280px;
+    margin: auto;
+  }
+  .left_form .flip-clock-wrapper ul {
+	width: 20px;
+	height: 36px;
+	font-size: 18px;
+	font-weight: normal;
+	}
+	.left_form .flip-clock-wrapper ul li a div div.inn{
+	font-size: 34px;
+	}
+	.left_form .flip-clock-wrapper ul li {
+	line-height: 36px;
+}
+.br_d {
+	display: block;
+ }}

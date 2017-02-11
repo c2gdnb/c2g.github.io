@@ -1,0 +1,325 @@
+@media screen and (max-width: 1439px) {
+	.main_container {
+		padding: 0 15px;
+	}
+	.logo img {
+		margin-right: 15px;
+	}
+	.search_wrap {
+		margin-left: 20px;
+		width: 200px;
+	}
+	.header_right_side a {
+		font-size: 12px;
+		margin-left: 5px;
+		padding-left: 35px;
+	}
+	.header_right_side a:nth-child(1) {
+		width: 210px;
+		background: #398ec9 url(../images/eye_icon.png) 4% 50% no-repeat;
+	}
+	.logo img {
+		width: 18%;
+	}
+	.logo .logo_text {
+		width: 240px;
+	}
+	.logo {
+		width: 380px;
+	}
+	.main_nav_bg ul li {
+		width: 85px;
+		margin-right: 0;
+		padding: 0 2px; 
+	}
+	.main_nav_bg ul li a .title {
+		font-size: 10px;
+	}
+	.tabs_wrapper ul li:before {
+		display: none;
+	}
+	.tabs_wrapper ul li .active {
+		background: #439bd6;
+	}
+	.tabs_wrapper ul li a {
+		font-size: 14px;
+		padding: 0 11px;
+	}
+	.main_content_wrap .col_content1 ul li a {
+		font-size: 14px;
+	}
+	.main_content_wrap .col_content1 {
+		margin-right: 20px;
+		width: 21%;
+	}
+	.main_content_wrap .col_content2 {
+		margin-right: 10px;
+	}
+	.main_content_wrap .col_content3 {
+		width: 29%;
+	}
+	.main_content_wrap .col_content1 ul li a {
+		font-size: 12px;
+	}
+	.main_content_wrap .col_content1 .title {
+		font-size: 18px;
+	}
+	.main_content_wrap .col_content2 .title {
+		font-size: 18px;
+		padding-left: 65px;
+	}
+	.main_content_wrap .col_content3 .border_block .title {
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+	.main_content_wrap .col_content4 .border_block .title {
+		font-size: 15px;
+		padding-left: 50px;
+	}
+	.main_content_wrap .col_content4 .red_phone_block .title {
+		font-size: 15px;
+	}
+	.main_content_wrap .col_content4 .red_phone_block p {
+		font-size: 16px;
+	}
+	.main_content_wrap .col_content4 .red_phone_block {
+		padding-top: 35px;
+	}
+	.main_content_wrap .col_content1 .red_phone_block .title {
+		font-size: 14px;
+	}
+	.main_content_wrap .col_content1 .red_phone_block p {
+		font-size: 15px;
+	}
+	.main_content_wrap .col_content1 .red_phone_block {
+		padding-top: 35px;
+	}
+	.swiper-wrapper .swiper-slide img {
+		width: 75%;
+	}
+	.gas_content .col_content1 ul {
+		margin-bottom: 0;
+	}
+	.gas_content h2.resp-accordion {
+		font-size: 14px;
+	}
+	.gas_content .col_content1 .list_inside {
+		margin-left: 0;
+	}
+	.col_content_x .breadcrumbs li a {
+		line-height: 28px;
+	}
+	.year_wrap a {
+		font-size: 14px;
+		margin-right: 5px;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.main_nav_bg {
+		height: auto;
+		padding: 15px 0;
+	}
+	.main_nav_bg ul {
+		margin-top: 0;
+	}
+	.main_nav_bg ul li a .title {
+		font-size: 14px;
+	}
+	.main_nav_bg ul li {
+		width: 119px;
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	.header_right_side {
+		float: none;
+		text-align: center;
+		clear: both;
+	}
+	.header_right_side br {
+		display: none;
+	}
+	.header_right_side a {
+		display: inline-block;
+		margin-left: 15px;
+	}
+	.clear_b {
+		display: block;
+	}
+	.search_wrap {
+		float: right;
+	}
+	.logo {
+		width: auto;
+	}
+	.logo .logo_text {
+		width: auto;
+	}
+	.tabs_wrapper ul li a {
+		font-size: 11px;
+		padding: 0 5px;
+	}
+	.main_content_wrap .col_content1 {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-right: 0;
+	}
+	.main_content_wrap .col_content1 ul {
+		border-right: none;
+		margin-bottom: 25px;
+	}
+	.main_content_wrap .col_content1 ul li {
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 62px;
+	}
+	.main_content_wrap .col_content2 .news_wrap {
+		height: 285px;
+	}
+	.main_content_wrap .col_content3 {
+		width: 36%;
+	}
+	.main_content_wrap .col_content3 .border_block {
+		height: 343px;
+	}
+	.footer_bg {
+		height: auto;
+		padding: 15px 0;
+	}
+	.footer_bg .copyright {
+		width: 77%;
+	}
+	.main_content_wrap .col_content4 {
+		width: 37%;
+	}
+	.col_content_x {
+		width: 100%;
+		float: left;
+	}
+
+}
+@media screen and (max-width: 766px) {
+	.logo {
+		float: none;
+		width: 290px;
+		display: block;
+		margin: 0 auto;
+	}
+	.logo .logo_text {
+		width: 212px;
+	}
+	.logo .logo_text .title {
+		font-size: 16px;
+	}
+	.logo .logo_text p {
+		font-size: 14px;
+	}
+	.search_wrap {
+		float: none;
+		display: block;
+		margin: 15px auto;
+	}
+	.header_right_side {
+		margin-top: 0;
+	}
+	.header_right_side a {
+		margin-left: 0;
+	}
+	.toggle_menu {
+		display: block;
+	}
+	#menu ul {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.main-menu {
+		/* пункты меню скрыты */
+		display: none;
+		padding: 0;
+		margin: 0;
+		float: none;
+		position: absolute;
+		top: 107px;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+	#menu li a {
+		line-height: 30px;
+		font-size: 16px;
+	}
+	#wrapper {-webkit-transition: -webkit-transform 0.5s;-moz-transition: -moz-transform 0.5s;transition: transform 0.5s;}
+	.move #menu{left:0;}
+	.move #wrapper {-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);}
+	.main_nav_bg ul {
+		display: none;
+	}
+	.main_nav_bg  {
+		padding: 25px 0;
+	}
+	#toggle {
+		height: auto;
+		margin: 0;
+	}
+	.main_content_wrap .col_content1 {
+		text-align: left;
+	}
+	.main_content_wrap .col_content1 ul {
+		margin-bottom: 0;
+	}
+	.main_content_wrap .col_content2,
+	.main_content_wrap .col_content3,
+	.main_content_wrap .col_content4 {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-top: 25px;
+	}
+	.swiper-slide {
+		width: 100% !important;
+	}
+	.footer_bg {
+		text-align: center;
+	}
+	.footer_bg img {
+		display: block;
+		margin: 0 auto 10px auto;
+		float: none;
+	}
+	.footer_bg .copyright {
+		width: 100%;
+		float: none;
+	}
+	.blue_title {
+		text-align: center;
+		padding-left: 0;
+	}
+	.infocentre_block img {
+		width: 95px;
+		height: 82px;
+		margin-right: 10px;
+	}
+	.infocentre_block .infocentre_text {
+		width: 63%;
+	}
+	.infocentre_block .infocentre_text .span_t {
+		font-size: 12px;
+	}
+	.infocentre_block .infocentre_text a {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.year_wrap {
+		margin-bottom: 10px;
+	}
+	.text_page_wrap p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.dev {
+		float: none;
+	}
+	.main_content_wrap .col_content3 .border_block {
+		height: auto;
+	}
+}

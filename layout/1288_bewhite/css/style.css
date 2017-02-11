@@ -1,0 +1,764 @@
+/*HEADER*/
+.main_container {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+header {
+	width: 100%;
+	height: 220px;
+	position: relative;
+}
+header:after {
+	position: absolute;
+    content: "";
+    display: block;
+    width: 443px;
+    height: 296px;
+    background: url('../images/header_bg.jpg');
+    top: 0;
+    z-index: -1;
+    right: 130px;
+}
+.logo {
+	margin-top: 44px;
+	float: left;
+}
+.contact_us {
+	float: right;
+	text-align: right;
+	margin-top: 75px;
+}
+.contact_us span {
+	font-family: 'ElektraLightPro';
+	font-size: 14px;
+	color: #000000;
+	line-height: 18px;
+	margin-bottom: 5px;
+	display: block;
+}
+.contact_us p {
+	font-family: 'ElektraLightPro';
+	font-size: 32px;
+	color: #000000;
+}
+.contact_us strong {
+	font-family: 'ElektraLightPro-Bold';
+}
+.contact_us i {
+	margin-right: 5px;
+}
+header .active a{
+	color: #01889e;
+}
+header ul {
+	margin-left: 135px;
+	position: relative;
+	top: -20px;
+	display: inline-block;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	font-family: 'ElektraLightPro';
+	font-size: 16px;
+	color: #77b100;
+	line-height: 18px;
+/*	border-right: 1px dotted #5e5e5e;*/
+	padding-right: 30px;
+	margin-left: 30px;
+}
+header ul li:first-child {
+	margin-left: 0;
+
+}
+header ul li:last-child a {
+	border-right: none;
+	padding: 0;
+}
+header ul li a:hover {
+	color: #4D7300;
+}
+.order_button {
+	font-family: 'ElektraLightPro';
+	font-size: 16px;
+	color: #ffffff;
+	width: 182px;
+	height: 48px;
+	background-color: black;
+background-image: linear-gradient(to top, black 0%, #01889e 0%, #01a3bd 100%);
+	border-radius: 12px;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 48px;
+	text-align: right;
+	padding-right: 20px;
+	box-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.75);
+	margin-left: 9px;
+    position: relative;
+    top: -20px;
+    float: right;
+}
+.order_button span {
+	border-bottom: 1px dashed #fff;
+}
+.order_button:hover span {
+	border: none;
+}
+.order_button img {
+	position: relative;
+    top: 8px;
+    left: -12px;
+}
+/*END HEADER*/
+/*SLIDER*/
+.slider_description {
+	position: absolute;
+	top: 65px;
+	left: 40px;
+}
+.bxslider li {
+	border-radius: 17px;
+}
+.bxslider h1 {
+	font-family: 'ElektraLightPro-Bold';
+	font-size: 42px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.2);
+	line-height: 50px;
+}
+.bxslider a {
+	font-family: 'ElektraLightPro';
+	font-size: 16px;
+	color: #ffffff;
+	width: 182px;
+	height: 48px;
+	background-image: linear-gradient(to top, black 0%, #01889e 0%, #01a3bd 100%);
+	border-radius: 12px;
+	display: inline-block;
+	text-decoration: underline;
+	line-height: 48px;
+	text-align: right;
+	text-align: center;
+	box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-top: 8px;
+}
+.bxslider a:hover {
+	text-decoration: none;
+}
+/*END SLIDER*/
+/*NEWS*/
+.news_wrap {
+	text-align: justify;
+}
+.news_block {
+	    width: 285px;
+    margin-top: 55px;
+    display: inline-block;
+    border-right: 1px dashed #cccccc;
+    padding-right: 30px;
+
+}
+.news_block:nth-child(3n) {
+	border: none;
+}
+.news_block .news_title {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-decoration: underline;
+	color: #89bb22;
+	margin-bottom: 8px;
+}
+.news_block p {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #000000;
+	margin-bottom: 14px;
+}
+.news_block span {
+	font-family: 'Tahoma';
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #999999;
+}
+.helper {
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        display: inline-block !important;
+        }
+/*END NEWS*/
+/*PARTNERS*/
+.partners_wrap {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+	padding: 18px 0px;
+	margin-top: 40px;
+}
+/*END PARTNERS*/
+/*FOOTER*/
+footer {
+	padding-bottom: 30px;
+	margin-top: 35px;
+}
+.footer_text {
+	display: inline-block;
+    margin-right: 36px;
+    border-right: 1px dashed #cccccc;
+    padding-right: 36px;
+}
+.footer_text p {
+	font-family: 'Tahoma';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #010101;
+}
+.mail {
+	font-family: 'Tahoma';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #019ab3;
+}
+.mail:hover {
+	color: #006274;
+}
+.social {
+	display: inline-block;
+	float: right;
+}
+.social a {
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+}
+.social a:nth-child(1) {
+	background: url('../images/vk_icon.png')no-repeat;
+}
+.social a:nth-child(2) {
+	background: url('../images/twitter_icon.png')no-repeat;
+}
+.social a:nth-child(3) {
+	background: url('../images/facebook_icon.png')no-repeat;
+}
+.social a:nth-child(4) {
+	background: url('../images/linkedin_icon.png')no-repeat;
+}
+/*END FOOTER*/
+/*SOLUTIONS*/
+.solutions_wrap {
+	width: 666px;
+	float: left;	
+}
+.breadcrumbs {
+}
+.breadcrumbs a {
+	display: inline-block;
+	font-family: 'Tahoma';
+	font-size: 11px;
+	color: #77b100;
+}
+.breadcrumbs a:hover {
+	color: #4D7300;
+}
+.subcrumb {
+	font-family: 'Tahoma';
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #999999;
+}
+.breadcrumbs p {
+	display: inline-block;
+	font-family: 'Tahoma';
+	font-size: 11px;
+	color: #9f9f9f;
+}
+.h1 {
+	font-family: 'ElektraLightPro-Bold';
+	font-size: 42px;
+	color: #033c50;
+	line-height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.2);
+}
+.solutions_wrap p {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: #000000;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+.solutions_wrap span {
+	font-family: 'Tahoma';
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #999999;
+}
+/*END SOLUTIONS*/
+/*SIDEBAR*/
+.sidebar_wrap {
+	width: 312px;
+	float: left;
+	padding-top: 20px;
+	border-left: 1px dashed #cccccc;
+	padding-left: 18px;
+	margin-left: 3px;
+}
+.reviews_block {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 15px;
+}
+.reviews_block:last-child {
+	border-bottom: none;
+}
+.name {
+	font-family: 'Tahoma';
+	font-size: 18px;
+	color: #77b100;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+.company {
+	display: inline-block;
+	font-family: 'Tahoma';
+	font-size: 18px;
+	color: #666666;
+}
+.reviews_block span {
+	display: block;
+	font-family: 'Tahoma';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #666666;
+	margin-bottom: 5px;
+}
+.reviews_block p {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: #000000;
+	line-height: 18px;
+}
+/*END SIDEBAR*/
+/*PRODUCTS*/
+.product_wrap {
+	text-align: justify;
+}
+.product_block {
+	width: 312px;
+	height: auto;
+	border-right: 1px dashed #cccccc;
+	padding-right: 15px;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.product_block:nth-child(3n) {
+	padding: 0px;
+	border: 0;
+}
+.product_title {
+	font-family: 'Tahoma';
+	font-size: 18px;
+	color: #77b100;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.img_block {
+	padding: 20px 0;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	width: 312px;
+	display: inline-block;
+	float: left;
+}
+.img_block img {
+	display: block;
+	margin: 0 auto;
+}
+.product_block p {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: #666666;
+	line-height: 18px;
+}
+.product_block p a {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: #01889e;
+	line-height: 18px;
+}
+.product_block p a:hover {
+	color: #006274;
+}
+/*END PRODUCTS*/
+#menu {
+
+}
+
+#menu li {
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#menu .pro:hover {
+	border: 1px solid #777777;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: none;
+	color: #01889e;
+	padding-bottom: 10px;
+    padding-top: 9px;
+}
+#menu .pro:before{
+	position: absolute;
+    display: block;
+    content: "";
+    background-color: #fff;
+    width: 170px;
+    height: 5px;
+    top: 34px;
+    z-index: 999999;
+}
+#menu li a {
+	font-family: 'ElektraLightPro';
+	font-size: 16px;
+	color: #77b100;
+	line-height: 18px;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+#menu li a:hover {
+	color: #01889e;
+}
+#menu li:hover a {
+	color:#01889e;
+	text-shadow: 1px 1px 1px #ffffff;
+	text-decoration: none;
+}
+#menu li .drop {
+	padding-right:21px;
+	background:url("img/drop.png") no-repeat right 8px;
+}
+#menu li:hover .drop {
+	background:url("img/drop.png") no-repeat right 7px;
+}
+
+.dropdown_1column, 
+.dropdown_2columns, 
+.dropdown_3columns, 
+.dropdown_4columns,
+.dropdown_5columns {
+	float:left;
+	position:absolute;
+	left:-999em; /* Hides the drop down */
+	text-align:left;
+	padding: 30px 5px 0px 5px;
+	border:1px solid #777777;
+	/* Rounded Corners */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;
+	box-shadow: 0 4px 11px rgba(3, 8, 5, 0.11);
+}
+
+.dropdown_1column {width: 140px;}
+.dropdown_2columns {width: 280px;}
+.dropdown_3columns {width: 420px;}
+.dropdown_4columns {width: auto;}
+.dropdown_5columns {width: 700px;}
+
+#menu .pro:hover .dropdown_4columns
+{
+	left:0px;
+	top:36px;
+    background: #fff;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.col_1 {width:240px;}
+.col_2 {width:270px;}
+.col_3 {width:410px;}
+.col_4 {width:550px;}
+.col_5 {width:690px;}
+
+#menu .menu_right {
+	float:right;
+	margin-right:0px;
+}
+#menu li .align_right {
+	/* Rounded Corners */
+	-moz-border-radius: 5px 0px 5px 5px;
+    -webkit-border-radius: 5px 0px 5px 5px;
+    border-radius: 5px 0px 5px 5px;
+}
+
+#menu li:hover .align_right {
+	left:auto;
+	right:-1px;
+	top:auto;
+}
+
+#menu p, #menu h2, #menu h3, #menu ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:21px;
+	font-size:12px;
+	text-align:left;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+#menu h2 {
+	font-size:21px;
+	font-weight:400;
+	letter-spacing:-1px;
+	margin:7px 0 14px 0;
+	padding-bottom:14px;
+	border-bottom:1px solid #666666;
+}
+#menu h3 {
+	font-size:14px;
+	margin:7px 0 14px 0;
+	padding-bottom:7px;
+	border-bottom:1px solid #888888;
+}
+#menu p {
+	line-height:18px;
+	margin:0 0 10px 0;
+}
+
+#menu li:hover div a {
+	font-size:14px;
+	color:#015b86;
+}
+#menu li:hover div a:hover {
+	color:#029feb;
+}
+
+
+.strong {
+	font-weight:bold;
+}
+.italic {
+	font-style:italic;
+}
+
+.imgshadow { /* Better style on light background */
+	background:#FFFFFF;
+	padding:4px;
+	border:1px solid #777777;
+	margin-top:5px;
+	-moz-box-shadow:0px 0px 5px #666666;
+	-webkit-box-shadow:0px 0px 5px #666666;
+	box-shadow:0px 0px 5px #666666;
+}
+.img_left { /* Image sticks to the left */
+	width:auto;
+	float:left;
+	margin:5px 15px 5px 5px;
+}
+
+#menu li .black_box {
+	background-color:#333333;
+	color: #eeeeee;
+	text-shadow: 1px 1px 1px #000;
+	padding:4px 6px 4px 6px;
+
+	/* Rounded Corners */
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+	/* Shadow */
+	-webkit-box-shadow:inset 0 0 3px #000000;
+	-moz-box-shadow:inset 0 0 3px #000000;
+	box-shadow:inset 0 0 3px #000000;
+}
+
+#menu li ul {
+	list-style:none;
+	padding:0;
+	margin:0 ;
+}
+#menu li ul li {
+	font-family: 'ElektraLightPro';
+	font-size:14px;
+	line-height:24px;
+	position:relative;
+	text-shadow: 1px 1px 1px #ffffff;
+	padding:0;
+	margin:0;
+	float:none;
+	text-align:left;
+	width:250px;
+}
+#menu li .greybox li {
+	background:#F4F4F4;
+	border:1px solid #bbbbbb;
+	margin:0px 0px 4px 0px;
+	padding:4px 6px 4px 6px;
+	width:116px;
+
+	/* Rounded Corners */
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+#menu li .greybox li:hover {
+	background:#ffffff;
+	border:1px solid #aaaaaa;
+	padding:4px 6px 4px 6px;
+	margin:0px 0px 4px 0px;
+}
+/*SERVER*/
+.description {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: #666666;
+	line-height: 18px;
+	margin-left: 30px;
+	width: 630px;
+	float: left;
+	margin-bottom: 20px;
+}
+.price {
+	font-family: 'Tahoma';
+	font-size: 20px;
+	color: #666666;
+	line-height: 18px;
+	color: #77b100;
+	margin-left: 30px;
+	float: left;
+}
+.price span {
+	font-family: 'Tahoma-Bold';
+}
+h2 {
+	font-family: 'Tahoma';
+	font-size: 18px;
+	color: #01889e;
+	margin-top: 25px;
+	margin-bottom: 8px;
+}
+.server_wrap table{
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.server_wrap table td {
+	font-family: 'Tahoma';
+	font-size: 14px;
+	color: #666666;
+	padding: 7px 0px;
+	line-height: 24px;
+}
+.custom_bg {
+	background-color: #f1f4f7;
+}
+.server_wrap table tr td:nth-child(2) {
+	padding-left: 130px;
+}
+.server_wrap table tr td:nth-child(1) {
+	padding-left: 15px;
+}
+form {
+	text-align: justify;
+}
+.server_wrap .inputtext {
+	width: 308px;
+	height: 32px;
+	background-color: #f1f4f7;
+background-image: linear-gradient(to top, #f2f2f2 0%, white 100%);
+	border: 1px solid #ccc;
+	font-family: 'Tahoma';
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 16px;
+	outline: none;
+}
+ input::-webkit-input-placeholder {
+    color: black;
+ }
+ .server_wrap .inputtextarea {
+ 	width: 308px;
+	background-color: #f1f4f7;
+background-image: linear-gradient(to top, #f2f2f2 0%, white 100%);
+	border: 1px solid #ccc;
+	padding: 11px 0 88px 10px;
+	font-family: 'Tahoma';
+	font-size: 14px;
+	outline: none;
+	position: relative;
+    top: 2px;
+ }
+ .bot {
+ 	    display: inline-block;
+		margin-top: -76px;
+ }
+ .mlz {
+ 	margin-left: 15px;
+ }
+.captureimg {
+	float: left;
+	margin-right: 25px;
+}
+ .capture {
+ 	width: 308px;
+	height: 32px;
+	background-color: #f1f4f7;
+background-image: linear-gradient(to top, #f2f2f2 0%, white 100%);
+	border: 1px solid #ccc;
+	font-family: 'Tahoma';
+	font-size: 14px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 25px;
+	outline: none;
+ }
+ .submit_button {
+ 	width: 235px;
+height: 32px;
+background-color: #77b100;
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+border: 1px solid #5a8700;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(3, 8, 5, 0.3);
+text-align: center;
+font-family: 'Tahoma-Bold';
+font-size: 14px;
+color: #ffffff;
+text-transform: uppercase;
+margin-top: 6px;
+outline: none;
+cursor: pointer;
+ }
+  .submit_button:hover {
+  	box-shadow: none;
+  }
+/*END SERVER*/
+.plb {
+	padding-right: 140px;
+}

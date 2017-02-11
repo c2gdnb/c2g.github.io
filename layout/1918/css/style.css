@@ -1,0 +1,1660 @@
+a:hover, button:hover, input[type="submit"]:hover {
+  -webkit-transition: all 0.8s ease;
+  -webkit-transition--moz-transition: all 0.8s ease;
+  -webkit-transition--o-transition: all 0 0.8s ease;
+  -webkit-transition-transition: all 0.8s ease;
+}
+
+button, input[type="submit"] {
+  cursor: pointer;
+}
+
+/**/
+h1 {
+  text-align: center;
+  font-family: 'Fregat-Bold', sans-serif;
+  text-transform: uppercase;
+  padding: 50px 0 35px;
+  font-size: 46px;
+}
+
+h2 {
+  text-align: center;
+  font: 70px/1 'PFKidsPro-GradeFive', sans-serif;
+  padding: 60px 0 35px;
+  color: #fff;
+}
+
+input {
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.div-1 {
+  background: url("../img/bg-div-1.jpg") no-repeat center;
+  height: 630px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Fregat', sans-serif;
+}
+
+.div-1 h1 {
+  color: #feda3d;
+  font-family: 'Fregat-Bold', sans-serif;
+  font-size: 60px;
+}
+
+.div-1 figure {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.div-1 figure:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.div-1 figcaption {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 15px;
+}
+
+.div-1 p {
+  clear: both;
+  font-size: 20px;
+  line-height: 34px;
+  padding-top: 44px;
+}
+
+.div-1 img {
+  margin: 33px auto;
+  display: block;
+}
+
+.div-1 h3 {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.div-2 {
+  background: url("../img/bg-div-2.png") no-repeat right 180px;
+  font: 20px 'Fregat', sans-serif;
+  padding-bottom: 70px;
+}
+
+.div-2 h1 {
+  color: #343434;
+}
+
+.div-2 div {
+  width: 600px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.div-2 img {
+  float: left;
+  margin-right: 20px;
+}
+
+.div-2 p {
+  line-height: 1.5;
+  padding-left: 85px;
+}
+
+.div-2 span {
+  font-family: 'Fregat-Bold', sans-serif;
+}
+
+.div-3 {
+  background: url("../img/bg-div-3.jpg") no-repeat center;
+  height: 1084px;
+}
+
+.div-3 h1 {
+  color: #feda3d;
+}
+
+.div-3 article {
+  position: relative;
+}
+
+.div-3 div {
+  position: absolute;
+  font: 20px/1.5 'Fregat', sans-serif;
+  color: #fff;
+  width: 350px;
+}
+
+.div-3 div:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.div-3 .kyrs-1 {
+  top: 100px;
+  left: 80px;
+}
+
+.div-3 .kyrs-2 {
+  top: 350px;
+  left: 35px;
+}
+
+.div-3 .kyrs-3 {
+  top: 490px;
+  left: 75px;
+}
+
+.div-3 .kyrs-4 {
+  top: 653px;
+  left: 200px;
+}
+
+.div-3 .kyrs-5 {
+  top: 720px;
+  left: 430px;
+}
+
+.div-3 .kyrs-6 {
+  top: 653px;
+  right: 200px;
+}
+
+.div-3 .kyrs-7 {
+  top: 490px;
+  right: 75px;
+}
+
+.div-3 .kyrs-8 {
+  top: 300px;
+  right: 35px;
+}
+
+.div-3 .kyrs-9 {
+  top: 100px;
+  right: 80px;
+}
+
+.div-3 .left {
+  float: left;
+  margin-right: 20px;
+}
+
+.div-3 .right {
+  float: right;
+  margin-left: 20px;
+}
+
+.div-3 p.first {
+  margin-top: 45px;
+}
+
+.div-3 p.second {
+  margin-top: 15px;
+}
+
+.div-3 p.third {
+  margin-top: 30px;
+}
+
+.div-3 p.four {
+  margin: -40px 0 0 70px;
+}
+
+.div-3 p.five {
+  margin: -170px 190px 0 0;
+}
+
+.div-3 p.six {
+  margin: -50px 40px 0 0;
+  text-align: right;
+}
+
+.div-3 p.seven {
+  margin-top: -20px;
+  text-align: right;
+}
+
+.div-3 p.eight {
+  margin-top: -10px;
+  text-align: right;
+}
+
+.div-3 p.nine {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.div-4 {
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.div-4 .div-4-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.div-5 {
+  height: auto;
+  padding-bottom: 25px;
+  font: 18px/1.3 'Fregat', sans-serif;
+  color: #343434;
+}
+
+.div-5 div {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.div-5 figure {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+
+.div-5 figcaption {
+  width: 290px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.div-5 figure:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.div-5 .subtitle {
+  font-family: 'Fregat';
+  font-size: 36px;
+  color: #343434;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.div-5 .subtitle span {
+  font-family: 'Fregat-Bold';
+  font-size: 36px;
+}
+
+.div-5 h3 {
+  font-family: 'Fregat';
+  font-size: 24px;
+  color: #343434;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.div-6 {
+  background: url("../img/bg-div-6.jpg") no-repeat center;
+  height: 348px;
+}
+
+.div-6 form {
+  text-align: center;
+}
+
+.div-6 form p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.div-6 input {
+  border-radius: 20px;
+  border: none;
+  color: #343434;
+  width: 300px;
+}
+
+.div-6 input[type='text'] {
+  padding: 12px;
+  font: 16px 'Fregat', sans-serif;
+  background: #fff;
+  margin-right: 26px;
+  box-shadow: 0px 0px 10px #ad64e6;
+}
+
+.div-6 input[type='text']:focus {
+  box-shadow: 0px 0px 10px #ad64e6 inset;
+}
+
+.div-6 input[type='submit'] {
+  font: 22px 'Fregat-Bold', sans-serif;
+  padding: 10px;
+  background: #ffdd47;
+  text-transform: uppercase;
+}
+
+.div-6 input[type='submit']:hover {
+  background: #ad64e6;
+  color: #ffdd47;
+  cursor: pointer;
+}
+
+.div-6 input[type='submit']:active {
+  background: #fff;
+  color: #343434;
+}
+
+.div-7 {
+  background: url("../img/bg-div-7.jpg") no-repeat top center;
+  height: 655px;
+  font: 16px/1.5 'Fregat', sans-serif;
+  color: #343434;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.div-7 article {
+  width: 640px;
+  float: right;
+  padding-top: 70px;
+}
+
+.div-7 p {
+  margin-bottom: 10px;
+}
+
+.div-8 {
+  height: auto;
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.div-8 iframe {
+  width: 100%;
+  height: 460px;
+}
+
+.div-8 p {
+  font: 30px/1.4 'Fregat', sans-serif;
+  color: #343434;
+}
+
+.div-8 a {
+  color: #64a1e3;
+  text-decoration: none;
+}
+
+.div-8 a:hover {
+  text-decoration: underline;
+}
+
+.div-9 {
+  text-align: center;
+  background: url("../img/div-9.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 824px;
+}
+
+.div-9 div.bl {
+  width: 320px;
+  height: 576px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 20px;
+  margin-top: 70px;
+  margin-right: 15px;
+}
+
+.div-9 div.bl:last-child {
+  margin-right: 0;
+}
+
+.div-9 h3 {
+  font-family: 'Fregat-Bold';
+  color: #343434;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 9999;
+  padding-top: 80px;
+  margin-top: -40px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.div-9 h4 {
+  font-family: 'Fregat-Bold';
+  color: #343434;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.div-9 p {
+  font-family: 'Fregat';
+  font-size: 16px;
+  color: #343434;
+  line-height: 24px;
+}
+
+.div-9 hr {
+  width: 88%;
+  height: 1px;
+  border: none;
+  outline: none;
+  background-color: #e0e0e0;
+  margin-bottom: 40px;
+}
+
+.div-9 .price {
+  font-family: 'Fregat-Bold';
+  font-size: 36px;
+  color: #343434;
+}
+
+.div-9 .price span {
+  font-family: 'Fregat';
+  font-size: 16px;
+  color: #343434;
+  position: relative;
+  top: -11px;
+}
+
+.div-9 .pr_block {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  left: 0;
+}
+
+.div-9 .w_sp {
+  bottom: 5px;
+}
+
+.div-9 .f {
+  background: url("../img/icon-img1.png") no-repeat top center;
+}
+
+.div-9 .s {
+  background: url("../img/icon-img2.png") no-repeat top center;
+}
+
+.div-9 .t {
+  background: url("../img/icon-img3.png") no-repeat top center;
+}
+
+.div-10 {
+  background: url("../img/bg-div-10.jpg") no-repeat center;
+  height: 492px;
+}
+
+.div-10 h2 {
+  font-size: 54px;
+  line-height: 1.1;
+  color: #ffdd47;
+  padding: 90px 0 10px;
+}
+
+.div-15 h2 {
+  font-family: 'Fregat-Bold';
+  font-size: 54px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.div-18 h2 {
+  font-size: 54px;
+  line-height: 1.1;
+  color: #ffdd47;
+  padding: 90px 0 10px;
+  padding-bottom: 30px;
+}
+
+.div-10 p, .div-15 p, .div-18 p {
+  font: 20px/30px 'Fregat', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.div-10 p a, .div-15 p a, .div-18 p a {
+  color: #64a1e3;
+}
+
+.div-10 p a:hover, .div-15 p a:hover, .div-18 p a:hover {
+  text-decoration: none;
+}
+
+.div-10 form, .div-15 form, .div-18 form {
+  text-align: center;
+}
+
+.div-10 form p, .div-15 form p, .div-18 form p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 330px;
+}
+
+.div-10 form p.both, .div-15 form p.both, .div-18 form p.both {
+  clear: both;
+  vertical-align: middle;
+}
+
+.div-10 input, .div-15 input, .div-18 input {
+  border-radius: 8px;
+  border: none;
+  color: #343434;
+  width: 320px;
+  height: 50px;
+  vertical-align: top;
+}
+
+.div-10 input[type='text'], .div-15 input[type='text'], .div-18 input[type='text'] {
+  font-family: 'Fregat';
+  font-size: 16px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.div-10 input[type='text']:focus, .div-15 input[type='text']:focus, .div-18 input[type='text']:focus {
+  box-shadow: 0px 0px 10px #ad64e6 inset;
+}
+
+.div-10 input[type='submit'], .div-15 input[type='submit'], .div-18 input[type='submit'] {
+  font: 22px 'Fregat-Bold', sans-serif;
+  background-color: #ffdd47;
+  text-transform: uppercase;
+  width: 320px;
+}
+
+.div-10 input[type='submit']:hover, .div-15 input[type='submit']:hover, .div-18 input[type='submit']:hover {
+  background: #ad64e6;
+  color: #ffdd47;
+  cursor: pointer;
+}
+
+.div-10 input[type='submit']:active, .div-15 input[type='submit']:active, .div-18 input[type='submit']:active {
+  background: #fff;
+  color: #343434;
+}
+
+.div-11 {
+  font: 20px/1.5 'Fregat', sans-serif;
+  color: #343434;
+  padding-bottom: 50px;
+  background: url("../img/bg-div-11.png") no-repeat right bottom;
+}
+
+.div-11 article {
+  width: 500px;
+}
+
+.div-11 p {
+  padding: 10px 0 0 85px;
+  background: url("../img/galochka.png") no-repeat left center;
+  height: 65px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.div-12 {
+  background: url("../img/bg-div-12.jpg") no-repeat center;
+  height: 348px;
+}
+
+.div-13 {
+  background: url("../img/bg-div-13.jpg") no-repeat bottom center;
+  height: auto;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.div-14 {
+  background: url("../img/bg-div-14.jpg") no-repeat center;
+  height: 535px;
+}
+
+.div-15 {
+  background: url("../img/bg-div-15.jpg") no-repeat top center;
+  height: 348px;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.div-17 {
+  background: url("../img/bg-div-17.jpg") no-repeat center;
+  height: 1307px;
+}
+
+.div-18 {
+  background: url("../img/bg-div-18.jpg") no-repeat center;
+  height: 412px;
+}
+
+.div-19 {
+  font: 17px/1.4 'Fregat', sans-serif;
+  padding: 80px 0;
+}
+
+.div-19 h1 {
+  color: #343434;
+}
+
+.div-19 div {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.div-19 div:last-child {
+  margin-bottom: 0;
+}
+
+.div-19 img {
+  float: left;
+}
+
+.div-19 p {
+  padding-left: 100px;
+}
+
+.div-19 span {
+  font-family: 'Fregat-Bold', sans-serif;
+}
+
+/*HEADER*/
+.logo_section {
+  float: left;
+  margin-top: 20px;
+  width: 40.5%;
+}
+
+.logo_section .contact_link {
+  font-family: 'Fregat';
+  font-size: 16px;
+  color: #555;
+  margin: 3px 0;
+}
+
+.logo_section .contact_link span {
+  font-family: 'Fregat-Bold';
+  font-size: 21px;
+  color: #333;
+}
+
+.logo_section .mail_link {
+  font-family: 'Fregat';
+  font-size: 17px;
+  color: #4daed0;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo_section .mail_link:hover {
+  text-decoration: none;
+}
+
+.logo_section .color_buttons a {
+  display: inline-block;
+  width: 174px;
+  height: 50px;
+  line-height: 58px;
+  padding: 0 15px;
+  text-decoration: none;
+  font-family: 'Fregat-Bold';
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.logo_section .color_buttons a:nth-child(1) {
+  background: url("../img/button_top1.png") no-repeat;
+}
+
+.logo_section .color_buttons a:nth-child(2) {
+  background: url("../img/button_top2.png") no-repeat;
+}
+
+.header_right_section {
+  float: left;
+  width: 59.5%;
+}
+
+.header_right_section .social_wrap {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.header_right_section .social_wrap a {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+}
+
+.header_right_section .social_wrap a:nth-child(1) {
+  background: url("../img/social.png") no-repeat;
+}
+
+.header_right_section .social_wrap a:nth-child(2) {
+  background: url("../img/social.png") no-repeat -34px 0px;
+}
+
+.header_right_section .social_wrap a:nth-child(3) {
+  background: url("../img/social.png") no-repeat -68px 0px;
+}
+
+.header_right_section .social_wrap a:nth-child(4) {
+  background: url("../img/social.png") no-repeat -102px 0px;
+}
+
+.header_right_section .social_wrap a:nth-child(5) {
+  background: url("../img/social.png") no-repeat -137px 0px;
+}
+
+.header_right_section .social_wrap a:nth-child(6) {
+  background: url("../img/social.png") no-repeat -172px 0px;
+}
+
+.header_right_section ul {
+  float: left;
+}
+
+.header_right_section ul:nth-child(3) {
+  margin-right: 54px;
+}
+
+.header_right_section ul li {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.header_right_section ul li span {
+  text-align: center;
+  display: inline-block;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.header_right_section ul li span img {
+  position: relative;
+  top: 2px;
+}
+
+.header_right_section ul li a {
+  font-family: 'Fregat-Bold';
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+}
+
+.header_right_section ul li ul {
+  float: none;
+  margin-right: 0 !important;
+  margin: 27.5px 0 27.5px 38px;
+}
+
+.header_right_section ul li ul li {
+  position: relative;
+  padding-left: 15px;
+}
+
+.header_right_section ul li ul li:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  background-color: #b8e5f4;
+  left: 0;
+  border-radius: 50%;
+  top: 4px;
+}
+
+.header_right_section ul li ul li a {
+  text-decoration: underline;
+}
+
+.header_right_section ul li ul li a:hover {
+  text-decoration: none;
+}
+
+.breadcrumbs {
+  margin: 25px 0;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  font-family: 'Fregat';
+  font-size: 14px;
+  color: #555;
+}
+
+.breadcrumbs li span {
+  margin: 0 10px;
+}
+
+.breadcrumbs li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.breadcrumbs li a:hover {
+  text-decoration: underline;
+}
+
+/*END HEADER*/
+.yellow_text {
+  font-family: 'PFKidsPro-GradeFive';
+  font-size: 46px;
+  color: #343434;
+  line-height: 60px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.raspisanie_wrap .raspisanie_select {
+  font-family: 'Fregat';
+  font-size: 16px;
+  color: #343434;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 660px;
+  height: 50px;
+  background-color: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  border-radius: 25px;
+  margin: 0 auto;
+  outline: none;
+  display: block;
+  padding: 0 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -ms-appearance: none;
+  appearance: none !important;
+  background: #fff url(../img/select_icon.png) no-repeat 95% 50%;
+  margin-bottom: 60px;
+}
+
+.table_wrap {
+  margin-bottom: 60px;
+}
+
+.table_wrap table {
+  width: 100%;
+}
+
+.table_wrap table .col1,
+.table_wrap table .col2,
+.table_wrap table .col3,
+.table_wrap table .col4,
+.table_wrap table .col5,
+.table_wrap table .col6 {
+  width: 16.5%;
+}
+
+.table_wrap table tr th {
+  font-family: 'PFKidsPro-GradeFive';
+  font-size: 26px;
+  color: #343434;
+  text-align: center;
+  background-color: #feda3d;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 2px solid #fff;
+  border-bottom: 10px solid #fff;
+  vertical-align: middle;
+}
+
+.table_wrap table tr td {
+  background-color: #f6f6f6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 2px solid #fff;
+  border-bottom: 10px solid #fff;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Fregat';
+  font-size: 16px;
+  color: #343434;
+  line-height: 24px;
+  padding: 9px 0;
+}
+
+.table_wrap table tr .time_table {
+  font-family: 'PFKidsPro-GradeFive';
+  font-size: 26px;
+  color: #343434;
+}
+
+.table_wrap table tr .smaller_td {
+  font-size: 14px;
+  line-height: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+.table_wrap table tr .smaller_td span {
+  font-size: 12px;
+}
+
+#footer .wrapper {
+  padding: 58px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+#footer .logo_section {
+  margin-top: 0;
+}
+
+#footer .header_right_section ul:nth-child(2) {
+  margin-right: 54px;
+}
+
+#footer .header_right_section ul:nth-child(3) {
+  margin-right: 0;
+}
+
+.div-14-table table {
+  width: 100%;
+}
+
+.div-14-table table tr td {
+  font-family: 'Fregat';
+  font-size: 18px;
+  color: #343434;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.div-14-table table tr td:nth-child(2) {
+  font-family: 'Fregat-Bold';
+  font-size: 20px;
+  color: #343434;
+  text-align: right;
+}
+
+.treners_wrap {
+  margin: 25px 0 50px 0;
+}
+
+.trener_block {
+  float: left;
+  width: 100%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.trener_block:nth-child(4) {
+  margin-right: 0;
+}
+
+.trener_block img {
+  display: block;
+  margin: 0 auto;
+}
+
+.trener_block .title {
+  font-family: 'Fregat';
+  font-size: 22px;
+  color: #343434;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.trener_block span {
+  font-family: 'Fregat';
+  font-size: 18px;
+  color: #343434;
+  display: block;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion section {
+  background-color: white;
+  border: 2px solid #e5e5e5;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.accordion section h2,
+.accordion section p {
+  margin: 0;
+}
+
+.accordion section p {
+  font-family: 'Fregat';
+  font-size: 16px;
+  color: #343434;
+  line-height: 24px;
+  padding: 20px;
+}
+
+.accordion section h2 {
+  text-align: left;
+  padding: 0;
+}
+
+.accordion section h2 a {
+  display: block;
+  position: relative;
+  font-family: 'Fregat-Bold';
+  font-size: 22px;
+  color: #343434;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 19px 0 19px 20px;
+}
+
+.accordion h2 + div {
+  height: 0;
+  overflow: hidden;
+  -moz-transition: height 0.3s ease-in-out;
+  -webkit-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+
+.accordion :target h2 a:after {
+  content: '';
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  margin-top: -3px;
+  border-top: 5px solid #333;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.accordion :target h2 + div {
+  height: auto;
+}
+
+.yellow_circles {
+  text-align: center;
+}
+
+.yellow_circles .yellow_block {
+  width: 168px;
+  display: inline-block;
+  margin-bottom: 35px;
+  vertical-align: top;
+  margin-right: 35px;
+}
+
+.yellow_circles .yellow_block:nth-child(5), .yellow_circles .yellow_block:nth-child(9) {
+  margin-right: 0;
+}
+
+.yellow_circles .title {
+  font-family: 'Fregat';
+  font-size: 18px;
+  color: #343434;
+  margin-top: 15px;
+  line-height: 22px;
+}
+
+.toggle_menu {
+  display: none;
+}
+
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 25px 10px 10px auto;
+  float: right;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+
+#toggle span:after {
+  top: 9px;
+}
+
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span {
+  width: 100%;
+  height: 3px;
+  background-color: #72cb85;
+  backface-visibility: hidden;
+  z-index: 99999;
+}
+
+#toggle span:after,
+#toggle span:before {
+  background-color: inherit;
+  width: 100%;
+  height: 3px;
+  background-color: inherit;
+  backface-visibility: hidden;
+  z-index: 99999;
+}
+
+#toggle.on span {
+  background-color: transparent;
+}
+
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+  background-color: #fff;
+}
+
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+  background-color: #fff;
+}
+
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background: #72cb85;
+  z-index: 25;
+  -webkit-transition: left 0.5s;
+  -moz-transition: left 0.5s;
+  -o-transition: left 0.5s;
+  transition: left 0.5s;
+}
+
+#menu li a {
+  font-family: 'Fregat';
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  line-height: 24px;
+}
+
+#menu .close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 60px;
+  font-family: 'Fregat-Bold';
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+  opacity: 1 !important;
+}
+
+/*MODAL1*/
+.overlay {
+  background: transparent url("../img/overlay.png") repeat top left;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.nonebox {
+  position: fixed;
+  top: -350px;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 280px;
+  height: auto;
+  z-index: 9999999999999999999999;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 30px 25px 30px;
+}
+
+.nonebox .modal_h1 {
+  font-family: 'Fregat';
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #343434;
+  margin: 20px 0;
+}
+
+.nonebox .main_input {
+  width: 100%;
+  padding: 12px;
+  font: 16px 'Fregat', sans-serif;
+  background: #fff;
+  margin-right: 26px;
+  box-shadow: 0px 0px 10px #ad64e6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.nonebox .submit_main {
+  font: 22px 'Fregat-Bold', sans-serif;
+  padding: 10px;
+  background: #ffdd47;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  color: #343434;
+  outline: none;
+  width: 100%;
+}
+
+.nonebox .submit_main:hover {
+  background: #ad64e6;
+  color: #ffdd47;
+  cursor: pointer;
+}
+
+a.box-close {
+  float: right;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background: url("../img/close.png") no-repeat top left;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+.success {
+  font-family: 'Fregat';
+  font-size: 18px;
+  color: #343434;
+}
+
+.success span {
+  font-family: 'Fregat';
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #343434;
+  margin: 21px 0;
+  display: block;
+}
+
+.success a {
+  font: 22px 'Fregat-Bold', sans-serif;
+  background: #ffdd47;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  color: #343434;
+  outline: none;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  height: 43px;
+  line-height: 43px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.success a:hover {
+  background: #ad64e6;
+  color: #ffdd47;
+  cursor: pointer;
+}
+
+.scull {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.action_bg {
+  background: url("../img/action_bg.jpg") no-repeat top center;
+}
+
+.action_bg p {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.order_bg {
+  background: url("../img/order_bg.jpg") no-repeat top center;
+}
+
+#map57503e832bd7d {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+#map57503e832bd7d .map_inside {
+  width: 520px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 99;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 80px 40px 0 40px;
+}
+
+#map57503e832bd7d .map_inside .title {
+  font: 40px 'Fregat-Bold', sans-serif;
+  color: #343434;
+  line-height: 44px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+#map57503e832bd7d .map_inside p {
+  font-family: 'Fregat';
+  font-size: 20px;
+  color: #343434;
+  line-height: 46px;
+  position: relative;
+  padding-left: 30px;
+}
+
+#map57503e832bd7d .map_inside p:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 17px;
+  height: 24px;
+  background: url("../img/marker_small.png") no-repeat;
+  left: 0;
+  top: 8px;
+}
+
+#map57503e832bd7d .map_inside a {
+  font: 22px 'Fregat-Bold', sans-serif;
+  color: #343434;
+  display: block;
+  width: 320px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #ffdd47;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
+}
+
+#map57503e832bd7d .map_inside a:hover {
+  background-color: #f9cb03;
+}
+
+.sokrovishe_bg {
+  width: 100%;
+  height: 452px;
+  background: url("../img/s_bg.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.sokrovishe_bg .s_block {
+  width: 66%;
+  float: right;
+  margin-top: 90px;
+}
+
+.sokrovishe_bg .s_block p {
+  font-family: 'Fregat';
+  font-size: 24px;
+  color: #343434;
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+
+.sokrovishe_bg .s_block span {
+  font-family: 'Fregat-Bold';
+  font-size: 24px;
+  color: #343434;
+  line-height: 36px;
+}
+
+.circles_block {
+  float: left;
+  width: 32%;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.circles_block img {
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+}
+
+.circles_block .title {
+  color: #343434;
+  font-family: 'Fregat';
+  font-size: 24px;
+  line-height: 46px;
+  margin-top: 30px;
+}
+
+.circles_block:nth-child(3), .circles_block:nth-child(6) {
+  margin-right: 0;
+}
+
+.desc_circles {
+  text-align: center;
+  color: #343434;
+  font-family: 'Fregat';
+  font-size: 30px;
+}
+
+.desc_circles a {
+  color: #64a1e3;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 25px;
+}
+
+.desc_circles a:hover {
+  text-decoration: none;
+}
+
+.reviews_bg {
+  width: 100%;
+  height: 577px;
+  background: url("../img/div-9.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.reviews_bg h1 {
+  margin-bottom: 40px;
+}
+
+.reviews_bg .review_block {
+  width: 100%;
+  height: 292px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  padding: 29px;
+}
+
+.reviews_bg .review_block img {
+  float: left;
+  margin-right: 34px;
+}
+
+.reviews_bg .review_block .review_text {
+  float: left;
+  width: 75%;
+}
+
+.reviews_bg .review_block .review_text .title {
+  font-family: 'Fregat-Bold';
+  font-size: 24px;
+  color: #343434;
+}
+
+.reviews_bg .review_block .review_text .subtitle {
+  font-family: 'Fregat';
+  font-size: 20px;
+  color: #343434;
+  margin: 18px 0;
+}
+
+.reviews_bg .review_block .review_text p {
+  font-family: "FregatItalic";
+  font-size: 16px;
+  color: #343434;
+  padding-left: 50px;
+  position: relative;
+  line-height: 24px;
+}
+
+.reviews_bg .review_block .review_text p:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 27px;
+  height: 24px;
+  background: url("../img/quote.png") no-repeat;
+  left: 0;
+}
+
+.reviews_bg .bx-wrapper:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 202px;
+  height: 132px;
+  background: url("../img/parrot.png") no-repeat;
+  top: -95px;
+  right: 0;
+  z-index: 99;
+}
+
+.reviews_bg .bx-wrapper .bx-controls-direction a {
+  top: 50% !important;
+}
+
+.animators_wrap h3 {
+  font-family: 'Fregat';
+  font-size: 24px;
+  color: #343434;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+  line-height: 34px;
+}
+
+.animators_wrap h3 span {
+  font-family: 'Fregat-Bold';
+}
+
+.animators_block {
+  width: 23.5%;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.animators_block:last-child {
+  margin-right: 0;
+}
+
+.animators_block .title {
+  font-family: 'Fregat';
+  font-size: 20px;
+  color: #343434;
+  margin-top: 30px;
+}
+
+.big_social_wrap {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.big_social_wrap a {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 0 5px;
+}
+
+.big_social_wrap a:nth-child(1) {
+  background: url("../img/social_big.png") no-repeat 0px 0px;
+}
+
+.big_social_wrap a:nth-child(2) {
+  background: url("../img/social_big.png") no-repeat -80px 0px;
+}
+
+.big_social_wrap a:nth-child(3) {
+  background: url("../img/social_big.png") no-repeat -160px 0px;
+}
+
+.big_social_wrap a:nth-child(4) {
+  background: url("../img/social_big.png") no-repeat -240px 0px;
+}
+
+.big_social_wrap a:nth-child(5) {
+  background: url("../img/social_big.png") no-repeat -320px 0px;
+}
+
+.big_social_wrap a:nth-child(6) {
+  background: url("../img/social_big.png") no-repeat -400px 0px;
+}

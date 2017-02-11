@@ -1,0 +1,272 @@
+ @media screen and (max-width: 991px) {
+  .dbn {
+    display: none;
+  }
+  .slider_bg h1 {
+    font-size: 40px;
+  }
+  .slider_bg h2 {
+    font-size: 26px;
+  }
+  .form_small_wrap {
+    margin: 0 auto 35px auto;
+  }
+  .h1_main {
+    font-size: 26px;
+  }
+  .h1_main br {
+    display: none;
+  }
+  .main_from_title {
+    font-size: 26px;
+  }
+  .main_input1 {
+    margin-right: 25px;
+  }
+  .reviews_block img {
+    width: 18.5%;
+  }
+  .text_block .title_text_block {
+    font-size: 20px;
+  }
+  .reviews_block {
+    padding: 20px 0 20px 20px;
+  }
+  .text_block {
+    width: 72%;
+  }
+  .portfolio_block {
+    width: 100%;
+  }
+  .portfolio_block img {
+    width: 100%; 
+  }
+  .portfolio_title {
+    font-size: 21px;
+  }
+  .portfolio_block p {
+    font-size: 13px;
+  }
+  .arrow_block {
+    width: 100%;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    line-height: 55px;
+  }
+  .arrow_desc {
+    height: 60px;
+        width: 100%;
+  }
+  .arrow_desc p {
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .arrow_desc p span {
+    font-size: 20px;
+  }
+  .arrow_desc p br {
+    display: block;
+  }
+  .arrow_block:nth-child(7) {
+  width: 100%
+    }
+  .ml {
+    margin-left: 0px;
+    }
+    .mr {
+        margin-right: 0px;
+    }
+    .mln {
+        margin-left: -30px;
+    }
+    .mln1 {
+        margin-left: 170px;
+    }
+    .big_img_q {
+        margin: 0 auto;
+        width: 435px;
+    }
+    .img_wrap_q:nth-child(1) {
+    margin-right: 30px;
+    }
+    .img_wrap_q:nth-child(2) {
+        margin-right: 0;
+    }
+    .dbd {
+    display: block;
+    }
+    .photo_block .vertical_arrow {
+        position: absolute;
+        bottom: 0;
+        border-radius: unset;
+    }
+    .logo_desc {
+        float: left;
+    }
+    .nonebox1 {
+        width: 89%;
+    }
+}          
+@media screen and (max-width: 766px) {
+    .big_img_q {
+        width: 100%;
+    }
+    .mln1 {
+        margin-left: 0;
+    }
+    header img {
+        margin: 30px auto 10px auto;
+        display: block;
+    }
+    .dbx {
+        display: none;
+    }
+    .call_back {
+        float: none;
+    }
+    header a {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .slider_bg h1 {
+        font-size: 22px;
+        margin-top: 26px;
+        margin-bottom: 20px;
+    }
+    .slider_bg h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+        line-height: 22px;
+    }
+    .h1_main {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 26px;
+        margin-bottom: 20px;
+    }
+    .advantages_block p {
+        font-size: 18px;
+    }
+    .advantages_block span {
+        font-size: 14px;
+    }
+    .reason_block .dbx {
+        display: none;
+    }
+    .advantages_block {
+        margin-bottom: 20px;
+    }
+    .reason_block {
+        margin-bottom: 20px;
+    }
+    .main_from_title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .main_input1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .send_button1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .text_block {
+        width: 95%;
+    }
+    .name {
+        font-family: 'PTSans-Bold';
+        font-size: 18px;
+        color: #1a1a18;
+    }
+    .function {
+        font-family: 'PTSans-Regular';
+        font-size: 16px;
+        color: #808080;
+    }
+    .text_block .title_text_block {
+        font-size: 18px;
+    }
+    .text_block {
+        margin-top: 10px;
+    }
+    .arrow_desc {
+        height: auto;
+    }
+    .mln {
+        margin-left: 0;
+    }
+    .textblock {
+        width: 90%;
+        margin: 0 auto;
+        left:0;
+        height: auto;
+    }
+    .questins_wrap .dbx {
+        display: none;
+    }
+    .img_wrap_q {
+        width: 50%;
+    }
+    .img_wrap_q:nth-child(1) {
+        margin-right: 0;
+    }
+    .photo_block img {
+        width: 90%;
+    }
+    .questins_wrap .h1_main {
+        font-size: 18px;
+    }
+    .h2_main {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .photo_block p {
+        font-size: 16px;
+    }
+    footer .call_bottom {
+        display: none;
+    }
+    .pol {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    footer {
+        margin: 20px 0;
+        box-shadow: none;
+    }
+    .portfolio_block {
+    width: 100%;
+    height: auto;
+    }
+    .overlay1 {
+        display: none!important;
+    }
+    .nonebox {
+        width: 89%;
+        height: 100px;
+    }
+    .nonebox1 {
+        width: 89%;
+        height: auto;
+        top: 80%!important;
+        display: none;
+    }
+    .nonebox .form_small_wrap {
+        padding: 10px;
+        margin: 0 auto;
+        min-height: 250px;
+    }
+    a.box-close{
+    float:right;
+    width:15px;
+    height:15px;
+    background:url('../images/close_black.png') repeat top left;;
+        margin: 6px 6px 0px 0px;
+    cursor:pointer;
+    display:block
+    }
+}
+                

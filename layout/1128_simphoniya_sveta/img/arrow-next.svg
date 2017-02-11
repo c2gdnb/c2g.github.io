@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="36px" height="42px">
+<clipPath id="clip0">
+<use xlink:href="#symbol0"/>
+</clipPath>
+<defs>
+<path id="symbol0" fill-rule="evenodd" d="M-0 2.31C-0 4.25-0 38.29-0 39.63-0 41.37 1.74 42.66 3.47 41.64 4.85 40.83 32.49 24.42 34.84 23.02 36.39 22.1 36.37 19.9 34.84 18.97 33.15 17.95 5.41 1.45 3.4 0.31 1.93-0.53-0 0.4-0 2.31Z"/>
+</defs>
+<g>
+<use xlink:href="#symbol0" fill="rgb(255,255,255)"/>
+<use clip-path="url(#clip0)" xlink:href="#symbol0" fill="none" stroke="rgb(181,19,13)" stroke-width="2.00px"/>
+</g>
+</svg>

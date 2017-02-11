@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Срочный выкуп квартир</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<meta http-equiv="refresh" content="10; url=index.html">
+  	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+</head>
+<body >
+<!-- HEADER -->
+	<header class="header_topo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<img src="images/logo.png" alt="Young Estate">
+				</div>
+				<div class="col-md-4 dbn">
+					<p>Срочный выкуп квартир
+					в Москве и Московской области</p>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="call_back">
+						<span class="dbx">+7 495 008-1234</span>
+						<a href="#" class="button">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- END HEADER -->
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="h1_main_bottom">Спасибо за вашу заявку! С вами свяжутся по указанному в
+заявке телефону в течение дня.</div>
+		</div>
+	</div>
+	</div>
+<!-- FOOTER -->
+<footer class="bott0m_send">
+	<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 dbx">
+					<img src="images/logo.png" alt="Young Estate">
+					<p class="logo_desc">Срочный выкуп квартир в Москве и МО</p>
+				</div>
+				<div class="col-md-4 dbn dbx">
+					<p>Выкупим Вашу квартиру
+					за 5 дней по рыночной цене</p>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="call_back">
+						<span class="dbx">+7 495 008-1234</span>
+						<a href="#" class="call_bottom dbx button">Заказать звонок</a>
+						<a href="#" class="pol">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</div>
+		</div>
+</footer>	
+<!-- END FOOTER -->
+<!-- MODAL1 -->
+<div class="overlay" id="overlay" style="display:none;"></div> 
+        <div class="nonebox" id="nonebox"> 
+         <a class="box-close one" id="box-close" href="#"></a>
+				<div class="form_small_wrap">
+					<form id="form5">
+						<div class="form_small_title">Заказать звонок</div>
+						<input type="text" name="name" class="main_input" onblur='if(this.value=="") this.value="Введите Ваше имя"'  onfocus='if(this.value=="Введите Ваше имя") this.value=""' value="Введите Ваше имя" required>
+						<input type="text" name="phone" class="main_input tel_phone" placeholder="Введите Ваш телефон" required>
+						<button type="submit" class="send_button">Отправить заявку</button>
+					</form>
+				</div>
+        </div> 
+<!-- END MODAL1 -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/script.js"></script>
+<script>
+function refr()
+{setTimeout("document.location.reload()", 3000);
+}
+</script>
+  </body>
+</html>

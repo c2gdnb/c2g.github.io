@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'PFAgoraSlabPro-Medium';
+  src: url('../fonts/PFAgoraSlabPro-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFAgoraSlabPro-Medium.woff') format('woff'), url('../fonts/PFAgoraSlabPro-Medium.ttf')  format('truetype'), url('../fonts/PFAgoraSlabPro-Medium.svg#PFAgoraSlabPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemi';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.svg#open_sanssemi') format('svg'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg'),
+         url('../fonts/opensans-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'PFAgoraSlabPro-Bold';
+  src: url('../fonts/PFAgoraSlabPro-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFAgoraSlabPro-Bold.woff') format('woff'), url('../fonts/PFAgoraSlabPro-Bold.ttf')  format('truetype'), url('../fonts/PFAgoraSlabPro-Bold.svg#PFAgoraSlabPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-SemiboldItalic';
+  src: url('../fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-SemiboldItalic.woff') format('woff'), url('../fonts/OpenSans-SemiboldItalic.ttf')  format('truetype'), url('../fonts/OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFAgoraSlabPro-Regular';
+  src: url('../fonts/PFAgoraSlabPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFAgoraSlabPro-Regular.woff') format('woff'), url('../fonts/PFAgoraSlabPro-Regular.ttf')  format('truetype'), url('../fonts/PFAgoraSlabPro-Regular.svg#PFAgoraSlabPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src: url('../fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-BoldItalic.woff') format('woff'), url('../fonts/OpenSans-BoldItalic.ttf')  format('truetype'), url('../fonts/OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

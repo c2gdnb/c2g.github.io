@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Fregat';
+  src: url('../fonts/Fregat.eot?#iefix') format('embedded-opentype'),  
+  	url('../fonts/Fregat.woff') format('woff'), 
+  	url('../fonts/Fregat.ttf')  format('truetype'), 
+  	url('../fonts/Fregat.svg#Fregat') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fregat-Bold';
+  src: url('../fonts/Fregat-Bold.eot?#iefix') format('embedded-opentype'),  
+  	url('../fonts/Fregat-Bold.woff') format('woff'), 
+  	url('../fonts/Fregat-Bold.ttf')  format('truetype'), 
+  	url('../fonts/Fregat-Bold.svg#Fregat-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFKidsPro-GradeFive';
+  src: url('../fonts/PFKidsPro-GradeFive.eot?#iefix') format('embedded-opentype'),  
+  	url('../fonts/PFKidsPro-GradeFive.woff') format('woff'), 
+  	url('../fonts/PFKidsPro-GradeFive.ttf')  format('truetype'), 
+  	url('../fonts/PFKidsPro-GradeFive.svg#PFKidsPro-GradeFive') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,351 @@
+body {
+	background: url('../images/main_bg.jpg')repeat-x;
+	width: 100%;
+	height: auto;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.main_container{
+	max-width: 1550px;
+	margin: 0 auto;
+	padding : 0 15px;
+}
+/*HEADER*/
+header {
+	padding-top: 13px;
+	padding-bottom: 15px;
+}
+header .logo{
+	margin-left: -12px;
+	float: left;
+}
+.main_title_block {
+	display: block;
+	margin: 35px auto 0 auto;
+	width: 550px;
+}
+.main_title_block img {
+	float: right;
+	position: relative;
+    top: -15px;
+}
+.main_title {
+	font-family: 'MistralC';
+	font-size: 80px;
+	color: #424649;
+	font-weight: 600;
+}
+.date {
+	float: right;
+	margin-top: -120px;
+}
+.date span {
+	font-family: 'Georgia-Bold';
+	font-size: 20px;
+	color: #4c4c4c;
+	margin-right: 8px;
+}
+.date {
+	font-family: 'Georgia';
+	font-size: 16px;
+	color: #4c4c4c;
+}
+/*END HEADER*/
+/*MENU*/
+.menu {
+	width: 100%;
+	height: 70px;
+	background: url('../images/meni_line.png')repeat-x;
+	margin-top: -7px;
+	margin-bottom: 30px;
+}
+.menu ul {
+	text-align: center;
+}
+.menu ul li {
+	display: inline-block;
+	line-height: 70px;
+	margin-right: 6%;
+}
+.menu ul li a {
+	font-family: 'Georgia';
+	font-size: 20px;
+	color: #000000;
+	font-weight: 400;
+	border-bottom: 1px solid #000000;
+	text-decoration: none;
+	line-height: .95;
+	display: inline-block;
+   	vertical-align: baseline;
+}
+.menu ul li a:hover {
+	color: #818181;
+	border-bottom: none;
+}
+.menu ul li:first-child {
+	margin-left: 50px;
+}
+.menu ul li:last-child {
+	margin-right: 0;
+}
+/*END MENU*/
+/*MAIN LEFT SIDE */
+.left_main_side {
+	float: left;
+}
+.main_block1 {
+	width: 666px;
+	height: auto;
+	border-top: 2px solid #000000;
+	border-bottom: 1px solid #cfcbc3;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+.h1 {
+	color: black;
+    font-family: Georgia;
+    font-size: 31.54px;
+    font-weight: 400;
+    text-align: left;
+    border-bottom: 1px solid black;
+    line-height: 43px;
+}
+p {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: justify;
+}
+.main_block1 table {
+	color: #262626;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.main_block1 table th {
+	background-color: #fff;
+}
+.main_block1 table td {
+	border: 1px solid #b3b3b3;
+	padding: 10px 21px;
+}
+.main_block1 table th{
+	border: 1px solid #b3b3b3;
+	padding: 7px 21px;
+}
+.main_block1 table th:nth-child(2) {
+	padding: 7px 160px 7px 21px;
+}
+.main_block1 table td:nth-child(2) {
+	padding: 7px 154px 7px 21px;
+}
+.main_block1 ul li {
+	color: #262626;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	position: relative;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.main_block1 ul li:before {
+	content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: #000001;
+    position: absolute;
+    top: 6px;
+    left: -17px;
+}
+.search {
+	width: 650px;
+	outline: none;
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.23);
+	height: 36px;
+	line-height: 36px;
+	color: #808080;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 14px;
+}
+input[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+}
+input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+	height: 15px;
+	background: url('../images/checkbox-sprite.png');
+	box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.23);
+	cursor: pointer;
+	float: left;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+input[type="checkbox"]:checked + label:before {
+    background-position: 0 15px;
+}
+.post_date {
+	font-family: 'Georgia';
+	font-size: 16px;
+	color: #666666;
+	position: relative;
+	margin-left: 20px;
+	float: left;
+	margin-top: 8px;
+}
+.post_date:before {
+	content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('../images/date_icon.png')no-repeat;
+    position: absolute;
+    top: 1px;
+    left: -20px;
+}
+.read_more {
+	font-family: 'Georgia';
+	font-size: 16px;
+	color: #666666;
+	width: 176px;
+	height: 30px;
+	border: 1px solid #b3b3b3;
+	text-align: center;
+	line-height: 30px;
+	float: right;
+	text-decoration: none;
+}
+.read_more:hover {
+	color: #4C4C4C;
+	border: 1px solid #868686;
+}
+.read_more:active {
+	color: #4C4C4C;
+	border: 1px solid #868686;
+    box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.23);
+}
+.main_block2 {
+	width: 666px;
+	height: auto;
+}
+.left_side {
+	width: 274px;
+	height: auto;
+	border-bottom: 1px solid #cfcbc3;
+	padding-bottom: 20px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 37px;
+}
+.right_side {
+	width: 372px;
+	height: auto;
+	border-bottom: 1px solid #cfcbc3;
+	padding-bottom: 20px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 15px;
+}
+.read_more_small {
+	font-family: 'Georgia';
+	font-size: 16px;
+	color: #666666;
+	width: 133px;
+	height: 30px;
+	border: 1px solid #b3b3b3;
+	text-align: center;
+	line-height: 30px;
+	float: right;
+	text-decoration: none;
+}
+.read_more_small:hover {
+	color: #4C4C4C;
+	border: 1px solid #868686;
+}
+.read_more_small:active {
+	color: #4C4C4C;
+	border: 1px solid #868686;
+    box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.23);
+}
+.right_side img {
+	float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.last {
+	font-size: 31.47px;
+}
+/*END MAIN LEFT SIDE */
+/*SIDEBAR*/
+.sidebar_block {
+	width: 274px;
+	float: left;
+	margin-left: 20px;
+}
+.sm {
+	margin-bottom: 15px;
+}
+/*END SIDEBAR*/
+/*FOOTER*/
+footer {
+	height: 73px;
+	width: 100%;
+	border-top:2px solid #c9c6bf;
+	margin-top: 25px;
+}
+.copyright {
+	font-family: 'Georgia';
+	font-size: 16px;
+	color: #000000;
+	line-height: 73px;
+	float: left;
+}
+footer ul {
+	float: right;
+}
+footer ul li {
+	display: inline;
+	border-right: 2px solid #999795;
+	padding-right: 30px;
+	margin-left: 30px;
+}
+footer ul li a {
+	text-decoration: none;
+	line-height: 73px;
+	font-family: 'Georgia';
+	font-size: 16px;
+	color: #000000;
+
+}
+footer ul li a:hover {
+	color: #818181;
+}
+footer ul li:nth-child(3){
+	border-right: none;
+	padding-right: 0;
+}
+/*END FOOTER*/
+ @media screen and (max-width: 710px) {
+ 	.main_container{
+	width: 690px;
+	margin: 0 auto;
+	padding : 0 15px;
+}
+ }

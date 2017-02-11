@@ -1,0 +1,269 @@
+@media screen and (max-width: 1000px) {
+	.main_nav ul li a {
+		font-size: 14px;
+	}
+	.main_container {
+		padding: 0 15px;
+	}
+	.logo .title {
+		font-size: 14px;
+	}
+	.main_slider_bg .main_slider_text {
+		width: 59%;
+	}
+	.main_slider_bg .main_slider_text h2 {
+		margin-top: 15px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.main_slider_bg .main_slider_text h1 {
+		font-size: 35px;
+		line-height: 44px;
+	}
+	.time_form_wrap .timer_cont {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.time_form_wrap .timer_cont .title {
+		float: none;
+	}
+	.time_form_wrap .timer_cont:before {
+		display: none;
+	}
+	.time_form_wrap {
+		padding: 20px 0;
+	}
+	.time_form_wrap .flip-clock-wrapper {
+		width: 310px;
+		margin: 0 auto;
+		display: block;
+	}
+	.time_form_wrap .button_timer {
+		float: none;
+		margin: 20px auto;
+	}
+	.cirlces_desc .title {
+		width: 75%;
+	}
+	.man2 {
+		display: none;
+	}
+	.main_nav ul li {
+		margin: 0 2px;
+	}
+	.main_container .point_block:before {
+		display: none !important;
+		
+	}
+	.main_container .point_block {
+		margin: 20px 0 !important;
+	}
+	.point_text {
+		width: 79%;
+		float: left;
+	}
+	.free_time {
+		width: 110px;
+		margin: 0 11px;
+	}
+	.give_block .give_text {
+		width: 50%;
+	}
+	.who_text {
+		width: 63%;
+	}
+	.main_h1 {
+		margin-top: 25px;
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.who_text p {
+		line-height: 17px;
+	}
+	.col_left a img,
+	.col_center a img {
+		width: 100%;
+		height: auto;
+	}
+	.col_right a:nth-child(2),
+	.col_right a:nth-child(3),
+	.col_right a:nth-child(4) {
+		display: none;
+	}
+	.timer_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.toggle_menu {
+		display: block;
+	}
+	#menu ul {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.main-menu {
+		/* пункты меню скрыты */
+		display: none;
+		padding: 0;
+		margin: 0;
+		float: none;
+		position: absolute;
+		top: 107px;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+	#menu li a {
+		line-height: 40px;
+		font-size: 24px;
+	}
+	#wrapper {-webkit-transition: -webkit-transform 0.5s;-moz-transition: -moz-transform 0.5s;transition: transform 0.5s;}
+	.move #menu{left:0;}
+	.move #wrapper {-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);}
+	.main_nav ul {
+		display: none;
+	}
+	header {
+		height: auto;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.logo .title {
+		width: 82%;
+	}
+	.logo {
+		float: none;
+	}
+	.phone_top {
+		float: none;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.main_slider_bg .man {
+		display: none;
+	}
+	.main_slider_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.main_slider_bg .main_slider_text {
+		width: 100%;
+		float: none;
+	}
+	.time_form_wrap .flip-clock-wrapper {
+		width: 290px;
+	}
+	.flip-clock-wrapper ul {
+		margin: 2px;
+	}
+	.cirlces_wrap .cirlces_block {
+		width: 100%;
+		margin: 0 0 20px 0;
+		display: block;
+	}
+	.cirlces_desc img {
+		margin: 15px auto;
+		display: block;
+		float: none;
+	}
+	.cirlces_desc .title {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.point_wrap .point_block {
+		width: 100% !important;
+	}
+	.point_desc img {
+		float: none;
+		display: block;
+		margin: 20px auto;
+	}
+	.point_text {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.order_button {
+		width: 100%;
+		font-size: 18px;
+	}
+	.main_h1 {
+		font-size: 30px;
+	}
+	.free_block {
+		width: 100%;
+		display: block;
+	}
+	.free_time {
+		margin: 20px 0;
+	}
+	.give_block img {
+		float: none !important;
+		margin:  0 0 20px 0 !important;
+		width: 100%;
+	}
+	.give_block .give_text {
+		width: 100%;
+		float: none;
+	}
+	.man_big {
+		display: none;
+	}
+	.who_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.who_text {
+		width: 100%;
+	}
+	.gallery_wrap {
+		text-align: center;
+	}
+	.col_left {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.col_center {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.col_right {
+		width: 100%;
+		float: none;
+	}
+	.col_right a {
+		display: block !important;
+	}
+	.col_right a img {
+		width: 100%;
+		height: auto;
+	}
+	.video_bg .bxslider li iframe {
+		width: 100%;
+		height: auto;
+	}
+	.video_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	#map {
+		height: 300px;
+	}
+	.nonebox {
+		width: 290px;
+		height: auto;
+	}
+	.nonebox .title {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	a.box-close {
+		right: -10px;
+	}
+}

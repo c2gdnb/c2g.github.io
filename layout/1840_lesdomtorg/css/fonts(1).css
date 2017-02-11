@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Cuprum-Regular';
+  src: url('../fonts/Cuprum-Regular.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/Cuprum-Regular.woff') format('woff'), 
+  		url('../fonts/Cuprum-Regular.ttf')  format('truetype'), 
+  		url('../fonts/Cuprum-Regular.svg#Cuprum-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cuprum-Bold';
+  src: url('../fonts/Cuprum-Bold.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/Cuprum-Bold.woff') format('woff'), 
+  		url('../fonts/Cuprum-Bold.ttf')  format('truetype'), 
+  		url('../fonts/Cuprum-Bold.svg#Cuprum-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cuprum-BoldItalic';
+  src: url('../fonts/Cuprum-BoldItalic.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/Cuprum-BoldItalic.woff') format('woff'), 
+  		url('../fonts/Cuprum-BoldItalic.ttf')  format('truetype'), 
+  		url('../fonts/Cuprum-BoldItalic.svg#Cuprum-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BebasNeueCyrillic';
+  src: url('../fonts/BebasNeueCyrillic.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/BebasNeueCyrillic.woff') format('woff'), 
+  url('../fonts/BebasNeueCyrillic.ttf')  format('truetype'), 
+  url('../fonts/BebasNeueCyrillic.svg#BebasNeueCyrillic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

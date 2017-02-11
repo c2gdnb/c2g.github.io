@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>PMBTC</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+</head>
+<body>
+	
+<!-- HEADER-->
+	<div id="header" class="clearfix">
+		<div class="container">
+			<div class="leftnav">BTC > 50<br>	
+			1 BTC = 240 USD</div>
+			<div class="leftnav">LTC > 150<br>
+			1 LTC = 3.042 USD</div>
+			<ul class="menu">
+				<li><a href="order.html" class="hvr-underline-from-left">Order Status</a></li>
+				<li><a href="" class="hvr-underline-from-left">Contact</a></li>
+				<li><a href="pole.html" class="hvr-underline-from-left">Support</a></li>								
+			</ul>
+		</div>	
+		</div>
+<!--  END HEADER -->
+<!-- CONTENT -->
+	<div id="wrapper" class="clearfix">
+		<div class="left">
+			<div class="textleft1">You will send USD</div>
+			<img src="images/arrow_small.png" height="88" width="33" class="arrow2">
+			<input type="text" id="input_text1">
+		</div>
+		<div class="right2">
+			<div class="textleft2">Your Bitcoin wallet, where we will
+send 0 bitcoins</div>
+			<img src="images/arrowsmallright.png" height="88" width="33" class="arrow3">
+			<input type="text" id="input_text3">
+		</div>
+		<a href="" class="button1"></a>
+		
+		
+		<img src="images/line.png" height="4" width="960" alt="" class="divider_d">
+		<a class="footer" href="">support@pmbtc.me</a>
+		<a class="footer1" href="index.html">PMBTC.ME </a>
+		</div>
+
+<!-- END CONTENT -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+	$("#wrapper").on("click", ".first", function(){
+     $("#wrapper .first").removeClass("active");
+     $(this).addClass("active");
+    });
+</script>
+</body>
+</html>

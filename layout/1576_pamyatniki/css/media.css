@@ -1,0 +1,277 @@
+ @media screen and (max-width: 1200px) {
+ 	.logo img {
+ 		margin-left: 0;
+ 		margin-right: 7px;
+ 	}
+ 	header h1 {
+ 		margin: 10px 0 0 0px;
+ 		font-size: 23px;
+ 	}
+ 	.main_slider_title span {
+ 		font-size: 50px;
+ 	}
+ 	.form_bg {
+ 		width: 100%;
+ 	}
+ 	.adversting_block {
+ 		width: 100%;
+ 		padding: 10px;
+ 		height: 191px;
+ 	}
+ 	.adversting_text .title {
+ 		font-size: 23px;
+ 	}
+ 	.adversting_block img {
+ 		margin-right: 10px;
+ 		width: 19%;
+ 		height: auto;
+ 	}
+ 	.adversting_text {
+ 		width: 151px;
+ 	}
+ 	.adversting_text p {
+ 		font-size: 18px;
+ 	}
+ 	.zakaz_form_bg {
+ 		margin: 30px auto 0 auto;
+ 	}
+ 	.zakaz__subtitle {
+ 		text-shadow: 1px 1px 0px rgba(255,255,255,1);
+ 	}
+ 	.circle_block p {
+ 		font-size: 17px;
+ 		margin: 20px 0 0 0;
+ 		line-height: 20px;
+ 	}
+ 	.form_advantages {
+ 		width: 100%;
+ 	}
+ 	.form_advantages .main_input {
+ 		width: 30%;
+ 		margin-right: 20px;
+ 	}
+ 	.form_advantages .main_submit {
+ 		width: 30%;
+ 	}
+ 	.circle_block img {
+ 		width: 50%;
+ 		height: auto;
+ 	}
+ 	.review_img img {
+ 		width: 100%;
+ 		height: auto;s
+ 	}
+ 	.qpl {
+ 		width: 5%;
+ 		height: auto;
+ 	}
+ 	.review_text {
+ 		font-size: 18px;
+ 		margin: 5px 0;
+ 	}
+ 	.plan_title {
+ 		margin-bottom: 20px;
+ 	}
+ 	.bx-wrapper .dpn {
+ 		display: none;
+ 	}
+ 	.bx-wrapper img {
+ 		margin: 0 auto;
+ 		float: none;
+ 	}
+ 	.bx-wrapper .bx-prev {
+ 		left: 70px;
+ 	}
+ 	.bx-wrapper .bx-next {
+		right: 60px;
+ 	}
+ 	.h2_white {
+ 		font-size: 30px;
+ 	}
+ 	.h1_white {
+ 		font-size: 45px;
+ 	}
+ 	.h1_black {
+ 		font-size: 45px;
+ 	}
+ 	.present {
+ 		width: 100%;
+ 		height: auto;
+ 	}
+ 	.h2_black {
+ 		font-size: 30px;
+ 	}
+ 	.h2_black span {
+ 		font-size: 30px;
+ 	}
+ 	.footer_bg .call_us .phone {
+ 		font-size: 13px;
+ 	}
+ }
+ @media screen and (max-width: 765px) {
+ 	.dnm {
+ 		display: none;
+ 	}
+ 	.logo {
+ 		float: none;
+ 		margin: 0 auto;
+ 		width: 220px;
+ 		display: block;
+ 		clear: both;
+ 	}
+ 	header h1 {
+ 		font-size: 30px;
+ 	}
+ 	.call_us {
+ 		width: 190px;
+ 		float: none;
+ 		display: block;
+ 		margin: 20px auto;
+ 	}
+ 	.main_slider_title {
+ 		margin: 25px 0 0 0;
+ 	}
+ 	.main_slider_title p {
+ 		line-height: 40px;
+ 	}
+ 	.main_slider_title span {
+ 		line-height: 60px;
+ 	}
+ 	.main_input {
+ 		width: 100%;
+ 	}
+ 	.main_submit {
+ 		width: 100%;
+ 	}
+ 	.form_bg {
+ 		height: auto;
+ 	}
+ 	.adversting_block img {
+ 		width: 30%;
+ 	}
+ 	.adversting_text p {
+ 		font-size: 20px;
+ 	}
+ 	.adversting_text {
+ 		width: 179px;
+ 	}
+ 	.adversting_block {
+ 		height: auto;
+ 		margin: 30px auto 0px auto;
+ 		height: 169px;
+ 		top: 0;
+ 	}
+ 	.main_slider_bg {
+ 		padding-bottom: 30px;
+ 	}
+ 	.zakaz__title {
+	    font-family: 'PFDinTextCondPro-Light';
+	    font-size: 32px;
+	    color: #333;
+	    line-height: 36px;
+	    text-align: center;
+	    margin-top: 70px;
+	}
+	.zakaz__title span {
+		font-size: 30px;
+		margin-top: 0;
+	}
+	.zakaz_bg {
+		background: url('../images/reviews_bg.jpg');
+		min-height: auto;
+		padding-bottom: 35px;
+	}
+	.zakaz__subtitle {
+		font-size: 20px;
+		line-height: 26px;
+		margin-top: 15px;
+	}
+	.zakaz_form_bg {
+		width: 100%;
+		padding: 20px;
+		height: auto;
+	}
+	.zakaz_form_bg .main_input {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.h1_white {
+		font-size: 33px;
+		line-height: 40px;
+		margin-top: 25px;
+	}
+	.h2_white {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.circle_block p {
+		font-size: 20px;
+	}
+	.form_advantages {
+		height: auto;
+		padding: 20px;
+	}
+	.form_advantages .main_input {
+		width: 100%;
+	}
+	.form_advantages .main_submit {
+		width: 100%;
+	}
+	.advantages_bg {
+		padding-bottom: 35px;
+	}
+	.h1_black {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.reviews_bg {
+		padding-top: 25px;
+		padding-bottom: 35px;
+	}
+	.bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+	.items_bg .form_advantages {
+		margin-top: 30px;
+	}
+	.bx-wrapper .bx-viewport {
+		height: 199px!important;
+		margin-top: 20px;
+	}
+	.items_bg {
+		padding-bottom: 35px;
+	}
+	.present {
+		margin-bottom: 25px;
+	}
+	.footer_link {
+		text-align: center;
+		line-height: 16px;
+		display: inline;
+		margin: 15px auto 0 auto;
+		display: block;
+	}
+	.footer_bg .call_us .phone {
+		font-size: 26px;
+		display: block;
+		clear: both;
+	}
+	.footer_bg .call_us .phone:before {
+		left: 0;
+	}
+	.copyright {
+		margin-top: 0;
+	}
+	.footer_bg .call_us {
+		margin: 0px auto 0 auto;
+	}
+	.footer_bg .call_us .phone {
+		margin: 10px 0 0 0;
+	}
+	.nonebox {
+		width: 275px;
+	}
+	.input_modal {
+		width: 100%;
+	}
+ }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<title>Отправка сообщения</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/flipclock.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+</head>
+<body >
+<!-- HEADER -->
+	<div class="main_container clearfix some_top send_top">
+		<div class="logo">
+			<img src="images/logot.png" alt="Идеальная Ванная">
+			<div class="logo_title">Идеальная Ванная</div>
+			<div class="logo_text">Ремонт ванных комнат «под ключ» в Москве и Ближнем Подмосковье </div>
+		</div>
+		<div class="experience dnp">
+			<p><span>8 лет </span>на рынке</p>
+			<p><span>800 </span>отремонтированных санузлов</p>
+			<p><span>12 </span>мастеров в штате</p>
+		</div>
+		<div class="call_top dnm">
+			<p>Звоните с 10 до 20 без выходных</p>
+			<span>+7 (495) 123-45-67</span>
+			<a href="#" class="button">Заказать звонок</a>
+		</div>
+	</div>
+<!-- END HEADER -->
+<!-- MAIN SLIDER -->
+<div class="main_bg_wrap">
+	<div id="background_cycler" >
+	<div style="background-image:url(images/main_slider_img1.jpg)" class="main_slider active"></div>
+	<div style="background-image:url(images/main_slider_img2.jpg)" class="main_slider"></div>
+	<div style="background-image:url(images/main_slider_img3.jpg)" class="main_slider"></div>
+	<div style="background-image:url(images/main_slider_img4.jpg)" class="main_slider"></div>
+	<div style="background-image:url(images/main_slider_img5.jpg)" class="main_slider"></div>
+	</div>
+	<div class="main_container clearfix bgm">
+		<div class="send_page_block">
+			<p>Благодарим, что обратились к нам! Наш представитель свяжется с Вами в течение 2 часов в рабочее время. Ожидайте нашего звонка! </p>
+			<a href="index.html">Вернуться на главную</a>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
+<!-- END MAIN SLIDER -->
+<!-- FOOTER -->
+<div class="main_container clearfix">
+	<footer id="footer" class="footer_send">
+		<div class="copyright">
+			<p>© 2008-2016. ООО «Идеальная ванная», ОГРН 5137746243025</p>
+			<p>г. Москва, переулок Васнецова, 11, офис 409</p>
+		</div>
+		<div class="call_top dnm">
+			<p>Звоните с 10 до 20 без выходных</p>
+			<span>+7 (495) 123-45-67</span>
+		</div>
+	</footer>
+</div>
+<!-- END FOOTER -->
+<!-- MODAL1 -->
+<div class="overlay" id="overlay" style="display:none;"></div> 
+        <div class="nonebox" id="nonebox"> 
+         <a class="box-close one" id="box-close" href="#"></a>
+  			<form id="form3" action="mail.php" method="post">
+  				<div class="modal_h1">Обратный звонок</div>
+				<input type="text" name="name" class="main_input" placeholder="Укажите имя" required>
+				<input type="text" name="phone" class="main_input" placeholder="Укажите имя " required>
+				<button type="submit" class="sendbutton">заказать звонок</button>
+				<input type="hidden" name="formData" value="Заявка с сайта">
+			</form>
+        </div> 
+<!-- END MODAL1 -->
+<div id="menu">
+	  <ul>
+	    <li><a href="#" class="ontop">В начало</a></li>
+			<li><a href="#" class="on_reasons">Выгоды</a></li>
+			<li><a href="#" class="on_examples">Примеры работ</a></li>
+			<li><a href="#" class="on_reviews">Отзывы</a></li>
+			<li><a href="#" class="on_prices">Цены</a></li>
+			<li><a href="#" class="on_steps">Процесс</a></li>
+			<li><a href="#" class="on_big_from">ЧаВо</a></li>
+			<li><a href="#" class="on_footer">Контакты</a></li>
+	  </ul>
+	  <div class="close">×</div>
+	</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/flipclock.min.js"></script>
+<script src="js/script.js"></script>
+<script type="text/javascript">
+function cycleImages(){
+      var $active = $('#background_cycler .active');
+      var $next = ($('#background_cycler .active').next().length > 0) ? $('#background_cycler .active').next() : $('#background_cycler div:first');
+      $next.css('z-index',2);//move the next image up the pile
+	  $active.fadeOut(1500,function(){//fade out the top image
+	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+      $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+
+    $(window).load(function(){
+		$('#background_cycler').fadeIn(1500);
+		  // run every 7s
+		  setInterval('cycleImages()', 10000);
+    })
+    </script>
+    <script>
+$(function(){
+    $('.acordeon_wrap .hide').hide();
+    $a = $('.acordeon_wrap a');
+    $a.on('click', function(event) {
+      event.preventDefault();
+      $a.not(this).next().slideUp(500);
+      $(this).next().slideToggle(500);
+    });
+});
+</script>
+    <script>
+$(function(){
+    $('.acordeon_wrap1 .hide').hide();
+    $a = $('.acordeon_wrap1 a');
+    $a.on('click', function(event) {
+      event.preventDefault();
+      $a.not(this).next().slideUp(500);
+      $(this).next().slideToggle(500);
+    });
+});
+</script>
+<script>
+	jQuery('#vkl2').one('click', function() { // tab button 
+jQuery('.bxslider1').bxSlider({ // call bx slider 
+	pager : false,
+    adaptiveHeight : false
+}); 
+});
+</script>
+<script>
+	jQuery('#vkl3').one('click', function() { // tab button 
+jQuery('.bxslider2').bxSlider({ // call bx slider 
+	pager : false,
+    adaptiveHeight : false
+}); 
+});
+</script>
+<script>
+	jQuery('#vkl4').one('click', function() { // tab button 
+jQuery('.bxslider3').bxSlider({ // call bx slider 
+	pager : false,
+    adaptiveHeight : false
+}); 
+});
+</script>
+
+  </body>
+</html>

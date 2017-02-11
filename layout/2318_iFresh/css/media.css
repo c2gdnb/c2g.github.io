@@ -1,0 +1,220 @@
+ @media screen and (max-width: 1000px) {
+ 	.main_container {
+ 		padding: 0 15px;
+ 	}
+ 	.main_nav ul {
+ 		text-align: center;
+ 	}
+ 	.main_nav ul li {
+ 		margin-right: 5px;
+ 	}
+ 	header .main_title {
+ 		margin-left: 10px;
+ 	}
+ 	header .main_title p {
+ 		font-size: 16px;
+ 	}
+ 	.main_slider_form {
+ 		width: 100%;
+ 	}
+	.need_wrap {
+		text-align: center;
+	}
+	.need_block {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+		margin-right: 30px;
+		width: 32%;
+		margin-right: 10px;
+	}
+	.change_wrap {
+		text-align: center;
+	}
+	.change_block {
+		width: 177px;
+		float: none;
+		display: inline-block;
+		margin-right: 0;
+		vertical-align: top;
+		background-position: 50% 50%;
+	}
+	.main_form_bg1 .main_slider_form, .main_form_bg2 .main_slider_form {
+		width: 508px;
+	}
+	.advantages_block {
+		margin-right: 15px;
+	}
+	.video_bg .video_wrap .video_block {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.video_bg .video_wrap .video_block iframe {
+		height: auto;
+	}
+	.video_wrap {
+		text-align: center;
+	}
+ }
+@media screen and (max-width: 767px) {
+	.toggle_menu {
+		display: block;
+	}
+	#menu ul {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.main-menu {
+		/* пункты меню скрыты */
+		display: none;
+		padding: 0;
+		margin: 0;
+		float: none;
+		position: absolute;
+		top: 107px;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+	#menu li a {
+		line-height: 40px;
+		font-size: 24px;
+	}
+	#wrapper {-webkit-transition: -webkit-transform 0.5s;-moz-transition: -moz-transform 0.5s;transition: transform 0.5s;}
+	.move #menu{left:0;}
+	.move #wrapper {-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);}
+	.main_nav ul {
+		display: none;
+	}
+	header {
+		text-align: center;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	header .logo {
+		float: none;
+	}
+	header .logo img {
+		display: block;
+		margin: 0 auto 5px auto;
+	}
+	header .main_title {
+		float: none;
+		margin: 10px 0;
+	}
+	header .phone_top {
+		float: none;
+		text-align: center;
+	}
+	.main_slider_bg {
+		height: auto;
+		background: #e9eef2;
+		padding-bottom: 25px;
+	}
+	.main_slider_block {
+		width: 100%;
+		float: none;
+	}
+	.main_slider_form .main_slider_inside {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 15px;
+	}
+	.main_slider_form .main_slider_inside .top_submit {
+		width: 100%;
+	}
+	.main_slider_form .main_slider_inside .top_input {
+		width: 100%;
+	}
+	.main_slider_block h1 {
+		font-size: 35px;
+		margin-top: 25px;
+	}
+	.main_h1 {
+		font-size: 30px;
+		margin: 25px 0;
+	}
+	.need_block {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.shadow {
+		-webkit-background-size: 100%;
+		background-size: 100%;
+		margin: 15px 0;
+	}
+	.change_block {
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+		margin-right: 0;
+	}
+	.main_form_bg1 .main_slider_form, .main_form_bg2 .main_slider_form {
+		width: 100%;
+		margin-top: 0;
+	}
+	.main_form_bg1, .main_form_bg2 {
+		height: auto;
+		background: #e9eef2;
+		padding: 25px 0;
+	}
+	.advantages_block {
+		width: 100%;
+		margin-right: 0;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.video_bg .video_wrap .video_block {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.video_bg {
+		padding-bottom: 25px;
+	}
+	.char_wrap .char_block .colour_block {
+		width: 100%;
+		float: none;
+	}
+	.char_wrap .char_block {
+		height: auto;
+	}
+	.char_wrap .char_block .table_block {
+		padding: 15px;
+		width: 100%;
+		float: none;
+	}
+	.char_wrap .char_block .colour_block span {
+		font-size: 22px;
+		padding: 10px 0;
+	}
+	.accordion section a {
+		font-size: 18px;
+		padding: 10px 0 10px 75px;
+	}
+	.accordion section a:after {
+		top: 8%;
+		left: 15px;
+	}
+	.accordion :target h2 a:after {
+		top: 8%;
+		left: 15px;
+	}
+	.accordion section p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	#map .map_inside {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		right: 0;
+		left: 0;
+	}
+	.mobile_img {
+		display: block;
+		margin: 0 auto 25px;
+	}
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 1376px) {
+	body {
+		background: url('../images/body_bg13.png')no-repeat top center;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}

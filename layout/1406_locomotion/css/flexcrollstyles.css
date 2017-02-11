@@ -1,0 +1,158 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+#mycustomscroll-flexcroll-vscroller {
+height: 491px;
+width: 22px;
+background-color: gainsboro;
+box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.15);
+position: relative;
+float: left;
+/*  Enable following line if you want to keep the scrollbase visible at all times
+visibility: visible !important; 
+*/
+}
+#mycustomscroll-flexcroll-vscroller:before {
+	display: block;
+	content: '';
+	width: 22px;
+	height: 23px;
+	background: url('../images/button.png')no-repeat;
+	position: relative;
+}
+#mycustomscroll-flexcroll-vscroller:after {
+	display: block;
+	content: '';
+	width: 22px;
+	height: 23px;
+	background: url('../images/button1.png')no-repeat;
+	position: relative;
+	top: 348px;
+}
+#mycustomscroll-flexcroll-hscroller:before {
+	display: block;
+	content: '';
+	width: 23px;
+	height: 22px;
+	background: url('../images/button3.png')no-repeat;
+	position: absolute;
+	left: 0;
+}
+#mycustomscroll-flexcroll-hscroller:after{
+	display: block;
+	content: '';
+	width: 23px;
+	height: 22px;
+	background: url('../images/button4.png')no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#mycustomscroll-flexcroll-hscroller {
+width: 639px;
+height: 22px;
+background-color: gainsboro;
+border-radius: 3px;
+box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.29);
+position: relative;
+padding-left: 25px;
+margin-bottom: 15px;
+/*  Enable following line if you want to keep the scrollbase visible at all times
+visibility: visible !important; 
+*/
+}
+
+#mycustomscroll-flexcroll-vscroller .flexcroll-scrollbar {
+height: 200px;
+width: 22px; /* This initial size is later set by fleXcroll, unless forced by user */
+background: url('../images/v_scroll.png')no-repeat;
+position: relative; /* position needs to be absolute */
+}
+
+#mycustomscroll-flexcroll-hscroller .flexcroll-scrollbar {
+height: 22px; /* This initial size is later set by fleXcroll, unless forced by user */
+width: 200px; 
+background: url('../images/h_scroll.png')no-repeat;
+position: relative; /* position needs to be absolute */
+}
+
+.scrollgeneric {line-height: 1px;font-size: 1px;position: absolute;top: 0; left: 0;}
+
+.vscrollerbase {
+width: 15px;
+background: #D7EBDF url(basebarcaps_verticalbarbody.png) 0px 0px repeat-y;
+}
+.vscrollerbar {
+width: 15px;
+background: #99CBCB url(basebarcaps_verticalbarbody.png) -15px 0px repeat-y;
+}
+.hscrollerbase {
+height: 15px;
+background: #D7EBDF url(horizontalbarbody_cornerjog.png) 0px -15px repeat-x;
+}
+.hscrollerbar {
+height: 15px;
+background: #99CBCB url(horizontalbarbody_cornerjog.png) 0px -30px repeat-x;
+}
+.vscrollerbar, .hscrollerbar {
+padding: 10px;
+z-index: 2;
+}
+.vscrollerbarbeg {
+background: url(basebarcaps_verticalbarbody.png) -45px -30px no-repeat;
+width: 15px;
+height: 15px !important;
+}
+.vscrollerbarend {
+background: url(basebarcaps_verticalbarbody.png) -45px 0px no-repeat;
+width: 15px;
+height: 15px;
+}
+.hscrollerbarbeg {
+background: url(basebarcaps_verticalbarbody.png) -60px -15px no-repeat;
+height: 15px;
+width: 15px !important;
+}
+.hscrollerbarend {
+background: url(basebarcaps_verticalbarbody.png) -30px -15px no-repeat;
+height: 15px;
+width: 15px;
+}
+.scrollerjogbox {
+width: 15px;
+height: 15px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+background: #4E727C url(horizontalbarbody_cornerjog.png) 0px 0px;
+}
+.vscrollerbasebeg {
+background: url(basebarcaps_verticalbarbody.png) -30px -30px no-repeat;
+width: 15px;
+height: 15px !important;
+}
+.vscrollerbaseend {
+background: url(basebarcaps_verticalbarbody.png) -60px -30px no-repeat;
+height: 15px;
+width: 15px;
+}
+
+.hscrollerbase {
+top: 0 !important;
+width: 240px !important;
+left: 40px;
+}
+
+.hscrollerbasebeg {
+background: url(basebarcaps_verticalbarbody.png) -60px 0px no-repeat;
+height: 15px;
+width: 15px !important;
+}
+.hscrollerbaseend {
+height: 15px;
+width: 15px;
+background: url(basebarcaps_verticalbarbody.png) -30px 0px no-repeat;
+}
+.scrollerjogbox:hover {
+background: #5E828C url(basebarcaps_verticalbarbody.png) -45px -15px;
+}
+/* Scroll Bar Master Styling Ends Here */

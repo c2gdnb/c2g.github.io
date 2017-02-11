@@ -1,0 +1,633 @@
+/*HEADER*/
+.main_container{
+    width: 960px;
+    margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.logoh1{
+	font-family: 'Calibri';
+	font-size: 15px;
+	color: #000000; 
+}
+.logoh2{
+	font-family: 'BebasNeueCyrillic';
+	font-size: 50px;
+	color: #000000;
+	letter-spacing: 7px;
+}
+.center_title{
+	float: left;
+	width: 584px;
+}
+.nav{
+	margin-top: 38px;
+	margin-left: 110px;
+}
+.nav li{
+	display: inline-block;
+	margin-right: 73px;
+}
+.nav li a{
+	color: #333333;
+	font-family: 'Calibri-Bold';
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+
+}
+.nav li a:hover{
+	color: #009ce1;
+	text-decoration: none;
+}
+.phone{
+	font-family: 'Calibri-Bold';
+	font-size: 24px;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.phone img{
+	margin-right: 10px;
+}
+.mail{
+	position: relative;
+    left: -11px;
+}
+.mail a{
+	font-family: 'Calibri-Light';
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+	position: relative;
+    left: 10px;
+    top: -1px;
+}
+.mail a:hover{
+	color: #009ce1;
+}
+/*END HEADER*/
+/*SLIDER*/
+.slider_bg{
+	background: url('../images/slider_bg.jpg')no-repeat;
+    width: 100%;
+    height: 512px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+}
+.slider_cont{
+	width: 538px;
+}
+#form{
+    width: 372px;
+	height: 462px;
+	background-color: #009ce1;
+    border: 1px solid #477fb3;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    float: right;
+
+}
+.formh1{
+    font-family: 'Calibri-Bold';
+	color: #ffffff;
+    text-align: center;
+	text-shadow: 0.5px 0.9px 2px rgba(17, 17, 17, 0.15);
+	font-size: 26px;
+	line-height: 31px;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.name_input{
+    width: 292px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 25px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #333333;
+    background: #ffffff url('../images/icon_name.png')no-repeat 96% 50%;
+
+}
+.phone_input{
+    width: 292px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #333333;
+    background: #ffffff url('../images/icon_phone.png')no-repeat 96% 50%;
+}
+.mail_input{
+    width: 292px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #333333;
+    background: #ffffff url('../images/icon_mail.png')no-repeat 97% 50%;
+}
+.textarea_input{
+    width: 292px;
+    height: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    padding: 12px 0px 42px 20px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #333333;
+}
+#send_button{
+    background:url('../images/send_button.png')no-repeat;
+    width: 316px;
+    height: 60px;
+    margin-left: 30px;
+    font-family: 'Calibri-Bold';
+    font-size: 20px;
+    color: #000000;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 0px 25px 0px;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.9px 2px rgba(17, 17, 17, 0.15);
+}
+#send_button:hover{
+
+    background: url('../images/send_hover.jpg')no-repeat;
+}
+/*END SLIDER*/
+/*CONTENT*/
+.h1{
+    font-family: 'BebasNeueCyrillic';
+    font-size: 50px;
+    color: #262626;
+    text-align: center;
+    margin-top: 60px; 
+    margin-bottom: 40px;
+}
+.h2{
+	font-family: 'Calibri-Bold';
+    font-size: 24px;
+    color: #262626;
+    margin-bottom: 10px;
+}
+.h2 span{
+    color: #009ce1;
+    float: right;
+    margin-right: 20px;
+} 
+.left_part{
+    float: left;
+    width: 470px;
+}
+.right_part p{
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.left_part p{
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.info{
+
+}
+.info li{
+	font-family: 'Calibri';
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+.right_part{
+    float: right;
+    width: 470px;
+}
+.right_part .bx-wrapper, .left_part .bx-wrapper {
+	    position: relative;
+    /* margin: 0 auto 60px; */
+    padding: 0;
+    float: left;
+    width: 450px;
+
+}
+.youtube{
+	margin-top: 30px;
+}
+.order{
+	width: 317px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url('../images/order_button.png')no-repeat;
+	font-family: 'Calibri-Bold';
+	font-size: 22px;
+	color: #ffffff;
+	text-align: center;
+	margin: 24px auto 35px auto;
+	padding: 17px 0;
+	letter-spacing: 1px;
+}
+.order:hover{
+	background: url('../images/order_button_hover.png')no-repeat;
+	opacity: 0.9;
+}
+.order:last-child:hover{
+	background: url('../images/order_button_hover.png')no-repeat;
+	opacity: 0.9;
+}
+.order:last-child{
+	width: 317px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url('../images/order_button.png')no-repeat;
+	font-family: 'Calibri-Bold';
+	font-size: 22px;
+	color: #ffffff;
+	text-align: center;
+	margin: 24px auto 65px auto;
+	padding: 17px 0;
+	letter-spacing: 1px;
+}
+hr{
+    width: 960px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #dedede;
+    outline: none;
+    border: none;
+    margin-bottom: 40px;
+}
+/*END CONTENT*/
+/*ORDER*/
+.order_bg{
+	background: url('../images/order_bg.jpg')no-repeat;
+	width: 100%;
+	height: 684px;
+}
+.h1_order{
+	font-family: 'BebasNeueCyrillic';
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px; 
+    margin-bottom: 40px;
+}
+.left_order{
+    float: left;
+    width: 560px;
+}
+.icon1{
+    position: relative;
+    top:30px;
+    left: 27px;
+}
+.icon2{
+    position: relative;
+    top: 175px;
+    left: 40px;
+}
+.icon3{
+    position: relative;
+    top: 315px;
+    left: -220px;
+}
+.arrow1{
+    position: relative;
+    top: 35px;
+    left: 1px;
+}
+.arrow2{
+    position: relative;
+    top: 45px;
+    left: 86px;
+}
+.arrow3{
+    position: relative;
+    top: 120px;
+    left: 26px
+}
+.text1{
+    font-family: 'Calibri-Bold';
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    top: -115px;
+    left: 160px;
+    width: 230px;
+    line-height: 1.2;
+}
+.text2{
+    font-family: 'Calibri-Bold';
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    top: -25px;
+    left: 300px;
+    width: 230px;
+    line-height: 1.2;
+}
+.text3{
+    font-family: 'Calibri-Bold';
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    top: 40px;
+    left: 160px;
+    width: 230px;
+    line-height: 1.2;
+}
+.right_order{
+    float: right;
+    width: 373px;
+    height: 462px;
+    background-color: #009ce1;
+    border-radius: 10px;
+}
+#send_button1{
+    background:url('../images/send_button.png')no-repeat;
+    width: 316px;
+    height: 60px;
+    margin-left: 30px;
+    font-family: 'Calibri-Bold';
+    font-size: 20px;
+    color: #000000;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 0px 25px 0px;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.9px 2px rgba(17, 17, 17, 0.15);
+}
+#send_button1:hover{
+    background: url('../images/send_hover.jpg')no-repeat;
+}
+/*END ORDER*/
+/*CONTACT*/
+.adress_text{
+    font-family: 'Calibri';
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-top: 22px;
+}
+.adress_text span{
+    font-family: 'Calibri-Bold';
+}
+.reqvizit{
+    font-family: 'Calibri-Bold';
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+}
+.reqvizit1{
+    font-family: 'Calibri-Bold';
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.info_pp{
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    margin-top: 5px;
+}
+.info_company{
+    font-family: 'Calibri-Bold';
+    font-size: 16px;
+    color: #333333;
+    margin-top: 5px;
+}
+.info_company span{
+	font-family: 'Calibri-Bold';
+    color: #666666;
+}
+.left_info_company{
+    float: left;
+    margin-left: 82px;
+    margin-top: 5px;
+    margin-bottom: 43px;
+}
+.right_info_company{
+    float: left;
+    margin-left: 52px;
+    margin-top: 5px;
+    margin-bottom: 43px;
+}
+.h1_dostavka{
+	text-align: center;
+    margin: 43px auto 43px;
+    font-family: 'Calibri-Bold';
+    font-size: 24px;
+    display: block;
+}
+/*END CONTACT*/
+/*YANDEX*/
+#map{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+/*END YANDEX*/
+/*FOOTER*/
+.logoh1_f{
+	font-family: 'BebasNeueCyrillic';
+	font-size: 24px;
+	color: #000000;
+}
+.logo_f{
+	float: left;
+	margin-top: 27px;
+	margin-bottom: 25px;
+}
+/*END FOOTER*/
+/*MODAL2*/
+.nonebox1{
+    position:fixed;
+    top:-400px;
+    left:35%;
+    right:35%;
+    background:#fff;
+    color:#4d4d4d;
+    width:372px;
+    height: 400px;
+    z-index:99999;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 2px 0px #808080; 
+}
+.mail_input1{
+    width: 292px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Calibri';
+    font-size: 16px;
+    color: #303030;
+    background: #ffffff url('../images/icon_mail.png')no-repeat 97% 50%;
+    border: 1px solid #e1e1e1;
+}
+.textarea_input1{
+    width: 292px;
+    height: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    padding: 12px 0px 42px 20px;
+    font-family: 'Calibri';
+    font-size: 16px;
+    color: #303030;
+    border: 1px solid #e1e1e1;
+}
+.overlay1{
+    background:transparent url('../images/overlay.png') repeat top left;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;  
+}
+a.box-close{
+    float:right;
+    width:22px;
+    height:22px;
+    background:url('../images/close.png') repeat top left;;
+    margin: -10px -10px 0px 0px;
+    cursor:pointer;
+    display:block
+}
+.modal_h1{
+    font-family: 'Calibri-Bold';
+    font-size: 26px;
+    color: #333333;
+    text-align: center;
+    margin-top: 25px;
+}
+.name_input1{
+    width: 292px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 25px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Calibri';
+    font-size: 16px;
+    color: #303030;
+    background: #ffffff url('../images/icon_name.png')no-repeat 96% 50%;
+    border: 1px solid #e1e1e1;
+
+}
+.phone_input1{
+    width: 292px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Calibri';
+    font-size: 16px;
+    color: #303030;
+    background: #ffffff url('../images/icon_phone.png')no-repeat 96% 50%;
+    border: 1px solid #e1e1e1;
+}
+#send_button2{
+    background:url('../images/order_button.png')no-repeat;
+    width: 317px;
+    height: 55px;
+    margin-left: 30px;
+    font-family: 'Calibri-Bold';
+    font-size: 24px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#send_button2:hover{
+	background: url('../images/order_button_hover.png')no-repeat;
+}
+/*END MODAL2*/
+#scrollup{
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+   display: none;
+   opacity: 0.5;
+   cursor: pointer;
+   text-align: center;
+}
+#scrollup img{
+   vertical-align: middle;
+   margin-bottom: 5px;
+}
+#scrollup h4{
+   font-size: 24px;
+   font-family: 'BebasNeueCyrillic';
+   color: #212121;
+   text-transform: uppercase;
+}
+.success, .fail{
+  color: #333333;
+  font-size: 26px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Calibri-Bold';
+  display: block;
+  margin-top: 150px;
+}

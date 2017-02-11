@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'UbuntuCondensed-Regular';
+  src: url('../fonts/UbuntuCondensed-Regular.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/UbuntuCondensed-Regular.woff') format('woff'), 
+  		url('../fonts/UbuntuCondensed-Regular.ttf')  format('truetype'), 
+  		url('../fonts/UbuntuCondensed-Regular.svg#UbuntuCondensed-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mipgost';
+  src: url('../fonts/Mipgost.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/Mipgost.woff') format('woff'), 
+  		url('../fonts/Mipgost.ttf')  format('truetype'), 
+  		url('../fonts/Mipgost.svg#Mipgost') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/Tahoma.woff') format('woff'), 
+  		url('../fonts/Tahoma.ttf')  format('truetype'), 
+  		url('../fonts/Tahoma.svg#Tahoma') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/CenturyGothic.woff') format('woff'), 
+  		url('../fonts/CenturyGothic.ttf')  format('truetype'), 
+  		url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

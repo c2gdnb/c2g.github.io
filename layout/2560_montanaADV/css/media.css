@@ -1,0 +1,115 @@
+@media screen and (max-width: 1000px) {
+	.main_container {
+		padding: 0 15px;
+	}
+	.main_menu {
+		margin-left: 20px;
+	}
+	.main_menu li {
+		margin: 0 10px;
+	}
+	.first_child,
+	.second_child,
+	.third_child,
+	.four_child {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	.main_slider_wrap h1 {
+		font-size: 45px;
+		margin-top: 50px;
+	}
+	.main_slider_wrap h2 {
+		font-size: 35px;
+	}
+	.advantages_wrap .l_side .advantages_block img {
+		float: none;
+		margin: 0 auto 15px auto;
+		display: block;
+	}
+	.advantages_wrap .l_side .advantages_block .advantages_text {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.review_slider_wrap .bx-wrapper .bx-prev {
+		left: 0;
+	}
+	.review_slider_wrap .bx-wrapper .bx-next {
+		right: 0;
+	}
+	.copyright {
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	header {
+		height: auto;
+		padding-bottom: 25px;
+		text-align: center;
+	}
+	.logo {
+		float: none;
+	}
+	.phone_top {
+		float: none;
+	}
+	.phone_top p {
+		display: inline-block;
+		position: relative;
+	}
+	.phone_top a {
+		display: block;
+		border-bottom: none;
+	}
+	.main_slider_wrap .show_more {
+		width: 100%;
+	}
+	.main_slider_wrap .bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+	.advantages_wrap .l_side {
+		float: none;
+		width: 100%;
+	}
+	.advantages_wrap .r_side {
+		width: 100%;
+		float: none;
+	}
+	.advantages_wrap .r_side .main_form {
+		padding-bottom: 25px;
+		height: auto;
+	}
+	.advantages_wrap .r_side .main_form .title {
+		margin: 25px 0; 
+		font-size: 30px;
+	}
+	.advantages_wrap .r_side .main_form .main_input {
+		margin-bottom: 25px;
+	}
+	.review_slider_wrap .show_more_reviews {
+		width: 100%;
+	}
+	.review_slider_wrap .bx-wrapper .bx-controls-direction a {
+		top: 10%;
+	}
+	footer {
+		text-align: center;
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.copyright {
+		float: none;
+		line-height: 21px;
+		display: block;
+		margin-top: 25px;
+	}
+	.main_menu li a {
+		line-height: 24px;
+	}
+	.main_menu {
+		float: none;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,304 @@
+@media screen and (max-width: 1096px) {
+	.main_container {
+		padding: 0 15px;
+	}
+	.arrow_block {
+		width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+		height: auto;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.arrow_block img {
+		display: none;
+	}
+	.arrow_block .arrow_text {
+		top: 0 !important;
+		left: 0 !important;
+		vertical-align: top;
+		text-shadow:
+		-1px -1px 0 #fff,
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
+		margin: 0 15px; 
+	}
+	.main_nav ul li {
+		padding: 0 20px;
+	}
+	.main_slider_bg {
+		height: 450px;
+	}
+	.advantages_wrap .advantages_block {
+		margin-right: 10px;
+		vertical-align: top;
+	}
+	.advantages_wrap .advantages_block .title {
+		font-size: 25px;
+	}
+	.advantages_wrap .advantages_block .advantages_inside br {
+		display: none;
+	}
+	.advantages_bg {
+		height: auto;
+		margin-top: -301px;
+		padding-top: 305px;
+		padding-bottom: 25px;
+	}
+	.advantages_bg .subtitle {
+		line-height: 36px;
+	}
+	.advantages_bg .subtitle span:nth-child(1) {
+		margin-right: 0;
+	}
+	.fish_price_wrap {
+		text-align: center;
+	}
+	.fish_price_block {
+		display: inline-block;
+		margin: 0 10px 30px 10px !important;
+		float: none;
+		vertical-align: top;
+	}
+	.fish_price_block:nth-child(3) {
+		margin-right: 0;
+	}
+	.spcl_wrap form .clock_input {
+		margin-bottom: 25px;
+	}
+	.warranty_bg {
+		height: auto;
+		padding-bottom: 310px;
+		padding-top: 305px;
+		margin-top: -287px;
+	}
+	.main_price_bg .main_price_block {
+		width: 223px;
+		height: auto;
+		padding: 0;
+	}
+	.main_price_bg .main_price_block .price {
+		position: relative;
+		margin-top: 10px;
+	}
+	.main_price_bg {
+		height: auto;
+	}
+	.main_price_bg .main_price_title {
+		font-size: 35px;
+	}
+	.review_block {
+		padding: 15px;
+	}
+	.review_block .photo {
+		margin: 15px auto;
+		display: block;
+		float: none;
+	}
+	.review_block .review_text {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.review_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.main_nav {
+		display: none;
+	}
+	.is-countdown {
+		width: 100%;
+	}
+	.main_slider_bg form {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		height: auto;
+		float: left;
+	}
+	.cloud_form {
+		width: 100%;
+		height: auto;
+		padding: 33px;
+		height: auto;
+	}
+	.cloud_form .main_input {
+		width: 75%;
+		font-size: 12px;
+	}
+	.logo .logo_img {
+		width: 42px;
+		height: 31px;
+		margin-right: 16px;
+	}
+	header {
+		height: auto;
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	.logo .logo_text h1 {
+		font-size: 19px;
+		line-height: 19px;
+	}
+	.logo .logo_text h2 {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.logo .logo_text {
+		text-align: left;
+		width: 80%;
+	}
+	.logo {
+		display: inline-block;
+		float: none;
+	}
+	.phone_right {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	.main_slider_bg {
+		margin-top: 0;
+		padding: 35px 0;
+		height: auto;
+	}
+	.main_submit:before {
+		width: 128px;
+		height: 131px;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+	}
+	.main_submit {
+		width: 128px;
+		height: 131px;
+		font-size: 17px;
+		top: -35px;
+		right: -35px;
+	}
+	.arrow_block .arrow_text {
+		text-align: left;
+		display: block;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 19px;
+		float: left;
+		margin-right: 25px;
+	}
+	.arrow_block {
+		float: right;
+		clear: both;
+		width: 195px;
+	}
+	.arrow_up {
+		display: block !important;
+		right: 0;
+		position: absolute;
+		top: -10px;
+	}
+	.arrow_block .arrow_text br {
+		display: none;
+	}
+	.advantages_bg {
+		margin-top: 0;
+		padding-top: 25px;
+		background-color: #5c7814;
+	}
+	.main_h1 {
+		font-size: 35px;
+		margin-bottom: 25px;
+	}
+	.advantages_wrap .advantages_block {
+		width: 100%;
+		display: block;
+		clear: both;
+	}
+	.warranty_bg {
+		padding-top: 0;
+		margin-top: 0;
+		background: #3969ac;
+		padding-bottom: 25px;
+	}
+	.warranty_bg .warranty_title {
+		width: 100%;
+		height: auto;
+		margin: 35px auto;
+	}
+	.worm {
+		display: none;
+	}
+	.worm_small {
+		position: absolute;
+		right: 0;
+		left: 0;
+		display: block;
+		top: 150px;
+		margin: 0 auto;
+	}
+	.fish1 {
+		position: absolute;
+		left: -50px;
+		top: 150px;
+	}
+	.fish2 {
+		position: absolute;
+		right: 0;
+		top: 150px;
+	}
+	.warranty_bg .easy {
+		margin-top: 270px;
+	}
+	.fish_price_block {
+		width: 100%;
+		margin-right: 0 !important;
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.spcl_wrap .title {
+		font-size: 34px;
+		margin: 25px 0;
+	}
+	#padZeroes {
+		display: none;
+	}
+	.spcl_wrap form {
+		margin-top: 0;
+	}
+	.spcl_wrap form .clock_input {
+		width: 100%;
+	}
+	.spcl_wrap form .clock_submit {
+		width: 100%;
+	}
+	.main_price_bg .main_price_block {
+		margin-bottom: 20px;
+	}
+	.main_price_button {
+		width: 100%;
+	}
+	.review_block .review_text table tr th {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.review_block .review_text table tr td {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.review_block .review_text p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.scheme_wrap .scheme_block {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	footer {
+		height: auto;
+		padding-bottom: 25px;
+	}
+}

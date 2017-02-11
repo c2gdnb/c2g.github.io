@@ -17,11 +17,11 @@ body {
 }
 
 .violet {
-    color: #9d426b;
+    color: #45b0e6;
 }
 
 a {
-    color: #9d426b;
+    color: #45b0e6;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -83,12 +83,12 @@ strong {
 
 .header ul.nav li.current-page a {
     padding-top: 25px;
-    border-top: 5px solid #9d426b;
+    border-top: 5px solid #45b0e6;
     background: #f8f8f8;
 }
 
 .header ul.nav li a:hover {
-    background: #9d426b;
+    background: #45b0e6;
     color: #fff;
 }
 
@@ -164,7 +164,7 @@ strong {
 .what-we-do .service {
     padding-bottom: 23px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid #45b0e6;
 }
 
 .what-we-do .service:hover {
@@ -198,7 +198,7 @@ strong {
 
 .what-we-do .service a {
     padding: 5px 22px;
-    background: #9d426b;
+    background: #45b0e6;
     color: #fff;
     font-style: italic;
     text-decoration: none;
@@ -259,7 +259,7 @@ strong {
 .portfolio .work .icon-awesome a {
     display: inline-block;
     padding: 5px 9px;
-    background: #9d426b;
+    background: #45b0e6;
     color: #fff;
     -moz-border-radius: 19px;
     -webkit-border-radius: 19px;
@@ -362,7 +362,7 @@ strong {
 }
 
 .testimonial-list .nav-tabs li.active a {
-    background: #9d426b;
+    background: #45b0e6;
 }
 
 /* ----- Footer ----- */
@@ -573,7 +573,7 @@ footer .social a:hover {
 .page-title-icon {
     margin-left: 20px;
     font-size: 46px;
-    color: #ccc;
+    color: #45b0e6;
     vertical-align: middle;
 }
 
@@ -629,7 +629,7 @@ footer .social a:hover {
     margin-top: 40px;
     padding-bottom: 20px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid #45b0e6;
 }
 
 .team-text:hover img {
@@ -804,7 +804,7 @@ footer .social a:hover {
     width: 120px;
     height: 30px;
     margin-top: 15px;
-    background: #9d426b;
+    background: #45b0e6;
     border: 0;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -948,7 +948,7 @@ footer .social a:hover {
 
 .call-to-action-text .ca-button a {
     padding: 5px 22px;
-    background: #9d426b;
+    background: #45b0e6;
     color: #fff;
     text-decoration: none;
     -moz-box-shadow: 0 1px 25px 0 rgba(0, 0, 0, .05) inset, 0 -1px 25px 0 rgba(0, 0, 0, .05) inset;
@@ -994,7 +994,7 @@ ul.portfolio-img {
 ul.portfolio-img li {
     list-style: none;
     min-height: 260px;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid #45b0e6;
     background: #f8f8f8;
     margin-top: 40px;
 }
@@ -1012,16 +1012,16 @@ ul.portfolio-img li:hover {
     line-height: 30px;
 }
 .filter-portfolio .btn-primary {
-    background-color: #9D426B;
-    background-image: -moz-linear-gradient(top, #C64A8C, #9D426B);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#C64A8C), to(#9D426B));
-    background-image: -webkit-linear-gradient(top, #C64A8C, #9D426B);
-    background-image: -o-linear-gradient(top, #C64A8C, #9D426B);
-    background-image: linear-gradient(to bottom, #C64A8C, #9D426B);
+    background-color: #45b0e6;
+    background-image: -moz-linear-gradient(top, #45b0e6, #45b0e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#45b0e6), to(#45b0e6));
+    background-image: -webkit-linear-gradient(top, #45b0e6, #45b0e6);
+    background-image: -o-linear-gradient(top, #45b0e6, #45b0e6);
+    background-image: linear-gradient(to bottom, #45b0e6, #45b0e6);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffC64A8C', endColorstr='#ff9D426B', GradientType=0);
-    border-color: #9D426B #9D426B #C64A8C;
+    border-color: #45b0e6 #45b0e6 #45b0e6;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    *background-color: #9D426B;
+    *background-color: #45b0e6;
 }
 .filter-portfolio .btn-primary:hover,
 .filter-portfolio .btn-primary:active,
@@ -1029,12 +1029,12 @@ ul.portfolio-img li:hover {
 .filter-portfolio .btn-primary.disabled,
 .filter-portfolio .btn-primary[disabled] {
     color: #ffffff;
-    background-color: #9D426B;
-    *background-color: #C64A8C;
+    background-color: #45b0e6;
+    *background-color: #45b0e6;
 }
 .filter-portfolio .btn-primary:active,
 .filter-portfolio .btn-primary.active {
-    background-color: #C64A8C \9;
+    background-color: #45b0e6 \9;
 }
 .filter-portfolio a {
     color           : #5d5d5d;
@@ -1042,14 +1042,14 @@ ul.portfolio-img li:hover {
     padding: 4px 12px;
 }
 .filter-portfolio a:hover {
-    color           : #9d426b;
+    color           : #45b0e6;
     text-decoration : none;
 }
 .filter-portfolio .btn-primary a {
     color: #fff;
 }
 .filter-portfolio a#active-imgs {
-    color : #9d426b;
+    color : #45b0e6;
 }
 .filter-portfolio a#active-imgs:hover {
     color : #5d5d5d;

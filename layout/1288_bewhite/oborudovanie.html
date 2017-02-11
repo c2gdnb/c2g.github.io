@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>BeWhite - Главная страница</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- HEADER -->
+<div class="main_container clearfix">
+	<header>
+		<a href="index.html"><img src="images/logo.jpg" alt="BeWhite" class="logo"></a>
+		<div class="contact_us">
+			<span>Мы находим решения ИТ-задач</span>
+			<p><i class="fa fa-phone"></i>+7 (495) <strong>876-96-12</strong></p>
+		</div>
+		<div class="clearfix"></div>
+		<ul id="menu">
+			<li class="active pro"><a href="product.html">Оборудование</a>
+				<div class="dropdown_4columns"><!-- Begin 4 columns container -->
+            
+            <div class="col_1">
+                <ul>
+                    <li><a href="oborudovanie.html">Сервера</a></li>
+                    <li><a href="#">Системы хранения данных</a></li>
+                    <li><a href="#">Сетевое оборудование</a></li>
+                    <li><a href="#">Информационная безопасность</a></li>
+                </ul>   
+                 
+            </div>
+    
+            <div class="col_1">
+                <ul>
+                    <li><a href="#">Сервера</a></li>
+                    <li><a href="#">Системы хранения данных</a></li>
+                    <li><a href="#">Сетевое оборудование</a></li>
+                    <li><a href="#">Информационная безопасность</a></li>
+                </ul>   
+                 
+            </div>
+            
+        </div>
+			</li>
+			<li><a href="#">Услуги</a></li>
+			<li><a href="solutions.html">Решения</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<a href="#" class="order_button"><img src="images/icon_button.png" alt=""><span>Заказать звонок</span></a>
+	</header>
+<!-- END HEADER -->
+<!-- SERVER -->
+	<div class="breadcrumbs">
+			<a href="index.html">Главная страница</a> / <span class="subcrumb">Оборудование
+</span> / <span class="subcrumb">Сервера Cisco UCS</span>
+		</div>
+		<div class="h1">Сервера Cisco UCS</div>
+		<div class="img_block"><img src="images/product_photo.jpg" alt="BeWhite"></div>
+		<p class="description">Стоимость серверов HP выдается по запросу, поскольку зависит от многих факторов и требует умения правильно сконфигурировать оборудование.</p>
+		<div class="price">Цена от: <span>1 000 руб.</span></div>
+		<div class="clearfix"></div>
+		<h2>Характеристики</h2>
+		<div class="server_wrap">
+		<table>
+		   <tr class="custom_bg"><td>Единица шкалы</td><td>По Cisco UCS M4308 модульного шасси</td></tr>
+		   <tr><td>Размер шасси</td><td>2 RU</td></tr>
+		   <tr class="custom_bg"><td>Макс шасси для каждого домена</td><td>20 х M4308 модульного шасси</td></tr>
+		   <tr><td>Макс вычислительных узлов для одного домена</td><td>320 узлов (серверов) на домен</td></tr>
+		   <tr class="custom_bg"><td>Процессоры на узел (сервер)</td><td>1 х Intel ® Xeon ® E3 v3 или процессор v4; до 4 ядра; до 64 ГБ оперативной памяти 
+                                                                                  1 или 2 х процессором Intel Xeon E5 v3; до 12 ядер; до памяти 256 Гб</td></tr>
+		   <tr><td>Совокупные узлы в домене	</td><td>До 320 узлов (серверов) на домен</td></tr>
+		   <tr class="custom_bg"><td>Совокупные ядер на домене</td><td>До 1600 процессорных ядер в области</td></tr>
+		   <tr><td>Совокупный памяти</td><td>20, 480 ГБ, до 20 ТБ</td></tr>
+		   <tr class="custom_bg"><td>Совокупный встроенной памяти	</td><td>4 х SSD: Шкала от 480 Гб SATA 6,4 SAS ТБ</td></tr>
+		   <tr><td>Совокупный ввода / вывода для каждого домена</td><td>1600 Гбит из M4308 шасси Fabric Interconnect</td></tr>
+		   <tr class="custom_bg"><td>Управление и связь</td><td>Cisco UCS менеджер и UCS 6200 Fabric Межкомпонентные</td></tr>
+  		</table>
+  		<h2>Опишите задачу</h2>
+  		<form action="">
+  			<input type="text" name="name" onblur='if(this.value=="") this.value="Ваше имя *"'  onfocus='if(this.value=="Ваше имя *") this.value=""' value="Ваше имя *" required class="inputtext">
+  			<input type="text" name="company" onblur='if(this.value=="") this.value="Компания:"'  onfocus='if(this.value=="Компания:") this.value=""' value="Компания:" class="inputtext">
+  			<input type="textarea" name="message" onblur='if(this.value=="") this.value="Сообщение: *"'  onfocus='if(this.value=="Сообщение: *") this.value=""' value="Сообщение: *" class="inputtextarea">
+  			<div class="bot">
+  			<input type="text" name="mail" onblur='if(this.value=="") this.value="E-mail: *"'  onfocus='if(this.value=="E-mail: *") this.value=""' value="E-mail: *" required class="inputtext">
+  			<input type="text" name="city" onblur='if(this.value=="") this.value="Город:"'  onfocus='if(this.value=="Город:") this.value=""' value="Город:" class="inputtext mlz" ><br>
+  			<input type="text" name="phone" onblur='if(this.value=="") this.value="Контактный телефон: *"'  onfocus='if(this.value=="Контактный телефон: *") this.value=""' value="Контактный телефон: *" required class="inputtext">
+			</div>
+
+  		
+  		<h2>Защита от автоматических сообщений</h2>
+  		<img src="images/capture.jpg" alt="" class="captureimg">
+  		<input type="text" name="name" onblur='if(this.value=="") this.value="Введите слово на картинке *"'  onfocus='if(this.value=="Введите слово на картинке *") this.value=""' value="Введите слово на картинке *" class="capture">
+  		<input type="submit" value="Отправить" class="submit_button">
+  		</form>
+  		</div>
+<!-- END SERVER -->
+<!-- PARTNERS -->
+	<div class="clearfix"></div>
+	<div class="partners_wrap">
+		<img src="images/partners.jpg" alt="Bewhite">
+	</div>
+<!-- END PARTNERS -->
+<!-- FOOTER -->
+	<footer>
+		<div class="footer_text">
+			<p>© 2013 – 2016 ООО «БиВайт»</p>
+			<p>Адрес: 630132, г. Новосибирск, Пр. Димитрова д.7</p>
+		</div>
+		<div class="footer_text plb">
+			<p>Телефон: +7 (383) 263-18-22</p>
+			<p>E-mail: <a href="mailto:bewhite@bewhite.ru" class="mail">bewhite@bewhite.ru</a></p>
+		</div>
+		<div class="social">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+		</div>
+	</footer>
+<!-- END FOOTER -->
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/script.js"></script>
+  </body>
+</html>

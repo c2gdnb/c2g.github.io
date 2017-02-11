@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>PMBTC</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+</head>
+<body>
+	
+<!-- HEADER-->
+	<div id="header" class="clearfix">
+		<div class="container">
+			<div class="leftnav">BTC > 50<br>	
+			1 BTC = 240 USD</div>
+			<div class="leftnav">LTC > 150<br>
+			1 LTC = 3.042 USD</div>
+			<ul class="menu">
+				<li><a href="order.html" class="hvr-underline-from-left">Order Status</a></li>
+				<li><a href="" class="hvr-underline-from-left">Contact</a></li>
+				<li><a href="pole.html" class="hvr-underline-from-left">Support</a></li>								
+			</ul>
+		</div>	
+		</div>
+<!--  END HEADER -->
+<!-- CONTENT -->
+	<div id="wrapper" class="clearfix">
+		<div class="left">
+			<div class="textleft">YOU WILL<br>
+			GIVE</div>
+			<img src="images/arrow_left.png" height="141" width="82" alt="" class="arrow">
+		</div>
+		<div class="right">
+			<div class="textleft">YOU WILL<br>
+			RECEIVE</div>
+			<img src="images/arrow_right.png" height="141" width="82" alt="" class="arrow">
+		</div>
+		
+		<div class="first active">
+			<img src="images/pm.png" height="59" width="59" alt="" class="icon">
+			<img src="images/linev.png" height="57" width="1" alt="" class="divider">
+			<div class="text_inside">Perfect Money</div>
+			<img src="images/arrows_gor.png" height="39" width="107" alt="" class="arrow_gor">
+			<div class="text_inside1">Bitcoin</div>
+			<img src="images/linev.png" height="57" width="1" alt="" class="divider1">
+			<img src="images/b.png" height="59" width="59" alt="" class="icon1">
+		</div>
+		<div class="first" >
+			<img src="images/pm.png" height="59" width="59" alt="" class="icon">
+			<img src="images/linev.png" height="57" width="1" alt="" class="divider">
+			<div class="text_inside">Perfect Money</div>
+			<img src="images/arrows_gor.png" height="39" width="107" alt="" class="arrow_gor">
+			<div class="text_inside2">Litecoin</div>
+			<img src="images/linev.png" height="57" width="1" alt="" class="divider1">
+			<img src="images/l.png" height="59" width="59" alt="" class="icon1">
+		</div>
+		<img src="images/line.png" height="4" width="960" alt="" class="divider_d">
+		<a class="footer" href="">support@pmbtc.me</a>
+		<a class="footer1" href="index.html">PMBTC.ME </a>
+		</div>
+
+<!-- END CONTENT -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+	$("#wrapper").on("click", ".first", function(){
+     $("#wrapper .first").removeClass("active");
+     $(this).addClass("active");
+    });
+</script>
+</body>
+</html>

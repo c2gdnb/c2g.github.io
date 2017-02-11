@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'PT Sans Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/PTS55F.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PT Sans Bold';
+	src: url('../fonts/trebucbi.eot');
+	src: url('../fonts/trebucbi.woff') format('woff'), url('../fonts/PTS75F.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PT Sans Italic';
+	src: url('../fonts/trebuc.eot');
+	src: url('../fonts/trebuc.woff') format('woff'), url('../fonts/PTS56F.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans Bold Italic';
+  src: url('../fonts/Taurus-Normal.eot?#iefix') format('embedded-opentype'),  url('../fonts/Taurus-Normal.woff') format('woff'), url('../fonts/PTS76F.ttf')  format('truetype'), url('../fonts/Taurus-Normal.svg#Taurus-Normal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ManiaExtendetC Regular';
+  src: url('../fonts/Taurus-Normal.eot?#iefix') format('embedded-opentype'),  url('../fonts/Taurus-Normal.woff') format('woff'), url('../fonts/ManiaExtendedC.otf')  format('truetype'), url('../fonts/Taurus-Normal.svg#Taurus-Normal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

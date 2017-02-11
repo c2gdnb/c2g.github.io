@@ -1,0 +1,389 @@
+ @media screen and (max-width: 1000px) {
+ 	.main_container {
+ 		padding: 0 15px;
+ 	}
+ 	.main_slider_bg {
+ 		padding: 40px 0;
+ 	}
+ 	.main_slider_bg hr {
+ 		margin: 20px 0;
+ 	}
+ 	.problems_wrap .left_side, .problems_wrap .right_side {
+ 		width: 100%;
+ 		float: none;
+ 	}
+ 	.problems_img {
+ 		position: relative;
+ 		left: 0;
+ 		width: 100%;
+ 		height: auto;
+ 	}
+ 	.problems_wrap .left_side .title, .problems_wrap .right_side .title {
+ 		margin-top: 0;
+ 		font-size: 39px;
+ 	}
+ 	.problems_wrap {
+ 		padding: 40px 0;
+ 	}
+ 	.offer_wrap .offer_block {
+ 		width: 49%;
+ 		margin-right: 10px;
+ 	}
+ 	.offer_wrap .offer_block .text_block {
+ 		width: 69%;
+ 	}
+ 	.offer_bg {
+ 		padding: 40px 0;
+ 	}
+ 	.diagnostiks_img {
+ 		position: relative;
+ 		left: 0;
+ 	}
+ 	.main_form_bg form {
+ 		text-align: center;
+ 	}
+ 	.main_input {
+ 		margin-bottom: 20px;
+ 	}
+ 	.main_form_bg {
+ 		padding: 40px 0;
+ 	}
+ 	.result_wrap .right_side {
+ 		position: absolute;
+ 		right: 0;
+ 		bottom: 0;
+ 	}
+ 	.result_wrap {
+ 		padding-bottom: 0;
+ 		padding-top: 40px;
+ 	}
+ 	.result_wrap .left_side .title {
+ 		font-size: 39px;
+ 	}
+ 	.who_wrap .who_we_are_wrapper .who_we_are_block {
+ 		margin-right: 5px;
+ 		float: none;
+ 		text-align: center;
+ 		display: inline-block;
+ 	}
+ 	.who_wrap .who_we_are_wrapper {
+ 		text-align: center;
+ 	}
+ 	.who_wrap {
+ 		padding-top: 40px;
+ 	}
+ 	.who_wrap .who_we_are_wrapper {
+ 		margin-top: 30px;
+ 	}
+ 	.our_clients .our_clients_wrapper {
+ 		margin-top: 30px;
+ 		text-align: center;
+ 	}
+ 	.our_clients .our_clients_wrapper .our_clients_block {
+ 		float: none;
+ 		display: inline-block;
+ 		margin-right: 10px;
+ 		vertical-align: top;
+ 	}
+ 	.review_block {
+ 		display: inline-block;
+ 		margin-right: 10px;
+ 	}
+ 	.review_block img {
+ 		float: none;
+ 		margin: 0 auto;
+ 	}
+ 	.review_block .text_slider {
+ 		width: 100%;
+ 		margin-top: 15px;
+ 	}
+ 	.bxslider li {
+ 		text-align: center;
+ 	}
+ 	.reviews_wrap {
+ 		margin-top: 30px;
+ 	}
+ 	.diagnostiks_img  {
+ 		width: 100%;
+ 		height: auto;
+ 	}
+  .nav_container {
+    width: auto;
+  }
+  .nav li {
+    margin-right: 10px;
+  }
+  .nav li a {
+    font-size: 16px;
+  }
+  .nonebox {
+    width: 97%;
+  }
+  .result_wrap .right_side img {
+    bottom: 0;
+  }
+ }
+  @media screen and (max-width: 766px) {
+  	.main_container {
+  		padding: 0 5px;
+  	}
+  	header {
+  		min-height: auto;
+  		height: auto;
+      position: relative;
+  	}
+  	.logo {
+  		display: block;
+  		margin: 18px auto 0 auto;
+  		float: none;
+  	}
+  	.phone_top {
+  		float: none;
+  		text-align: center;
+  	}
+  	.phone_top p {
+  		line-height: 24px;
+  		margin: 25px 0 0 0;
+  	}
+  	.main_slider_bg h1 {
+  		font-size: 32px;
+  		line-height: 40px;
+  	}
+  	.main_slider_bg {
+  		padding: 25px 0;
+      margin-top: 0;
+  	}
+  	.main_slider_bg hr {
+  		margin: 10px 0;
+  	}
+  	.main_slider_bg .main_text {
+  		font-size: 20px;
+  		line-height: 24px;
+  	}
+  	.main_slider_bg .main_text span {
+  		font-size: 20px;
+  	}
+  	.send_button {
+  		width: 80%;
+  		margin: 20px auto 0 auto;
+  	}
+  	.problems_wrap .left_side .title, .problems_wrap .right_side .title {
+  		font-size: 33px;
+  		margin-bottom: 15px;
+  	}
+  	.problems_wrap .left_side .bolder, .problems_wrap .right_side .bolder {
+  		font-size: 16px;
+  		line-height: 22px;
+  	}
+  	.problems_wrap .left_side p, .problems_wrap .right_side p {
+  		font-size: 14px;
+  		margin-bottom: 10px;
+  		line-height: 20px;
+  	}
+  	.h1 {
+  		font-size: 30px;
+  	}
+  	.offer_bg {
+  		padding: 25px 0;
+  	}
+  	.offer_wrap {
+  		margin-top: 20px;
+  	}
+  	.offer_wrap .offer_block {
+  		width: 100%;
+  		clear: both;
+  		text-align: center;
+  		float: none;
+  		margin-bottom: 15px;
+  	}
+  	.offer_wrap .offer_block .circle {
+  		margin: 0 auto 15px auto;
+  		display: block;
+  		float: none;
+  		display: block;
+  	}
+  	.offer_wrap .offer_block .text_block {
+  		width: 100%;
+  		float: none;
+  	}
+  	.problems_wrap .left_side .title, .problems_wrap .right_side .title {
+  		line-height: 34px;
+  	}
+  	.problems_wrap {
+  		padding: 25px 0;
+  	}
+  	.diagnostiks_wrap .right_side .sub_title {
+  		font-size: 20px;
+  		line-height: 26px;
+  		margin-bottom: 20px;
+  	}
+  	.list_d {
+  		float: none;
+  		width: 100%;
+  	}
+  	.main_form_bg {
+  		padding: 25px 0;
+  	}
+  	.main_form_bg .title {
+  		font-size: 33px;
+  	}
+  	.main_input {
+  		width: 100%;
+  		margin-right: 0;
+  	}
+  	.main_submit {
+  		width: 100%;
+  	}
+  	.result_wrap .right_side {
+  		display: none;
+  	}
+  	.result_wrap .left_side {
+  		width: 100%;
+  		float: none;
+  	}
+  	.result_wrap .left_side .title {
+  		font-size: 33px;
+  		margin-bottom: 20px;
+  	}
+  	.result_wrap {
+  		padding-top: 25px;
+  	}
+  	.result_wrap .left_side ul li {
+  		font-size: 16px;
+  		line-height: 20px;
+  	}
+  	.who_wrap {
+  		padding-top: 25px;
+  	}
+  	.who_wrap .title {
+  		font-size: 34px;
+  	}
+  	.who_wrap .who_we_are_wrapper .who_we_are_block {
+  		width: 100%;
+  		margin: 0 0 15px 0;
+  	}
+  	.who_wrap .who_we_are_wrapper .who_we_are_block .img_who {
+  		margin-bottom: 20px;
+  	}
+  	.who_wrap .who_we_are_wrapper .who_we_are_block hr {
+  		margin: 10px auto;
+  	}
+  	.our_clients {
+  		padding-top: 25px;
+  	}
+  	.our_clients .our_clients_wrapper .our_clients_block {
+  		width: 100%;
+  		margin-bottom: 15px;
+  		margin-right: 0;
+  	}
+  	.review_block {
+  		margin: 0 0 15px;
+  		width: 100%;
+  	}
+  	footer .phone_top .facebook,
+    footer .phone_top .viber,
+    footer .phone_top .watsup {
+  		float: none;
+  		display: inline-block;
+      margin-top: 5px;
+  	}
+    .toggle_menu {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 30px;
+    }
+    #menu ul {
+        margin-top: 0px;
+        text-align: left;
+    }
+    .main-menu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        float: none;
+        position: absolute;
+        top: 107px;
+        left: 0;
+        bottom: 0;
+    }
+    #menu li a {
+        color: white;
+        font-family: 'PTSans-Bold'
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    #wrapper {
+        -webkit-transition: -webkit-transform 0.5s;
+        -moz-transition: -moz-transform 0.5s;
+        transition: transform 0.5s;
+    }
+    .move #menu {
+        left: 0;
+    }
+    .move #wrapper {
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .nav {
+        display: none;
+    }
+    .flags_wrap {
+      display: block;
+      margin: 0 auto;
+      float: none;
+      width: 192px;
+    }
+    .nav_container {
+      float: none;
+      display: block;
+      height: 15px;
+    }
+    .call_top {
+      margin: 4px auto 0 auto;
+    }
+    .nonebox {
+      background: #fff;
+      width: auto;
+      height: auto;
+      padding: 20px;
+    }
+    .nonebox .title {
+      margin-top: 0px;
+      font-size: 21px;
+    }
+    .modal_input {
+      width: 100%;
+    }
+    .modal_submit {
+      width: 100%;
+    }
+    .result_wrap .right_side {
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+    .result_wrap .right_side img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      bottom: -3px;
+    }
+    .success {
+      margin-top: 14px;
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .success br {
+      display: none;
+    }
+    footer .phone_top p {
+      float: none;
+    }
+    footer .phone_top .call_top {
+      float: none;
+      margin-top: 10px;
+    }
+  }

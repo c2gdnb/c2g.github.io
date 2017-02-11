@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'Roboto Medium';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Roboto-Medium_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Roboto-Regular_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Light';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Roboto-Light_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Light Italic';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Roboto-LightItalic_0.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Moloko Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/Moloko.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MorrisModernC Regular';
+	src: url('../fonts/trebucbd.eot');
+	src: url('../fonts/trebucbd.woff') format('woff'), url('../fonts/MorrisModernC.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

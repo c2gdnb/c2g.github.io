@@ -1,0 +1,196 @@
+@media screen and (max-width: 952px) {
+ 	.main_container {
+ 		padding: 0 15px;
+ 	}
+ 	.map_info {
+ 		display: none;
+ 	}
+ 	.phone_top p {
+ 		font-size: 15px;
+ 	}
+ 	.phone_top span {
+ 		font-size: 18px;
+ 		margin-top: 7px;
+ 		display: block;
+ 	}
+ 	.phone_top:nth-child(3) {
+ 		margin-right: 10px;
+ 	}
+ 	.m_form .main_input {
+ 		width: 30%;
+ 	}
+ 	h1 {
+ 		font-size: 35px;
+ 	}
+ 	.advantages_block {
+ 		margin-right: 10px;
+ 	}
+ 	.form1_bg {
+ 		height: auto;
+ 		padding: 25px 0;
+ 	}
+ 	.form1_bg .title {
+ 		margin-top: 0;
+ 	}
+ 	.bicon_text {
+ 		width: 55%;
+ 	}
+ 	.dop_wrap ul {
+ 		width: 50%;
+ 	}
+ 	.form2_bg {
+ 		height: auto;
+ 		padding: 25px 0;
+ 	}
+ 	.form2_bg .title {
+ 		margin-top: 0;
+ 	}
+ 	.brends_block {
+ 		margin-right: 10px;
+ 	}
+ 	.steps_block {
+ 		margin-right: 10px;
+ 	}
+ 	.review_block {
+ 		margin-right: 10px;
+ 	}
+ 	.video_bg {
+ 		display: block;
+ 		float: none;
+ 		margin: 25px auto !important;
+ 	}
+ 	.form4_bg {
+ 		height: auto;
+ 		padding: 25px 0;
+ 	}
+ 	.form4_bg .title {
+ 		margin-top: 0;
+ 	}
+ 	.bx-wrapper .bx-controls-direction a {
+ 		display: none;
+ 	}
+ 	.action .action_block {
+ 		margin-right: 25px;
+ 	}
+}
+@media screen and (max-width: 767px) {
+ 	.video_bg {
+ 		padding: 0;
+ 		background: none;
+ 		width: 100%;
+ 		height: auto;
+ 	}
+ 	.logo {
+ 		display: block;
+ 		margin: 15px auto;
+ 	}
+ 	header {
+ 		text-align: center;
+ 	}
+ 	.phone_top span {
+ 		font-size: 15px;
+ 	}
+ 	.phone_top p {
+ 		font-size: 10px;
+ 	}
+ 	.main_slider_bg {
+ 		height: auto;
+ 		padding: 15px 0;
+ 		background: none;
+ 		text-align: center;
+ 	}
+ 	h1 {
+ 		margin-top: 0;
+ 		font-size: 30px;
+ 		line-height: 35px;
+ 		text-align: center;
+ 	}
+ 	h2 {
+ 		font-size: 26px;
+ 		line-height: 30px;
+ 	}
+ 	.main_form_bg {
+ 		height: auto;
+ 		padding: 252px 0 25px 0;
+ 		margin-top: -250px;
+ 	}
+ 	.m_form .main_input {
+ 		width: 100%;
+ 		margin-right: 0;
+ 		margin-bottom: 10px;
+ 	}
+ 	.m_form .main_submit {
+ 		width: 80%;
+ 		font-size: 15px;
+ 	}
+ 	.main_h1 {
+ 		font-size: 25px;
+ 		margin-top: 25px;
+ 	}
+ 	.advantages_block {
+ 		width: 100%;
+ 		float: none;
+ 		margin-right: 0;
+ 		margin-bottom: 20px;
+ 	}
+ 	.bicon_logo {
+ 		float: none;
+ 		width: 100%;
+ 		margin-right: 0;
+ 	}
+ 	.bicon_text {
+ 		float: none;
+ 		width: 100%;
+ 		margin-top: 15px;
+ 	}
+ 	.dop_wrap ul {
+ 		width: 100%;
+ 		float: none;
+ 	}
+ 	.dop_wrap img {
+ 		float: none;
+ 		width: 100%;
+ 		height: auto;
+ 	}
+ 	.form2_bg .main_txtarea {
+ 		margin-bottom: 10px;
+ 	}
+ 	.brends_block,
+ 	.steps_block,
+ 	.review_block {
+ 		width: 100%;
+ 		margin-right: 0;
+ 		float: none;
+ 		margin-bottom: 20px;
+ 	}
+ 	.reviews_bg .review_title {
+ 		margin-top: 25px;
+ 		font-size: 30px;
+ 	}
+ 	.reviews_bg {
+ 		height: auto;
+ 	}
+ 	.review_block {
+ 		height: auto;
+ 		padding-bottom: 15px;
+ 	}
+ 	.review_block span {
+ 		float: none;
+ 	}
+ 	.video_bg iframe {
+ 		width: 100%;
+ 		height: auto;
+ 	}
+ 	#map, #map2 {
+ 		display: none;
+ 	}
+ 	footer {
+ 		height: auto;
+ 	}
+ 	.action .action_block {
+ 		width: 100%;
+ 		float: none;
+ 		margin-right: 0;
+ 		margin-bottom: 20px;
+ 	}
+}

@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'TimesNewRomanPSMT';
+  src: url('../fonts/TimesNewRomanPSMT.eot?#iefix') format('embedded-opentype'),  
+		  url('../fonts/TimesNewRomanPSMT.woff') format('woff'), 
+		  url('../fonts/TimesNewRomanPSMT.ttf')  format('truetype'), 
+		  url('../fonts/TimesNewRomanPSMT.svg#TimesNewRomanPSMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri';
+  src: url('../fonts/Calibri.eot?#iefix') format('embedded-opentype'),  
+  	url('../fonts/Calibri.woff') format('woff'), 
+  	url('../fonts/Calibri.ttf')  format('truetype'), 
+  	url('../fonts/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri-Light';
+  src: url('../fonts/Calibri-Light.eot?#iefix') format('embedded-opentype'),  
+  	url('../fonts/Calibri-Light.woff') format('woff'), 
+  	url('../fonts/Calibri-Light.ttf')  format('truetype'), 
+  	url('../fonts/Calibri-Light.svg#Calibri-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinTextCondPro-Light';
+  src: url('../fonts/PFDinTextCondPro-Light.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/PFDinTextCondPro-Light.woff') format('woff'), 
+  url('../fonts/PFDinTextCondPro-Light.ttf')  format('truetype'), 
+  url('../fonts/PFDinTextCondPro-Light.svg#PFDinTextCondPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas';
+  src: url('../fonts/Bebas.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/Bebas.woff') format('woff'), 
+    url('../fonts/Bebas.ttf')  format('truetype'), 
+    url('../fonts/Bebas.svg#Bebas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: url('../fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'),  
+      url('../fonts/Calibri-Bold.woff') format('woff'), 
+      url('../fonts/Calibri-Bold.ttf')  format('truetype'), 
+      url('../fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

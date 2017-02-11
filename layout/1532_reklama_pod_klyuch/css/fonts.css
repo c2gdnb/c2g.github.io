@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Pollock2C';
+	src: url('../fonts/Pollock2C.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/Pollock2C.otf')  format('opentype'),
+	url('../fonts/Pollock2C.woff') format('woff'), 
+	url('../fonts/Pollock2C.ttf')  format('truetype'), 
+	url('../fonts/Pollock2C.svg#Pollock2C') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HermesRoughC';
+	src: url('../fonts/HermesRoughC.eot?#iefix') format('embedded-opentype'),  
+	url('../fonts/HermesRoughC.otf')  format('opentype'),
+	url('../fonts/HermesRoughC.woff') format('woff'), 
+	url('../fonts/HermesRoughC.ttf')  format('truetype'), 
+	url('../fonts/HermesRoughC.svg#HermesRoughC') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

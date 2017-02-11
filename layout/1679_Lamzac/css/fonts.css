@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'PFDinDisplayPro-Regular';
+  src: url('../fonts/PFDinDisplayPro-Regular.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinDisplayPro-Regular.woff') format('woff'), 
+  		url('../fonts/PFDinDisplayPro-Regular.ttf')  format('truetype'), 
+  		url('../fonts/PFDinDisplayPro-Regular.svg#PFDinDisplayPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro-Medium';
+  src: url('../fonts/PFDinDisplayPro-Medium.eot?#iefix') format('embedded-opentype'),  
+  		url('../fonts/PFDinDisplayPro-Medium.woff') format('woff'), 
+  		url('../fonts/PFDinDisplayPro-Medium.ttf')  format('truetype'), 
+  		url('../fonts/PFDinDisplayPro-Medium.svg#PFDinDisplayPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro-Italic';
+  src: url('../fonts/PFDinDisplayPro-Italic.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/PFDinDisplayPro-Italic.woff') format('woff'), 
+    url('../fonts/PFDinDisplayPro-Italic.ttf')  format('truetype'), 
+    url('../fonts/PFDinDisplayPro-Italic.svg#PFDinDisplayPro-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro-MediumItalic';
+  src: url('../fonts/PFDinDisplayPro-MediumItalic.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/PFDinDisplayPro-MediumItalic.woff') format('woff'), 
+    url('../fonts/PFDinDisplayPro-MediumItalic.ttf')  format('truetype'), 
+    url('../fonts/PFDinDisplayPro-MediumItalic.svg#PFDinDisplayPro-MediumItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PragmaticaExtraLight-Reg';
+  src: url('../fonts/PragmaticaExtraLight-Reg.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/PragmaticaExtraLight-Reg.otf')  format('opentype'),
+    url('../fonts/PragmaticaExtraLight-Reg.woff') format('woff'), 
+    url('../fonts/PragmaticaExtraLight-Reg.ttf')  format('truetype'), 
+    url('../fonts/PragmaticaExtraLight-Reg.svg#PragmaticaExtraLight-Reg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PFDinDisplayPro-Light';
+  src: url('../fonts/PFDinDisplayPro-Light.eot?#iefix') format('embedded-opentype'),  
+      url('../fonts/PFDinDisplayPro-Light.woff') format('woff'), 
+      url('../fonts/PFDinDisplayPro-Light.ttf')  format('truetype'), 
+      url('../fonts/PFDinDisplayPro-Light.svg#PFDinDisplayPro-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

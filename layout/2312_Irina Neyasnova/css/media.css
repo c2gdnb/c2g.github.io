@@ -1,0 +1,212 @@
+@media screen and (max-width: 1180px) {
+	.main_container {
+		padding: 0 15px;
+	}
+	.header_right_side {
+		width: 64%;	
+	}
+	.header_right_side .phone_top p {
+		font-size: 15px;
+	}
+	.header_right_side .phone_top p span {
+		font-size: 17px;
+	}
+	.header_right_side .grafik span {
+		font-size: 17px;
+	}
+	.header_right_side .grafik p {
+		font-size: 15px;
+	}
+	.header_right_side .main_nav li a {
+		font-size: 13px;
+	}
+	.header_right_side .main_nav li {
+		margin-right: 5px;
+	}
+	.slider_content .l_side h2 {
+		font-size: 31px;
+		line-height: 41px;
+	}
+	.advantages_block {
+		margin-right: 11px;
+	}
+	.trener_bg {
+		height: auto;
+	}
+	.trener_content .title {
+		font-size: 20px;
+		line-height: 24px;
+		margin: 25px 0;
+	}
+	.trener_content p {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 15px;
+	}
+	.about_side {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.sert_side {
+		width: 100%;
+		float: none;
+	}
+	.sert_side .col1 a {
+		display: inline-block;
+		margin-right: 10px;
+		width: 173px;
+	}
+	.sert_side .col1 {
+		width: 560px;
+	}
+	.main_form_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.main_form_bg .main_input {
+		width: 29%;
+	}
+	.review_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.review_bg .review_wrap .review_block {
+		height: auto;
+	}
+	.footer_bg {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.footer_bg .footer_right {
+		float: none;
+		clear: both;
+		text-align: left;
+	}
+	.footer_bg .header_right_side {
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.main_slider_bg {
+		height: auto;
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	.logo {
+		display: inline-block;
+		float: none;
+	}
+	.header_right_side {
+		width: 100%;
+	}
+	.header_right_side .grafik {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.header_right_side .phone_top {
+		float: none;
+	}
+	.slider_content .l_side {
+		width: 100%;
+		float: none;
+		margin-top: 25px;
+	}
+	.slider_content .r_side {
+		float: none;
+		margin: 0 auto;
+	}
+	.main_h1 {
+		font-size: 30px;
+		margin: 25px 0;
+	}
+	.advantages_block {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.video_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.video_bg iframe {
+		width: 100%;
+		height: auto;
+	}
+	.video_bg .bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+	.trener_bg {
+		background: #008fd1;
+	}
+	.trener_content {
+		width: 100%;
+		text-align: center;
+	}
+	.about_side .about_block p {
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.sert_side .col1 {
+		width: 100%;
+		float: none;
+	}
+	.sert_side .col1 a {
+		width: 100%;
+		height: auto;
+	}
+	.sert_side .col2 {
+		width: 100%;
+		height: auto;
+	}
+	.main_form_bg .title {
+		font-size: 30px;
+		margin: 25px 0;
+	}
+	.main_form_bg .main_input {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.main_form_bg .main_submit {
+		width: 100%;
+	}
+	.review_bg .review_wrap {
+		width: 100%;
+		padding-bottom: 40px;
+	}
+	.review_avtor {
+		text-align: center;
+	}
+	.review_bg .review_wrap .review_block .review_avtor img {
+		float: none;
+		margin-right: 0;
+		margin: 0 auto;
+	}
+	.review_bg  .bx-wrapper .bx-viewport {
+		height: auto !important;
+	}
+	.review_bg .review_wrap .review_block {
+		background: #fff;
+	}
+	.footer_bg .header_right_side {
+		margin-left: 0;
+	}
+	.footer_bg {
+		text-align: center;
+	}
+	.footer_bg .footer_right {
+		text-align: center;
+	}
+	.footer_bg .footer_right .order {
+		margin: 0 auto;
+	}
+	.header_right_side .grafik {
+		margin-left: 0;
+	}
+	.footer_bg .header_right_side {
+		width: 100%;
+	}
+}

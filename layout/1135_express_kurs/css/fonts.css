@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: 'NeoSansCyr-Regular';
+  src: url('../fonts/NeoSansCyr-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/NeoSansCyr-Regular.woff') format('woff'), url('../fonts/NeoSansCyr-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeoSansPro-Regular';
+  src: url('../fonts/NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/NeoSansPro-Regular.woff') format('woff'), url('../fonts/NeoSansPro-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeoSansPro-Medium';
+  src: url('../fonts/NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/NeoSansPro-Medium.woff') format('woff'), url('../fonts/NeoSansPro-Medium.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeoSansPro-Italic';
+  src: url('../fonts/NeoSansPro-Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts/NeoSansPro-Italic.woff') format('woff'), url('../fonts/NeoSansPro-Italic.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

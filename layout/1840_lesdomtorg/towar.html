@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ЛесДомТорг</title>
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+	<link href="css/easy-responsive-tabs.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+<!-- HEADER -->
+	<div class="fixed_nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul>
+						<li><a href="#">Проекты и цены</a></li>
+						<li><a href="#">Акции и скидки</a></li>
+						<li><a href="#">Дом в кредит</a></li>
+						<li><a href="#">Отзывы клиентов</a></li>
+						<li><a href="#">Фото объектов</a></li>
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<div class="toggle_menu">
+						<a href="#menu" id="toggle"><span></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="title_top">
+						<h1>Деревянные дома и бани от
+							производителей с гарантией!</h1>
+							<a href="#" class="header_link">Подробнее о компании</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-3 col-xs-12">
+						<img src="images/logo.png" alt="Alt" class="logo">
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="phone_top">
+							<p><span>В Москве: </span>+ 7 (495) 150-00-83</p>
+							<p><span>В Санкт-Петербурге: </span>+ 7 (812) 425-33-15</p>
+							<a href="#" class="header_link open_modal">Обратный звонок</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="header_insiide_bg inside_p">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 main_nav_wrap">
+							<div class="main_nav_block">
+								<div class="number">149</div>
+								<img src="images/main_nav_img1.png" alt="Alt">
+								<div class="link_block">
+									<a href="#">Дома из бруса</a>
+								</div>
+							</div>
+							<div class="main_nav_block">
+								<div class="number">20</div>
+								<img src="images/main_nav_img2.png" alt="Alt">
+								<div class="link_block">
+									<a href="#">Коттеджи из бруса</a>
+								</div>
+							</div>
+							<div class="main_nav_block">
+								<div class="number">149</div>
+								<img src="images/main_nav_img3.png" alt="Alt">
+								<div class="link_block">
+									<a href="#">Каркасные дома</a>
+								</div>
+							</div>
+							<div class="main_nav_block">
+								<div class="number">15</div>
+								<img src="images/main_nav_img4.png" alt="Alt">
+								<div class="link_block">
+									<a href="#">Щитовые дома</a>
+								</div>
+							</div>
+							<div class="main_nav_block">
+								<div class="number">48</div>
+								<img src="images/main_nav_img5.png" alt="Alt">
+								<div class="link_block">
+									<a href="#">Бани из бруса</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+<!-- END HEADER	-->
+<!-- CATALOG PAGE -->
+	<div class="catalog_page_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="left_sidebar inside_p">
+						<input type="text" class="search2" placeholder="Поиск проекта" name="search2">
+						<ul class="left_nav">
+							<li><a href="#">Проекты брусовых домов</a></li>
+							<li><a href="#">Проекты коттеджей из бруса</a></li>
+							<li><a href="#">Проекты каркасных домов</a></li>
+							<li><a href="#">Проекты щитовых домов</a></li>
+							<li><a href="#">Проекты бань из бруса</a></li>
+						</ul>
+						<div class="sidebar_title">Акции и скидки</div>
+						<div class="action_left_block">
+							<img src="images/action_l_img.jpg" alt="Alt">
+							<a href="#">Скидка в размере 10% на свайно-винтовой фундамент</a>
+						</div>
+						<div class="action_left_block">
+							<img src="images/action_l_img.jpg" alt="Alt">
+							<a href="#">Скидка в размере 10% на свайно-винтовой фундамент</a>
+						</div>
+						<div class="action_left_block">
+							<img src="images/action_l_img.jpg" alt="Alt">
+							<a href="#">Скидка в размере 10% на свайно-винтовой фундамент</a>
+						</div>
+						<div class="action_left_block">
+							<img src="images/action_l_img.jpg" alt="Alt">
+							<a href="#">Скидка в размере 10% на свайно-винтовой фундамент</a>
+						</div>
+						<div class="clearfix"></div>
+						<div class="sidebar_divider"></div>
+						<div class="sidebar_title">Наши работы</div>
+						<div class="sidebar_slider">
+							<ul class="bxslider2">
+								<li>
+									<div class="our_work_block">
+										<img src="images/our_w_img.jpg" alt="Alt">
+										<div class="title">Дом из бруса 9х8<br>«Охотник-1»</div>
+									</div>
+								</li>
+								<li>
+									<div class="our_work_block">
+										<img src="images/our_w_img.jpg" alt="Alt">
+										<div class="title">Дом из бруса 9х8<br>«Охотник-1»</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="sidebar_divider"></div>
+						<div class="sidebar_title">Отзывы клиентов</div>
+						<div class="sidebar_slider review_left">
+							<ul class="bxslider2">
+								<li>
+									<div class="review_left_block">
+										<a href="#"><img src="images/review_img.jpg" alt="Alt"></a>
+										<div class="title"><a href="#">Клиент: Падута Андрей Владимирович</a></div>
+									</div>
+								</li>
+								<li>
+									<div class="review_left_block">
+										<a href="#"><img src="images/review_img.jpg" alt="Alt"></a>
+										<div class="title"><a href="#">Клиент: Падута Андрей Владимирович</a></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="news_left_wrapper">
+							<div class="sidebar_title">Новости нашей компании</div>
+							<div class="news_left_block">
+								<a href="#"><p>С Днем России! Скидки в честь праздника весь июнь!</p></a>
+								<div class="date">08 мая 2016</div>
+							</div>
+							<div class="news_left_block">
+								<a href="#"><p>С Днем России! Скидки в честь праздника весь июнь!</p></a>
+								<div class="date">08 мая 2016</div>
+							</div>
+							<div class="news_left_block">
+								<a href="#"><p>С Днем России! Скидки в честь праздника весь июнь!</p></a>
+								<div class="date">08 мая 2016</div>
+							</div>
+							<img src="images/icon_arvive.png" alt="Alt"><a href="#" class="arhive_link">Архив новостей</a>
+							<div class="sidebar_divider"></div>
+							<div class="sidebar_title">Статьи и обзоры</div>
+							<div class="news_left_block">
+								<a href="#"><p>С Днем России! Скидки в честь праздника весь июнь!</p></a>
+								<div class="date">08 мая 2016</div>
+							</div>
+							<div class="news_left_block">
+								<a href="#"><p>С Днем России! Скидки в честь праздника весь июнь!</p></a>
+								<div class="date">08 мая 2016</div>
+							</div>
+							<div class="news_left_block">
+								<a href="#"><p>С Днем России! Скидки в честь праздника весь июнь!</p></a>
+								<div class="date">08 мая 2016</div>
+							</div>
+							<img src="images/icon_arvive.png" alt="Alt"><a href="#" class="arhive_link">Архив статей</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="main_content">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="#">Главная</a></li>
+								<li><span>></span><a href="#">Каталог</a></li>
+								<li><span>></span><a href="#">Дома из бруса</a></li>
+								<li><span>></span>Добрыня-2</li>
+							</ul>
+						</div>
+						<div class="towar_wrap">
+							<div class="main_title">Дом из бруса 9х8 «Добрыня-2»</div>
+							<div class="arrows_wrap">
+								<a href="#"></a>
+								<a href="#"></a>
+							</div>
+							<div class="clearfix"></div>
+							<div class="left_side">
+								<ul class="bxslider3">
+									<li>
+										<div class="towar_main_img">
+											<a href="images/towar_main_large.jpg" class="fancybox"><img src="images/towar_main_photo.jpg" alt="Alt"></a>
+											<div class="title">Лицевая сторона</div>
+											<div class="subtitle">Возможно внесение изменений в планировку</div>
+											<a href="images/towar_main_large.jpg" class="zoom_img fancybox"></a>
+										</div>
+									</li>
+									<li>
+										<div class="towar_main_img">
+											<a href="images/towar_main_large.jpg" class="fancybox"><img src="images/towar_main_photo.jpg" alt="Alt"></a>
+											<div class="title">Лицевая сторона</div>
+											<div class="subtitle">Возможно внесение изменений в планировку</div>
+											<a href="images/towar_main_large.jpg" class="zoom_img fancybox"></a>
+										</div>
+									</li>
+									<li>
+										<div class="towar_main_img">
+											<a href="images/towar_main_large.jpg" class="fancybox"><img src="images/towar_main_photo.jpg" alt="Alt"></a>
+											<div class="title">Лицевая сторона</div>
+											<div class="subtitle">Возможно внесение изменений в планировку</div>
+											<a href="images/towar_main_large.jpg" class="zoom_img fancybox"></a>
+										</div>
+									</li>
+								</ul>
+								<div class="bx-pager clearfix">
+									<a href="" data-slide-index="0"><img src="images/cart_slider_img.jpg" alt="Alt"></a>
+									<a href="" data-slide-index="1"><img src="images/cart_slider_img.jpg" alt="Alt"></a>
+									<a href="" data-slide-index="2"><img src="images/cart_slider_img.jpg" alt="Alt"></a>
+								</div>
+								<div class="l_text">Этот дом можно построить в кредит, платя за от 11 250 руб. в месяц.</div>
+								<div class="l_buttons">
+									<a href="#">Получите консультацию</a>
+									<div id="l_sec">
+									<a href="#">Узнать подробнее<br>
+									о кредитовании</a>
+									</div>
+								</div>
+								<div class="l_desc clearfix">
+									<div class="title"></div>
+									<p class="clearfix">
+										<a href="#">Свайно-винтовой:</a>
+										<span class="price_towar">109 000 руб.</span><br>
+										<span class="price_towar_desc">без скидки: 120 000 руб.</span>
+									</p>
+									<p class="clearfix">
+										<a href="#">Столбчатый:</a>
+										<span>по запросу</span>
+									</p>
+									<p class="clearfix">
+										<a href="#">Ленточный:</a>
+										<span>по запросу</span>
+									</p>
+									<p class="clearfix">
+										<a href="#">Плитовой:</a>
+										<span>по запросу</span>
+									</p>
+								</div>
+								<div class="l_other">
+									<img src="images/l_other.png" alt="Alt">
+									<a href="#">Возможно Вас заинтересует данный проект в каркасно-щитовом исполнении.</a>
+								</div>
+							</div>
+							<div class="right_side">
+								<div class="towar_description">
+									<p>Габаритные размеры:<span>9,0 х 6,0 м</span></p>
+									<p>Общая площадь:<span>98,4м2</span></p>
+									<p>Жилая площадь:<span>82,75 м2</span></p>
+									<p>Количество этажей:<span>2</span></p>
+									<p>Скорость постройки:<span>20 дней</span></p>
+									<p>Особености проекта:<span>мансардный этаж, терраса</span></p>
+									<p>Артикул:<span>Д-105-2</span></p>
+								</div>
+								<a href="#" class="more_towar">Подробное описание проекта</a>
+								<div class="sidebar_divider"></div>
+								<div class="desc_block">
+									<div class="title">Проект “под ключ”</div>
+									<p class="clearfix">
+										<a href="#" class="ontop1">Для сезонного проживания:</a>
+										<span class="price_towar">789 000 руб.</span><br>
+										<span class="price_towar_desc">без скидки: 813 000 руб.</span>
+									</p>
+									<p class="clearfix">
+										<a href="#" class="ontop2">Для зимнего проживания:</a>
+										<span class="price_towar">974 000 руб.</span><br>
+										<span class="price_towar_desc">без скидки: 994 000 руб.</span>
+									</p>
+									<p class="clearfix">
+										<a href="#" class="ontop3">Комлектация “Русская зима”:</a>
+										<span class="price_towar">1 202 000 руб.</span><br>
+										<span class="price_towar_desc">без скидки: 1 215 000 руб.</span>
+									</p>
+								</div>
+								<div class="sidebar_divider"></div>
+								<div class="desc_block sec_b">
+									<div class="title">Проект “сруб под усадку”</div>
+									<p class="clearfix">
+										<a href="#" class="ontop1_1">Для сезонного проживания:</a>
+										<span class="price_towar">553 000 руб.</span><br>
+									</p>
+									<p class="clearfix">
+										<a href="#" class="ontop2_1">Для зимнего проживания:</a>
+										<span class="price_towar">634 000 руб.</span><br>
+									</p>
+									<p class="clearfix">
+										<a href="#" class="ontop3_1">Комлектация “Русская зима”:</a>
+										<span class="price_towar">719 000 руб.</span><br>
+									</p>
+								</div>
+								<div class="form_desc">
+									<a href="#">Сделать заказ</a>
+									<a href="#">Консультация</a>
+									<div class="clearfix"></div>
+									<p>Наш специалист свяжется с вами для уточнения все деталей</p>
+								</div>
+								<div class="post_c">Поставить оценку проекту: <img src="images/starsl.png" alt="Alt"> </div>
+								<div class="post_c">Поделиться ссылкой: 
+									<div class="social">
+										<a href="#"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+									</div>
+								</div>
+								<div class="post_c"><a href="#">Оставить комментарий</a></div>
+								<div class="post_t">
+									<p>5</p>
+									<p>22</p>
+									<p></p>
+								</div>
+								<div class="sidebar_divider"></div>
+								<div class="special_price">Специальная цена, действительна при заезде до 31 июля  <a href="#">подробнее...</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<img src="images/shadow.png" alt="Alt" class="shadow">
+						<div class="main_title">Описание проекта</div>
+						<p class="opisanie">Дом из строганого профилированного бруса размером 9.0 х 6.0 м с каркасным мансардным этажом под двухскатной кровлей с 3-м фронтоном, с террасой размером 6.0 х 2.0 м и балконом размером 4.0 х 3.0 м под отдельной двухскатной кровлей.</p>
+						<div class="tags_wrap">
+							<p># Теги:</p>
+							<a href="#">дом из бруса</a>
+							<a href="#">дом из бруса</a>
+							<a href="#">дом из бруса</a>
+							<a href="#">дом из бруса</a>
+						</div>
+						<div class="clearfix"></div>
+						<div class="sidebar_divider"></div>
+						<div class="main_title">Комплектации «под ключ»</div>
+						<div class="tabs tabs_first">
+							<ul class="resp-tabs-list">
+								<li class="tt_tab1">Для сезонного проживания</li>
+								<li class="tt_tab2">Для зимнего проживания</li>
+								<li class="tt_tab3">Комлектация “Русская зима”</li>
+							</ul>
+
+							<div class="resp-tabs-container">
+								<div class="tt_tab1_content">
+									<table>
+										<col class="col1">
+										<col class="col2">
+										<tr>
+											<td><a href="#"></a>Размер дома:</td>
+											<td>9,0 х 6,0 м1</td>
+										</tr>
+										<tr class="cust_bg">
+											<td><a href="#"></a>Общие габаритные размеры:</td>
+											<td>9,0 х 8,0 м</td>
+										</tr>
+										<tr>
+											<td><a href="#"></a>Жилая площадь:</td>
+											<td>82,75 м2</td>
+										</tr>
+										<tr class="cust_bg">
+											<td><a href="#"></a>Общая площадь:</td>
+											<td>105,08 м2</td>
+										</tr>
+										<tr>
+											<td><a href="#"></a>Терраса:</td>
+											<td>6.0 х 2.0 м с перилами и плоскими балясинами, под отдельной двухскатной кровлей, общей с кровлей балкона</td>
+										</tr>
+										<tr class="cust_bg">
+											<td><a href="#"></a>Балкон:</td>
+											<td>4.0 х 3.0 м с перилами и плоскими балясинами, под отдельной
+												двухскатной кровлей на мансардном этаже</td>
+											</tr>
+											<tr>
+												<td><a href="#"></a>Сруб стен 1-го этажа:</td>
+												<td>строганый профилированный брус сечением 100 х 150 мм, с внешней стороны тип «блок-хаус» или прямой (на выбор), брус на стыке имеет профиль шип-паз-шип, вагонкой не обшивается, собирается на гвозди 200 мм</td>
+											</tr>
+										</table>
+										<a href="#" class="s_b_s show_more_t1">Показать полностью</a>
+									</div>
+									<div class="tt_tab2_content">
+										<table>
+											<col class="col1">
+											<col class="col2">
+											<tr>
+												<td><a href="#"></a>Размер дома:</td>
+												<td>9,0 х 6,0 м2</td>
+											</tr>
+											<tr class="cust_bg">
+												<td><a href="#"></a>Общие габаритные размеры:</td>
+												<td>9,0 х 8,0 м</td>
+											</tr>
+											<tr>
+												<td><a href="#"></a>Жилая площадь:</td>
+												<td>82,75 м2</td>
+											</tr>
+											<tr class="cust_bg">
+												<td><a href="#"></a>Общая площадь:</td>
+												<td>105,08 м2</td>
+											</tr>
+											<tr>
+												<td><a href="#"></a>Терраса:</td>
+												<td>6.0 х 2.0 м с перилами и плоскими балясинами, под отдельной двухскатной кровлей, общей с кровлей балкона</td>
+											</tr>
+											<tr class="cust_bg">
+												<td><a href="#"></a>Балкон:</td>
+												<td>4.0 х 3.0 м с перилами и плоскими балясинами, под отдельной
+													двухскатной кровлей на мансардном этаже</td>
+												</tr>
+												<tr>
+													<td><a href="#"></a>Сруб стен 1-го этажа:</td>
+													<td>строганый профилированный брус сечением 100 х 150 мм, с внешней стороны тип «блок-хаус» или прямой (на выбор), брус на стыке имеет профиль шип-паз-шип, вагонкой не обшивается, собирается на гвозди 200 мм</td>
+												</tr>
+											</table>
+											<a href="#" class="s_b_s show_more_t2">Показать полностью</a>
+										</div>
+										<div class="tt_tab3_content">
+											<table>
+												<col class="col1">
+												<col class="col2">
+												<tr>
+													<td><a href="#"></a>Размер дома:</td>
+													<td>9,0 х 6,0 м3</td>
+												</tr>
+												<tr class="cust_bg">
+													<td><a href="#"></a>Общие габаритные размеры:</td>
+													<td>9,0 х 8,0 м</td>
+												</tr>
+												<tr>
+													<td><a href="#"></a>Жилая площадь:</td>
+													<td>82,75 м2</td>
+												</tr>
+												<tr class="cust_bg">
+													<td><a href="#"></a>Общая площадь:</td>
+													<td>105,08 м2</td>
+												</tr>
+												<tr>
+													<td><a href="#"></a>Терраса:</td>
+													<td>6.0 х 2.0 м с перилами и плоскими балясинами, под отдельной двухскатной кровлей, общей с кровлей балкона</td>
+												</tr>
+												<tr class="cust_bg">
+													<td><a href="#"></a>Балкон:</td>
+													<td>4.0 х 3.0 м с перилами и плоскими балясинами, под отдельной
+														двухскатной кровлей на мансардном этаже</td>
+													</tr>
+													<tr>
+														<td><a href="#"></a>Сруб стен 1-го этажа:</td>
+														<td>строганый профилированный брус сечением 100 х 150 мм, с внешней стороны тип «блок-хаус» или прямой (на выбор), брус на стыке имеет профиль шип-паз-шип, вагонкой не обшивается, собирается на гвозди 200 мм</td>
+													</tr>
+												</table>
+												<a href="#" class="s_b_s show_more_t3">Показать полностью</a>
+											</div>
+										</div>
+									</div>
+						<a href="#" class="comment_info">Информация об условиях оплаты и доставки</a>
+						<div class="sidebar_divider"></div>
+						<div class="main_title">Комплектации «сруб под усадку»  </div>
+						<div class="tabs tabs_first1">
+							<ul class="resp-tabs-list">
+								<li class="tt_tab1_1">Для сезонного проживания</li>
+								<li class="tt_tab2_1">Для зимнего проживания</li>
+								<li class="tt_tab3_1">Комлектация “Русская зима”</li>
+							</ul>
+
+							<div class="resp-tabs-container">
+								<div class="tt_tab1_content_1">
+									<table>
+										<col class="col1">
+										<col class="col2">
+										<tr>
+											<td><a href="#"></a>Размер дома:</td>
+											<td>9,0 х 6,0 м4</td>
+										</tr>
+										<tr class="cust_bg">
+											<td><a href="#"></a>Общие габаритные размеры:</td>
+											<td>9,0 х 8,0 м</td>
+										</tr>
+										<tr>
+											<td><a href="#"></a>Жилая площадь:</td>
+											<td>82,75 м2</td>
+										</tr>
+										<tr class="cust_bg">
+											<td><a href="#"></a>Общая площадь:</td>
+											<td>105,08 м2</td>
+										</tr>
+										<tr>
+											<td><a href="#"></a>Терраса:</td>
+											<td>6.0 х 2.0 м с перилами и плоскими балясинами, под отдельной двухскатной кровлей, общей с кровлей балкона</td>
+										</tr>
+										<tr class="cust_bg">
+											<td><a href="#"></a>Балкон:</td>
+											<td>4.0 х 3.0 м с перилами и плоскими балясинами, под отдельной
+												двухскатной кровлей на мансардном этаже</td>
+											</tr>
+											<tr>
+												<td><a href="#"></a>Сруб стен 1-го этажа:</td>
+												<td>строганый профилированный брус сечением 100 х 150 мм, с внешней стороны тип «блок-хаус» или прямой (на выбор), брус на стыке имеет профиль шип-паз-шип, вагонкой не обшивается, собирается на гвозди 200 мм</td>
+											</tr>
+										</table>
+										<a href="#" class="s_b_s show_more_t4">Показать полностью</a>
+									</div>
+									<div class="tt_tab2_content_1">
+										<table>
+											<col class="col1">
+											<col class="col2">
+											<tr>
+												<td><a href="#"></a>Размер дома:</td>
+												<td>9,0 х 6,0 м5</td>
+											</tr>
+											<tr class="cust_bg">
+												<td><a href="#"></a>Общие габаритные размеры:</td>
+												<td>9,0 х 8,0 м</td>
+											</tr>
+											<tr>
+												<td><a href="#"></a>Жилая площадь:</td>
+												<td>82,75 м2</td>
+											</tr>
+											<tr class="cust_bg">
+												<td><a href="#"></a>Общая площадь:</td>
+												<td>105,08 м2</td>
+											</tr>
+											<tr>
+												<td><a href="#"></a>Терраса:</td>
+												<td>6.0 х 2.0 м с перилами и плоскими балясинами, под отдельной двухскатной кровлей, общей с кровлей балкона</td>
+											</tr>
+											<tr class="cust_bg">
+												<td><a href="#"></a>Балкон:</td>
+												<td>4.0 х 3.0 м с перилами и плоскими балясинами, под отдельной
+													двухскатной кровлей на мансардном этаже</td>
+												</tr>
+												<tr>
+													<td><a href="#"></a>Сруб стен 1-го этажа:</td>
+													<td>строганый профилированный брус сечением 100 х 150 мм, с внешней стороны тип «блок-хаус» или прямой (на выбор), брус на стыке имеет профиль шип-паз-шип, вагонкой не обшивается, собирается на гвозди 200 мм</td>
+												</tr>
+											</table>
+											<a href="#" class="s_b_s show_more_t5">Показать полностью</a>
+										</div>
+										<div class="tt_tab3_content_1">
+											<table>
+												<col class="col1">
+												<col class="col2">
+												<tr>
+													<td><a href="#"></a>Размер дома:</td>
+													<td>9,0 х 6,0 м6</td>
+												</tr>
+												<tr class="cust_bg">
+													<td><a href="#"></a>Общие габаритные размеры:</td>
+													<td>9,0 х 8,0 м</td>
+												</tr>
+												<tr>
+													<td><a href="#"></a>Жилая площадь:</td>
+													<td>82,75 м2</td>
+												</tr>
+												<tr class="cust_bg">
+													<td><a href="#"></a>Общая площадь:</td>
+													<td>105,08 м2</td>
+												</tr>
+												<tr>
+													<td><a href="#"></a>Терраса:</td>
+													<td>6.0 х 2.0 м с перилами и плоскими балясинами, под отдельной двухскатной кровлей, общей с кровлей балкона</td>
+												</tr>
+												<tr class="cust_bg">
+													<td><a href="#"></a>Балкон:</td>
+													<td>4.0 х 3.0 м с перилами и плоскими балясинами, под отдельной
+														двухскатной кровлей на мансардном этаже</td>
+													</tr>
+													<tr>
+														<td><a href="#"></a>Сруб стен 1-го этажа:</td>
+														<td>строганый профилированный брус сечением 100 х 150 мм, с внешней стороны тип «блок-хаус» или прямой (на выбор), брус на стыке имеет профиль шип-паз-шип, вагонкой не обшивается, собирается на гвозди 200 мм</td>
+													</tr>
+												</table>
+												<a href="#" class="s_b_s show_more_t6">Показать полностью</a>
+											</div>
+										</div>
+									</div>
+						</div>
+						<a href="#" class="comment_info">Информация об условиях оплаты и доставки</a>
+						<div class="sidebar_divider"></div>
+						<div class="main_title">Комментарии к проекту «Добрыня-2» </div>
+						<div class="reviews_wrap">
+							<div class="reviews_block">
+								<div class="date">20.07.2015</div>
+								<div class="author">Марина Игоревна <span>написал(a):</span></div>
+								<p>Добрый день! Понравился проект "Добрыня-2" в зимней комплектации. А возможна ли сборка "под усадку", если да, то какова стоимость?</p>
+								<a href="#">Ответить</a>
+							</div>
+							<hr>
+							<div class="reviews_block">
+								<div class="date">20.07.2015</div>
+								<div class="author">Марина Игоревна <span>написал(a):</span></div>
+								<p>Добрый день! Понравился проект "Добрыня-2" в зимней комплектации. А возможна ли сборка "под усадку", если да, то какова стоимость?</p>
+								<a href="#" class="last_lin">Ответить</a>
+							</div>
+						</div>
+						<div class="sidebar_divider"></div>
+						<div class="main_title">Добавить комментарий</div>
+						<div class="post_review_wrap">
+							<form>
+								<textarea name="mess" placeholder="Текст комментария" class="mess_areaa"></textarea>
+								<input type="text" name="name" placeholder="Ваше имя" class="mess_input" required>
+								<input type="text" name="mail" placeholder="E-mail (не публикуется)" class="mess_input" required>
+								<input type="submit" class="mess_submit" value="Отправить">
+								<input type="checkbox" id="notify">
+								<label for="notify" class="check_text">Уведомлять меня о новых комментариях по E-mail</label>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+<!-- END CATALOG PAGE -->
+<!-- QUESTIONS -->
+	<div class="questions_bg content_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main_h1">Затрудняетесь с выбором, возникли вопросы,<br>
+						или не нашли подходящий проект?</div>
+				</div>
+				<div class="col-md-12">
+					<div class="main_h2">Получите бесплатную консультацию, ответ на все возникшие вопросы прямо сейчас!</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-2">
+					<a href="#" class="consultation_button">Получите консультацию</a>
+				</div>
+				<div class="col-md-7">
+					<a href="#" class="more_consultation">Подробнее об индивидуальном стоительстве</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END QUESTIONS -->
+<!-- NEWS -->
+<div class="news_wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="title">Новости компании</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">С Днем России! Скидки в честь праздника весь июнь!</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">С Днем России! Скидки в честь праздника весь июнь!</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">С Днем России! Скидки в честь праздника весь июнь!</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">С Днем России! Скидки в честь праздника весь июнь!</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<img src="images/icon_arvive.png" alt="Alt"><a href="#" class="arhive_link">Архив новостей</a>
+			</div>
+			<div class="col-md-6">
+				<div class="title">СТАТЬИ И ОБЗОРЫ</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img2.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">Покраска дома из дерева</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img3.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">Как провести размежевание земельного участка</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img2.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">Покраска дома из дерева</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<div class="news_block clearfix">
+					<a href="#"><img src="images/news_img3.jpg" alt="Alt"></a>
+					<div class="news_text">
+						<a href="#"><div class="news_title">Как провести размежевание земельного участка</div></a>
+						<div class="date">08 мая 2016</div>
+					</div>
+				</div>
+				<img src="images/icon_arvive.png" alt="Alt"><a href="#" class="arhive_link">Архив статей</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END NEWS -->
+<!-- FOOTER -->
+	<footer>
+		<div class="footer_nav_bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<input type="text" name="search" placeholder="Поиск по сайту" class="search_input">
+						<div class="contacts_block">
+							<div class="title">Контакты в Москве и Москвовской обл.</div>
+							<p>Телефон: 8 (495) 150-00-83</p>
+							<p>E-mail: <a href="#">lesdomtorg@mail.ru</a></p>
+						</div>
+						<div class="contacts_block">
+							<div class="title">Контакты в Москве и Москвовской обл.</div>
+							<p>Телефон: 8 (495) 150-00-83</p>
+							<p>E-mail: <a href="#">lesdomtorg@mail.ru</a></p>
+						</div>
+						<div class="contacts_block">
+							<div class="title">Контакты в Москве и Москвовской обл.</div>
+							<p>Телефон: 8 (495) 150-00-83</p>
+							<p>E-mail: <a href="#">lesdomtorg@mail.ru</a></p>
+						</div>
+					</div>
+					<div class="col-md-3 c_list">
+						<div class="footer_list">
+							<div class="title"><a href="#">О компании</a></div>
+							<ul>
+								<li><a href="#">Наше производство</a></li>
+								<li><a href="#">Наши преимущества</a></li>
+								<li><a href="#">Сертификаты на материалы</a></li>
+								<li><a href="#">Реквизиты</a></li>
+								<li><a href="#">Вакансии</a></li>
+							</ul>
+						</div>
+						<div class="footer_list">
+							<div class="title"><a href="#">Каталог проектов</a></div>
+							<ul>
+								<li><a href="#">Брусовые дома</a></li>
+								<li><a href="#">Коттеджи из брусаа</a></li>
+								<li><a href="#">Каркасно-щитовые дома</a></li>
+								<li><a href="#">Щитовые дома</a></li>
+								<li><a href="#">Бани из бруса</a></li>
+								<li><a href="#">Фундаменты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-md-offset-1 r_list">
+						<div class="footer_list">
+							<div class="title"><a href="#">Строительство в кредит</a></div>
+						</div>
+						<div class="footer_list">
+							<div class="title"><a href="#">Акции и скидки</a></div>
+						</div>
+						<div class="footer_list">
+							<div class="title"><a href="#">Отзывы клиентов</a></div>
+						</div>
+						<div class="footer_list">
+							<div class="title"><a href="#">Галерея объектов</a></div>
+						</div>
+						<div class="footer_list">
+							<div class="title"><a href="#">Информация</a></div>
+							<ul>
+								<li><a href="#">Индивидуальное строительство</a></li>
+								<li><a href="#">Часто задаваемые вопросы</a></li>
+								<li><a href="#">Оплата и доставка</a></li>
+								<li><a href="#">Словарь терминов</a></li>
+								<li><a href="#">Новости компании</a></li>
+								<li><a href="#">Статьи и обзоры</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_main_bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/logo_bottom.png" alt="Alt" class="logo_bottom">
+						<div class="logo_botttom_text">
+							<div class="title">ООО «ЛесДомТорг»</div>
+							<p>109387, Москва, Тихорецкий бульвар, дом 1, строение 2А<br>
+2011 - 2016 © Все права защищены. </p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="phone_top">
+							<p><span>В Москве: </span>+ 7 (495) 150-00-83</p>
+							<p><span>В Санкт-Петербурге: </span>+ 7 (812) 425-33-15</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>	
+<!-- END FOOTER -->
+<!-- MODAL1 -->
+<div class="overlay" id="overlay" style="display:none;"></div> 
+    <div class="nonebox" id="nonebox"> 
+     <a class="box-close one" id="box-close" href="#"></a>
+		<div class="title">Обратный звонок</div>
+		<form id="form2">
+			<input type="text" name="name" placeholder="Ваше имя:" class="modal_input" required>
+			<input type="text" name="phone" placeholder="Контактный телефон:" class="modal_input" required>
+			<input type="submit" value="Заказать звонок" class="modal_submit">
+		</form>
+    </div> 
+<!-- END MODAL1 -->
+<div id="menu">
+	<ul>
+		<li><a href="#">Проекты и цены</a></li>
+		<li><a href="#">Акции и скидки</a></li>
+		<li><a href="#">Дом в кредит</a></li>
+		<li><a href="#">Отзывы клиентов</a></li>
+		<li><a href="#">Фото объектов</a></li>
+		<li><a href="#">Информация</a></li>
+		<li><a href="#">Контакты</a></li>
+	</ul>
+	<div class="close">×</div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nstSlider.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/easyResponsiveTabs.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/script.js"></script>
+ </body>
+</html>

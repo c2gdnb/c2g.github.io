@@ -1,0 +1,331 @@
+@media screen and (max-width: 1000px) {
+	.main_container {
+		padding: 0 15px;
+	}
+	.menu_top ul li {
+		margin-right: 15px;
+	}
+	.menu_top ul li a {
+		font-size: 14px;
+	}
+	.first-slide {
+		height: 380px;
+	}
+	.main_slider_bg {
+		margin-top: 0;
+	}
+	.main_slider_bg h1 {
+		margin-top: 25px;
+		font-size: 80px;
+	}
+	.main_slider_bg h2 {
+		font-size: 50px;
+	}
+	.l_side hr {
+		margin: 15px 0;
+	}
+	.main_slider_bg h3 {
+		font-size: 30px;
+		line-height: 34px;
+	}
+	.menu_top {
+		position: relative;
+	}
+	.about_us_wrap {
+		padding: 25px 0;
+	}
+	.about_us_wrap .left_side img {
+		margin-top: 0;
+	}
+	.about_us_wrap .left_side p br {
+		display: none;
+	}
+	.about_us_wrap .left_side {
+		margin-right: 14px;
+	}
+	.asortiment_bg .asortiment_block{
+		margin-right: 10px;
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	.asortiment_bg {
+		text-align: center;
+		padding: 25px 0;
+		height: auto;
+	}
+	.asortiment_bg .asortiment_block img {
+		width: 100%;
+		height: auto;
+	}
+	.gallery_slider .bxslider1 li .photo_block{
+		margin-right: 13px;
+	}
+	.gallery_slider .bx-wrapper .bx-prev {
+		left: -15px;
+	}
+	.gallery_slider .bx-wrapper .bx-next{
+		right: -15px;
+	}
+	.footer_bg .footer_col ul:nth-child(2) {
+		margin-left: 45px;
+	}
+	.footer_bg .footer_col .phone_bottom .p_d {
+		font-size: 18px;
+	}
+	.footer_bg .footer_col .phone_bottom .p_d span {
+		font-size: 22px;
+	}
+	.footer_bg {
+		padding: 25px 0;
+	}
+	.footer_bg hr {
+		margin: 15px 0;
+	}
+	header .header_col .time_wrap {
+		padding-left: 54px;
+	}
+	header .header_col .time_wrap p {
+		font-size: 16px;
+	}
+	header .header_col {
+		margin-right: 9px;
+	}
+	header {
+		margin-top: 0;
+	}
+	header .header_col .phone_bottom .p_d {
+		font-size: 18px;
+	}
+	header .header_col .phone_bottom .p_d span {
+		font-size: 24px;
+	}
+	.photo_content .photo_block {
+		margin-right: 9px;
+		vertical-align: top;
+	}
+	.questions_bg form .q_input {
+		margin-right: 7px;
+	}
+	.catalog_block {
+		margin-right: 9px;
+	}
+	.basket_wrap .basket_block table tr td {
+		padding: 20px 10px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.toggle_menu {
+		display: block;
+	}
+	#menu ul {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.main-menu {
+		/* пункты меню скрыты */
+		display: none;
+		padding: 0;
+		margin: 0;
+		float: none;
+		position: absolute;
+		top: 107px;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+	#menu li a {
+		line-height: 40px;
+		font-size: 24px;
+	}
+	#wrapper {-webkit-transition: -webkit-transform 0.5s;-moz-transition: -moz-transform 0.5s;transition: transform 0.5s;}
+	.move #menu{left:0;}
+	.move #wrapper {-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);transform:translateX(-50%);}
+	.menu_top ul {
+		display: none;
+	}
+	.basket_button {
+		width: 115px;
+	}
+	.l_side {
+		width: 100%;
+		float: none;
+	}
+	.first-slide {
+		background: url(../images/bg_mobile.png) no-repeat top center;
+		height: 403px;
+		padding-bottom: 25px;
+	}
+	.main_slider_bg .bx-viewport {
+		top: -5px;
+	}
+	.main_slider_bg h2 {
+		font-size: 40px;
+	}
+	.main_slider_bg h1 {
+		font-size: 60px;
+	}
+	.bx-wrapper .delivery {
+		display: block;
+		margin: 0 auto;
+	}
+	.main_slider_bg .bx-wrapper .bx-pager {
+		bottom: 5px;
+	}
+	.about_us_wrap .left_side {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+	.about_us_wrap .right_side {
+		width: 100%;
+		float: none;
+	}
+	.asortiment_bg .asortiment_block {
+		width: 100%;
+		margin-right: 0;
+		height: auto;
+		margin-bottom: 25px;
+	}
+	.asortiment_bg .asortiment_block a p {
+		position: relative;
+		bottom: 0;
+		margin-top: 10px;
+	}
+	.asortiment_bg {
+		-webkit-background-size: cover;
+		background-size: cover;
+		padding-bottom: 25px;
+	}
+	.asortiment_bg .asortiment_block a {
+		display: inline-block;
+	}
+	.main_h1 {
+		margin: 25px 0;
+		font-size: 30px;
+	}
+	.news_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.footer_bg .footer_col {
+		width: 100%;
+		text-align: center;
+	}
+	.footer_bg .footer_col ul {
+		display: inline-block;
+		float: none;
+		margin-top: 15px;
+	}
+	.footer_bg .footer_col .phone_bottom {
+		text-align: center;
+	}
+	.footer_bg .development {
+		float: none;
+		text-align: center;
+	}
+	.footer_bg .social_wrap {
+		text-align: center;
+		float: none;
+	}
+	header .header_col {
+		width: 100%;
+		float: none;
+		margin-right: 0;
+		text-align: center;
+	}
+	header {
+		padding: 10px 0;
+	}
+	header .header_col .logo {
+		margin: 10px auto;
+	}
+	header .header_col .phone_bottom {
+		text-align: center;
+	}
+	.photo_content .photo_block {
+		width: 100%;
+		margin-right: 0;
+	}
+	.questions_bg {
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.questions_bg form .q_input {
+		width: 100%;
+	}
+	.questions_bg form .q_submit {
+		width: 100%;
+	}
+	.questions_bg .main_h2 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.main_bg_catalog {
+		background: url(../images/bg_mobile.png) no-repeat top center;
+		height: auto;
+		padding-bottom: 25px;
+		text-align: center;
+	}
+	.main_bg_catalog h1 {
+		text-align: center;
+	}
+	.main_bg_catalog h3 {
+		text-align: center;
+	}
+	.main_bg_catalog h3 br {
+		display: none;
+	}
+	.main_bg_catalog .delivery {
+		display: block;
+		margin: 15px auto;
+	}
+	.korpus label {
+		margin: 10px;
+	}
+	.catalog_block {
+		width: 100%;
+		margin-right: 0;
+	}
+	.order_form p:nth-child(1), .order_form p:nth-child(2) {
+		width: 100%;
+		float: none !important;
+	}
+	.order_form {
+		height: auto;
+	}
+	.basket_wrap .basket_block table tr td {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+	.basket_wrap .basket_block {
+		margin-bottom: 20px;
+	}
+	.basket_wrap .basket_block table tr td img {
+		margin: 10px auto;
+	}
+	.basket_wrap .basket_block table tr td .itetm_title {
+		margin: 10px 0;
+	}
+	.basket_wrap .basket_block table tr td .itetm_title .title {
+		text-align: center;
+	}
+	.basket_wrap .basket_block table tr td .itetm_title p {
+		text-align: center;
+	}
+	.basket_wrap .basket_block table tr td .number {
+		margin: 10px auto;
+	}
+	.basket_wrap .basket_block table tr td .delete_button {
+		margin: 15px auto;
+	}
+	.main_buy {
+		float: none;
+		margin: 0 auto 60px auto;
+	}
+	.main_total {
+		text-align: center;
+		float: none;
+	}
+}

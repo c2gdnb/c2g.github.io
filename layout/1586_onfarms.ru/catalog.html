@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<title>ON FARMS</title>
+  	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+</head>
+<body>
+<!-- HEADER -->
+	<div class="top_menu">
+		<div class="main_container">
+			<div class="toggle_menu">
+		    <a href="#menu" id="toggle"><span></span></a>	
+			</div>
+			<div class="select-wrapper">
+				<select name="city" id="city">
+					<option value="11">Санкт-Петербург</option>
+					<option value="22">Санкт-Петербург</option>
+					<option value="33">Санкт-Петербург</option>
+					<option value="44">Санкт-Петербург</option>
+					<option value="55">Санкт-Петербург</option>
+					<option value="66">Санкт-Петербург</option>
+				</select>
+			</div>
+			<ul>
+				<li><a href="#" class="link22">О проекте</a></li>
+				<li><a href="#" class="link33">Покупателям</a></li>
+				<li><a href="#" class="link44">Представительства</a></li>
+				<li><a href="#" class="link11">Фермерам</a></li>
+				<li><a href="#" class="link55">Новости</a></li>
+				<li><a href="#" class="link66">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main_menu">
+	<ul>
+		<li>
+			<div class="login">
+				<a href="#">Войти</a>
+				<a href="#">Регистрация</a>
+			</div>
+		</li>
+		<li>
+			<input type="search" class="search_input" onblur='if(this.value=="") this.value="Поиск по сайту"'  onfocus='if(this.value=="Поиск по сайту") this.value=""' value="Поиск по сайту">
+		</li>
+		<li class="link1 list_items"><i></i><a href="#">Продукты</a>
+				</li>
+				<li class="link2 list_items"><i></i><a href="#">
+					
+					Животные<br class="br_onp">  для разведения</a>
+				</li>
+				<li class="link3 list_items"><i></i><a href="#">
+					
+					Растения</a>
+				</li>
+				<li class="link4 list_items"><i></i><a href="#">
+					
+					Техника</a>
+				</li>
+				<li class="link5 active list_items"><i></i><a href="#">
+					
+					Стать<br class="br_onp"> фермером</a>
+				</li>
+	</ul>
+	</div>
+	<header>
+		<div class="main_container clearfix">
+			<a href="index.html" class="logo_link"><img src="images/logo.png" alt="Alt" class="logo"></a>
+			<input type="search" class="search_input" onblur='if(this.value=="") this.value="Поиск по сайту"'  onfocus='if(this.value=="Поиск по сайту") this.value=""' value="Поиск по сайту">
+			<div class="basket_wrapper clearfix">
+				<div class="login">
+					<a href="#">Войти</a>
+					<a href="#">Регистрация</a>
+				</div>
+					<div class="basket_bg">
+						Корзина пуста
+					</div>
+			</div>
+		</div>
+	</header>
+	<div class="main_menu">
+		<div class="main_container clearfix">
+			<ul id="ddmenu">
+				<li class="link1"><i></i><a href="#">
+					
+					Продукты</a>
+				<!-- <div class="block">
+					<ul>
+			            <li><a href="#">Миссия</a></li>
+			            <li><a href="#">Команда</a></li>
+			            <li><a href="#">История</a></li>
+	          		</ul>
+				</div> -->
+				</li>
+				<li class="link2"><i></i><a href="#">
+					
+					Животные<br class="br_onp">  для разведения</a>
+				</li>
+				<li class="link3"><i></i><a href="#">
+					
+					Растения</a>
+				</li>
+				<li class="link4"><i></i><a href="#">
+					
+					Техника</a>
+				</li>
+				<li class="link5 g_active"><i></i><a href="#">
+					
+					Стать<br class="br_onp"> фермером</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="com_menu1" class="dop_menu">
+		<div class="block_inside">
+			<div class="main_container clearfix">
+				<div class="title">Продукты</div>
+				<a href="#" class="hide_dop">свернуть</a>
+				<div class="clearfix"></div>
+				<hr>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="com_menu2" class="dop_menu">
+		<div class="block_inside">
+			<div class="main_container clearfix">
+				<div class="title">Животные для разведения</div>
+				<a href="#" class="hide_dop">свернуть</a>
+				<div class="clearfix"></div>
+				<hr>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="com_menu3" class="dop_menu">
+		<div class="block_inside">
+			<div class="main_container clearfix">
+				<div class="title">Растения</div>
+				<a href="#" class="hide_dop">свернуть</a>
+				<div class="clearfix"></div>
+				<hr>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="com_menu4" class="dop_menu">
+		<div class="block_inside">
+			<div class="main_container clearfix">
+				<div class="title">Техника</div>
+				<a href="#" class="hide_dop">свернуть</a>
+				<div class="clearfix"></div>
+				<hr>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Для Здоровья</a></li>
+					<li><a href="#">Мясо</a></li>
+					<li><a href="#">Продукты из птицы</a></li>
+					<li><a href="#">Овощи</a></li>
+					<li><a href="#">Зелень</a></li>
+					<li><a href="#">Фрукты</a></li>
+					<li><a href="#">Ягоды</a></li>
+					<li><a href="#">Молочная продукция</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+<!-- END HEADER -->
+<!-- MAIN IMAGE -->
+	<div class="main_img_bg meat_bg">
+		<div class="main_container clearfix">
+			<div class="title_slider_bg">
+				<h1 class="title_slider ">Мясные продукты</h1>
+			</div>
+		</div>
+	</div>
+<!-- END MAIN IMAGE -->
+<!-- CONTENT -->
+	<div class="main_container clearfix catalog_wrapper">
+		<ul class="breadcrumbs">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Продукты</a></li>
+				<li>Мясо</li>
+		</ul>
+		<div class="change_view">
+			<a href="#" class="active"></a>
+			<a href="#"></a>
+		</div>
+		<div class="clearfix"></div>
+		<div class="left_menu_bg">
+			<ul>
+		        <li class="sub">
+		            <a href="#" class="active subt">Для Здоровья</a>
+		            <ul style="height: 416px;">
+		               <li>
+		               	<a href="#">
+		               	Мясо
+		               		<ul>
+		               			<li><a href="#"> - Бекон</a></li>
+		               			<li><a href="#"> - Вырезка</a></li>
+		               			<li><a href="#"> - Голень</a></li>
+		               			<li><a href="#"> - Грудинка</a></li>
+		               			<li><a href="#"> - Гуляш</a></li>
+		               			<li><a href="#"> - Карбонад</a></li>
+		               			<li><a href="#"> - Корейка</a></li>
+		               			<li><a href="#"> - Кости</a></li>
+		               		</ul>
+		               	</a>
+		               </li>
+		            </ul>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Продукты из птицы</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Овощи</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Зелень</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Фрукты</a>
+		        </li>
+		         <li class="sub">
+		            <a href="#" class="subt">Ягоды</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Молочная продукция</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Грибы</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Напитки</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Сладости</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Рыба</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Морепродукты</a>
+		        </li>
+		        <li class="sub">
+		            <a href="#" class="subt">Бакалея</a>
+		        </li>
+		         <li class="sub">
+		            <a href="#" class="subt">Хлебобулочные изделия</a>
+		        </li>
+		    </ul>
+		</div>
+		<div class="catalog_content clearfix">
+			<div class="catalog_block clearfix">
+				<div class="left_side">
+					<img src="images/catalog_photo.jpg" alt="Alt">
+				</div>
+				<div class="right_side">
+					<div class="title">Индейка белая широкогрудая</div>
+					<p>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы. <span>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы.</span></p>
+					<div class="catalog_price">
+						<div class="catalog_price_item"><span class="hide">Цена:</span> <span class="price_span hide">67 руб....</span><span class="price_span">156 руб.</span> <span class="hide">за 1кг</span></div>
+						<a href="#">Выбрать фермера</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog_block clearfix">
+				<div class="left_side">
+					<img src="images/catalog_photo.jpg" alt="Alt">
+				</div>
+				<div class="right_side">
+					<div class="title">Индейка белая широкогрудая</div>
+					<p>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы. <span>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы.</span></p>
+					<div class="catalog_price">
+						<div class="catalog_price_item"><span class="hide">Цена:</span> <span class="price_span hide">67 руб....</span><span class="price_span">156 руб.</span> <span class="hide">за 1кг</span></div>
+						<a href="#">Выбрать фермера</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog_block clearfix">
+				<div class="left_side">
+					<img src="images/catalog_photo.jpg" alt="Alt">
+				</div>
+				<div class="right_side">
+					<div class="title">Индейка белая широкогрудая</div>
+					<p>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы. <span>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы.</span></p>
+					<div class="catalog_price">
+						<div class="catalog_price_item"><span class="hide">Цена:</span> <span class="price_span hide">67 руб....</span><span class="price_span">156 руб.</span> <span class="hide">за 1кг</span></div>
+						<a href="#">Выбрать фермера</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog_block clearfix">
+				<div class="left_side">
+					<img src="images/catalog_photo.jpg" alt="Alt">
+				</div>
+				<div class="right_side">
+					<div class="title">Индейка белая широкогрудая</div>
+					<p>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы. <span>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы.</span></p>
+					<div class="catalog_price">
+						<div class="catalog_price_item"><span class="hide">Цена:</span> <span class="price_span hide">67 руб....</span><span class="price_span">156 руб.</span> <span class="hide">за 1кг</span></div>
+						<a href="#">Выбрать фермера</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog_block clearfix">
+				<div class="left_side">
+					<img src="images/catalog_photo.jpg" alt="Alt">
+				</div>
+				<div class="right_side">
+					<div class="title">Индейка белая широкогрудая</div>
+					<p>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы. <span>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы.</span></p>
+					<div class="catalog_price">
+						<div class="catalog_price_item"><span class="hide">Цена:</span> <span class="price_span hide">67 руб....</span><span class="price_span">156 руб.</span> <span class="hide">за 1кг</span></div>
+						<a href="#">Выбрать фермера</a>
+					</div>
+				</div>
+			</div>
+			<div class="catalog_block clearfix">
+				<div class="left_side">
+					<img src="images/catalog_photo.jpg" alt="Alt">
+				</div>
+				<div class="right_side">
+					<div class="title">Индейка белая широкогрудая</div>
+					<p>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы. <span>Мы не покупаем молодых индюшат: птица проходит полный цикл развития именно в условиях экологической фермы.</span></p>
+					<div class="catalog_price">
+						<div class="catalog_price_item"><span class="hide">Цена:</span> <span class="price_span">67 руб....156 руб.</span> <span class="hide">за 1кг</span></div>
+						<a href="#">Выбрать фермера</a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<a href="#" class="more_catalog">показать еще</a>
+			<div class="clearfix"></div>
+			<ul class="pagination clearfix">
+				<li><a href="#"><<</a></li>
+				<li><a href="#"><</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li class="active"><a href="#">3</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">34</a></li>
+				<li><a href="#">35</a></li>
+				<li><a href="#">></a></li>
+				<li><a href="#">>></a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<div class="divider_about c_divider"></div>
+			<h2 class="map_title">Мясные продукты</h2> 
+			<div class="catalog_text">Сегодня о пользе мяса спорят многие диетологи, но то что оно необходимо для полноценной жизнедеятельности организма человека, известно всем, поскольку оно обладает уникальным набором полезных веществ: витаминами, макро- и микроэлементами и аминокислотами. И сегодня мясо — это питательный и сытный продукт, который по-прежнему остается одним из самых востребованных и любимых.</div>
+			<div class="catalog_text">Каждая домохозяйка или любые предприятия общественного питания задумывались над вопросом, где купить качественное свежее мясо и желательно по низкой цене. Искать иногда приходится долго. А разнообразные магазины не всегда предоставляют экологически чистый и натуральный продукт.</div>
+			<div class="catalog_text">Buyonfarm.ru – торговая площадка, где собраны лучшие сорта говядины, свинины, телятины, баранины, индейки, курицы и многие другие виды. А наши поставщики — это ведущие российские производители, фермеры и держатели собственных хоязйств, которые занимаются продажей натуральной мясной продукции. Домашнее мясо — наш приоритет, поскольку именно такое мясо действительно свежее, полезное и экологически чистое, так как домашний скот и птица выращивались в естественной среде, а для питания использовались только натуральные корма без вредных примесей, добавок и гормонов роста. С нами Вы приобретаете только по-настоящему вкусный и качественный продукт по самым выгодным ценам. </div>
+		</div>
+	</div>
+<!-- END CONTENT -->
+<!-- FOOTER -->
+	<div class="footer_bg" id="link6">
+		<div class="main_container clearfix">
+			<a href="index.html"><img src="images/logo_bottom.png" alt="Alt" class="logo_bottom"></a>
+			<div class="b_list">
+			<ul>
+				<li><a href="#">Продукты</a></li>
+				<li><a href="#">Животные</a></li>
+				<li><a href="#">Растения</a></li>
+				<li><a href="#">Техника</a></li>
+				<li><a href="#">Фермерам</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">О проекте</a></li>
+				<li><a href="#">Покупателям</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			</div>
+			<div class="phone_bottom">
+				<div class="footer_info">
+					<p>8 (800) 775 39 36</p>
+					<p><a href="mailto:info@buyonfarm.ru">info@buyonfarm.ru</a></p>
+					<p>г.Санкт-Петербург, ул. Островитянова д. 4</p>
+				</div>
+				<div class="social_wrap clearfix">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<hr>
+			<div class="copyright">© Москва, 2015. OnFarms.ru - крупнейший портал фермеров всего мира</div>
+		</div>
+	</div> 
+<!-- END FOOTER -->
+<!-- MODAL1 -->
+<div class="overlay" id="overlay" style="display:none;"></div> 
+    <div class="nonebox" id="nonebox"> 
+     <a class="box-close one" id="box-close" href="#"></a>
+		<div class="title">Товары в корзине</div>
+		<div class="modal_basket_wrap clearfix">
+			<div class="modal_basket_block clearfix">
+				<div class="basket_img">
+					<img src="images/item.jpg" alt="Alt">
+				</div>
+				<div class="basket_info">
+					<div class="title_basket">Гусь</div>
+					<p>Привитые гуси
+					пoроды Легарт и Большая серая</p>
+				</div>
+				<div class="divider_basket"></div>
+				<div class="basket_price">400 руб.</div>
+				<div class="divider_basket"></div>
+				<div class="number">
+				    <span class="minus">-</span>
+				    <input type="text" value="1" size="5" class="input_plus" />
+				    <span class="plus">+</span>
+				</div>
+				<div class="divider_basket"></div>
+				<div class="basket_price">1600 руб.</div>
+			</div>
+			<div class="modal_basket_block clearfix">
+				<div class="basket_img">
+					<img src="images/item.jpg" alt="Alt">
+				</div>
+				<div class="basket_info">
+					<div class="title_basket">Гусь</div>
+					<p>Привитые гуси
+					пoроды Легарт и Большая серая</p>
+				</div>
+				<div class="divider_basket"></div>
+				<div class="basket_price">400 руб.</div>
+				<div class="divider_basket"></div>
+				<div class="number">
+				    <span class="minus">-</span>
+				    <input type="text" value="1" size="5" class="input_plus" />
+				    <span class="plus">+</span>
+				</div>
+				<div class="divider_basket"></div>
+				<div class="basket_price">1600 руб.</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="buttons_wrap clearfix">
+			<a href="#" class="next">Продолжить<br> покупки</a>
+			<a href="#" class="zakaz">Оформить заказ</a>
+			</div>
+		</div>
+    </div> 
+<!-- END MODAL1 -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script src="js/fancySelect.js"></script>
+<script src="js/script.js"></script>
+<script>
+ymaps.ready(function() {
+    var Mymap = new ymaps.Map("map", {
+        center: [59.939095, 30.315868],
+        zoom: 12,
+        type: 'yandex#map',
+        flying: true,
+        controls: ['zoomControl']
+    });
+   	Mymap.controls.add("zoomControl");
+    Mymap.geoObjects.add(new ymaps.Placemark([59.939095, 30.315868], {
+       hintContent: 'Собственный значок метки',
+             balloonContent: 'САНКТ-ПЕТЕРБУРГ, УЛ. ШКОЛЬНАЯ 8'
+         }, {
+             // Опции.
+             // Необходимо указать данный тип макета.
+             iconLayout: 'default#image',
+             // Своё изображение иконки метки.
+             iconImageHref: 'images//marker.png',
+             // Размеры метки.
+            iconImageSize: [50, 62],
+            // Смещение левого верхнего угла иконки относительно
+             // её "ножки" (точки привязки).
+             iconImageOffset: [-15, -15]
+    }));
+    Mymap.geoObjects.add(new ymaps.Placemark([59.949095, 30.344444], {
+      hintContent: 'Собственный значок метки',
+             balloonContent: 'САНКТ-ПЕТЕРБУРГ, УЛ. ШКОЛЬНАЯ 8'
+         }, {
+             // Опции.
+             // Необходимо указать данный тип макета.
+             iconLayout: 'default#image',
+             // Своё изображение иконки метки.
+             iconImageHref: 'images//marker.png',
+             // Размеры метки.
+            iconImageSize: [50, 62],
+            // Смещение левого верхнего угла иконки относительно
+             // её "ножки" (точки привязки).
+             iconImageOffset: [-15, -15]
+    }));
+    Mymap.behaviors.disable('scrollZoom');
+});
+</script>
+ </body>
+</html>
